@@ -144,7 +144,7 @@ img{max-width:100%;display:block}
 .timeline dd{margin:0}
 
 /* ---------- hall of fame ---------- */
-.fame{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:18px}
+.fame{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(320px,100%),1fr));gap:18px}
 .fame article{background:#fff;border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:var(--radius);padding:18px 20px;box-shadow:var(--shadow)}
 .fame-head{margin:0 0 6px;font-size:13px;font-weight:800;color:var(--gold);text-transform:uppercase;letter-spacing:.04em}
 .fame h3{margin:0 0 6px;font-size:16px;line-height:1.45}
