@@ -35,3 +35,9 @@ document.querySelectorAll('.slideshow').forEach(function (box) {
   dots.forEach(function (d, i) { d.addEventListener('click', function () { show(i); start(); }); });
   show(0); start();
 });
+
+// 연도 버튼/주소의 #연도로 이동하면 해당 연도 펼치기, 검색 중엔 모두 펼치기
+function openYear(id){var d=document.getElementById(id); if(d&&d.tagName==='DETAILS'){d.open=true;}}
+document.querySelectorAll('.yearbar a').forEach(function(a){a.addEventListener('click',function(){openYear(a.getAttribute('href').slice(1));});});
+if(location.hash) openYear(location.hash.slice(1));
+(function(){var q=document.getElementById('q'); if(!q) return; q.addEventListener('input',function(){ if(q.value.trim()) document.querySelectorAll('details.ygroup').forEach(function(d){d.open=true;}); });})();

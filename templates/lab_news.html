@@ -1,8 +1,13 @@
 {% extends "base.html" %}
 {% block content %}
 <section class="block"><div class="wrap narrow">
-  <ul class="news-list">{% for n in lab_news %}
-    <li><time>{{ n.date }}</time><div>{{ n.text }}{% if n.url %} <a href="{{ n.url }}" target="_blank" rel="noopener">↗</a>{% endif %}{% set v = (n.url)|yt_id %}{% if v %}<div class="yt"><iframe src="https://www.youtube-nocookie.com/embed/{{ v }}" title="YouTube video" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>{% endif %}</div></li>
-  {% endfor %}</ul>
+  {% set groups = lab_news|by_year %}
+  <nav class="yearbar">{% for g in groups %}<a href="#y{{ g.year }}"><strong>{{ g.year }}</strong><span>{{ g.rows|length }}</span></a>{% endfor %}</nav>
+  {% for g in groups %}
+  <details class="ygroup" id="y{{ g.year }}"{% if loop.index <= 2 %} open{% endif %}>
+    <summary><span class="ytitle">{{ g.year }}</span> <span class="ycount">· {{ g.rows|length }}</span></summary>
+    <ul class="news-list">{% for n in g.rows %}<li><time>{{ n.date }}</time><div>{{ n.text }}{% if n.url %} <a href="{{ n.url }}" target="_blank" rel="noopener">↗</a>{% endif %}{% set v = (n.url)|yt_id %}{% if v %}<div class="yt"><iframe src="https://www.youtube-nocookie.com/embed/{{ v }}" title="YouTube video" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>{% endif %}</div></li>{% endfor %}</ul>
+  </details>
+  {% endfor %}
 </div></section>
 {% endblock %}

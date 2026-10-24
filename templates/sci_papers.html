@@ -4,7 +4,7 @@
 <li class="paper{% if p.image %} has-img{% endif %}" data-search="{{ (p.title ~ ' ' ~ p.journal ~ ' ' ~ p.authors)|lower }}">
   <span class="pno">[{{ '%03d' % p.num }}]</span>
   <div>
-    {% if p.image %}<img class="toc" src="{{ p.image }}" alt="" loading="lazy" onerror="this.style.display='none'">{% endif %}
+    {% if p.image %}<img class="toc" src="{{ p.image }}" alt="" loading="lazy" loading="lazy" onerror="this.style.display='none'">{% endif %}
     <h3>{% if p.doi %}<a href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</h3>
     {% set a = p.authors.split(", ", 1) %}<p class="authors"><u>{{ a[0] }}</u>{% if a|length > 1 %}, {{ a[1] }}{% endif %}</p>
     <p class="journal"><em>{{ p.journal }}</em>{% if p.date %} · {{ p.date }}{% endif %}</p>
@@ -22,13 +22,17 @@
     <span class="ytotal">Total {{ sci_papers.after_sogang_by_year|sum(attribute='count') }} (published)</span>
   </div>
   {% for g in sci_papers.after_sogang_by_year %}
-  <h3 class="year" id="y{{ g.year }}">{{ g.year }} <span class="ycount">· {{ g.count }} paper{{ 's' if g.count != 1 }}</span></h3>
+  <details class="ygroup" id="y{{ g.year }}"{% if loop.index <= 2 %} open{% endif %}>
+  <summary><span class="ytitle">{{ g.year }}</span> <span class="ycount">· {{ g.count }} paper{{ 's' if g.count != 1 }}</span></summary>
   <ol class="papers">{% for p in g.papers %}{{ paper(p) }}{% endfor %}</ol>
+  </details>
   {% endfor %}
   <h2 class="sec">Selected Publications Before Sogang U.</h2>
   {% for g in sci_papers.before_sogang_by_year %}
-  <h3 class="year">{{ g.year }}</h3>
+  <details class="ygroup">
+  <summary><span class="ytitle">{{ g.year }}</span></summary>
   <ol class="papers">{% for p in g.papers %}{{ paper(p) }}{% endfor %}</ol>
+  </details>
   {% endfor %}
   <p class="muted cite-note">Citation counts from OpenAlex (updated weekly; usually lower than Google Scholar). Altmetric badges load live from Altmetric. <a href="https://scholar.google.co.kr/citations?user=0iebYc0AAAAJ&hl=ko" target="_blank" rel="noopener">Google Scholar profile ↗</a></p>
   <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js" async></script><!-- altmetric_embed -->

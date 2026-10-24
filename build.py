@@ -133,6 +133,14 @@ def main():
         return m.group(1) if m else ""
     env.filters["yt_id"] = yt_id
 
+    def by_year(items):
+        groups = {}
+        for it in items or []:
+            m = re.match(r"\s*((?:19|20)\d\d)", str(it.get("date", "")))
+            groups.setdefault(m.group(1) if m else "Other", []).append(it)
+        return [{"year": y, "rows": groups[y]} for y in sorted(groups, reverse=True)]
+    env.filters["by_year"] = by_year
+
     if DIST.exists():
         shutil.rmtree(DIST)
     shutil.copytree(ROOT / "static", DIST)
