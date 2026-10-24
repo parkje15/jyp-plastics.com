@@ -13,9 +13,11 @@
         <a class="btn" href="contact.html">Contact</a>
       </div>
     </div>
-    <div class="hero-mark">
-      <img src="{{ site.logo }}" alt="{{ site.name }} logo" onerror="this.parentNode.style.display='none'">
+    {% if slides %}
+    <div class="slideshow" aria-label="Recent photos">
+      {% for sl in slides %}<figure class="slide{% if loop.first %} on{% endif %}"><img src="{{ sl.image }}" alt="" {% if not loop.first %}loading="lazy"{% endif %}><figcaption>{{ sl.caption }}</figcaption></figure>{% endfor %}
     </div>
+    {% endif %}
   </div>
 </section>
 

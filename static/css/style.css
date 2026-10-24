@@ -210,3 +210,11 @@ img{max-width:100%;display:block}
 .ytotal{font-weight:700;color:var(--ink-2);margin-left:6px}
 .ycount{font-size:14px;color:var(--muted);font-weight:600}
 .year{scroll-margin-top:90px}
+
+.slideshow{position:relative;aspect-ratio:4/3;max-width:100%;border-radius:18px;overflow:hidden;background:var(--bg-2);box-shadow:var(--shadow)}
+.slide{position:absolute;inset:0;margin:0;opacity:0;transition:opacity .9s ease}
+.slide.on{opacity:1}
+.slide img{width:100%;height:100%;object-fit:cover}
+.slide figcaption{position:absolute;left:0;right:0;bottom:0;padding:28px 14px 10px;font-size:13px;color:#fff;background:linear-gradient(transparent,rgba(0,0,0,.65))}
+@media (max-width:980px){.hero-in{grid-template-columns:1fr}.slideshow{order:2}}
+@media (prefers-reduced-motion:reduce){.slide{transition:none}}

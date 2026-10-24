@@ -89,6 +89,22 @@ def main():
             {"year": y, "papers": groups[y], "count": sum(1 for p in groups[y] if p["published"])}
             for y in sorted(groups, reverse=True)]
 
+    # 첫 화면 슬라이드: 최근 1년 사진 (설명 속 날짜로 자동 판단)
+    import datetime
+    today = datetime.date.today()
+    def cap_date(c):
+        m = re.search(r"((?:19|20)\d\d)\.(\d{1,2})(?:\.(\d{1,2}))?", c)
+        if m:
+            return datetime.date(int(m.group(1)), int(m.group(2)), int(m.group(3) or 1))
+        m = re.search(r"\b((?:19|20)\d\d)\b", c)
+        return datetime.date(int(m.group(1)), 1, 1) if m else None
+    slides = []
+    for it in data["life"]["gallery"] + data["life"]["networking"]:
+        d = cap_date(it.get("caption", ""))
+        if it.get("image") and d and (today - d).days <= 365:
+            slides.append({"image": it["image"], "caption": it["caption"]})
+    data["slides"] = slides
+
     lists = {
         "plastics-news.html": data["media"]["plastics_news"],
         "media-int.html": data["media"]["international"],
