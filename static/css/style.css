@@ -249,3 +249,4 @@ img{max-width:100%;display:block}
 .topics .tpapers{margin:8px 0 0;display:flex;flex-wrap:wrap;gap:6px}
 .topics .tpapers a{font-size:.8rem;font-weight:500;padding:3px 9px;border:1px solid var(--line);border-radius:999px;text-decoration:none;color:var(--green-2)}
 .topics .tpapers a:hover{background:var(--green-2);color:#fff}
+.intro-ko{border-left:3px solid var(--green-2);padding-left:14px;margin-top:14px}

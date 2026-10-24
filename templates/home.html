@@ -47,6 +47,7 @@
     <div>
       <h2 class="sec">Welcome</h2>
       {% for w in site.welcome %}<p class="big">{{ w }}</p>{% endfor %}
+      {% if site.intro_ko %}<p class="big intro-ko" lang="ko">{{ site.intro_ko }}</p>{% endif %}
     </div>
     <div>
       <h2 class="sec">We do researches about...</h2>

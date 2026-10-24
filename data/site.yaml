@@ -15,6 +15,9 @@ welcome:
   - "Our laboratory mainly aims for plastic-waste-free society by doing research, science, and technology."
   - "Also, we welcome new ideas to change the world toward sustainable society."
 
+# 한글 소개 (첫 화면 Welcome 아래, Research 페이지 맨 위)
+intro_ko: "서강대학교 화공생명공학과 박제영 교수 연구실(Sustainable Plastics Lab., JYP-Research Team)은 플라스틱 폐기물 없는 사회를 목표로 지속가능한 고분자를 연구합니다. 새로운 화학 구조의 설계와 중합에서 출발해 생분해, 재활용·업사이클링, 그리고 탄소중립을 고려한 응용까지 플라스틱의 전 생애주기를 다룹니다. 생분해성 플라스틱, 폐플라스틱 업사이클링, 나노셀룰로오스·나노키틴 복합재, 자가치유 고분자에 관심 있는 학생과 연구자의 새로운 아이디어를 환영합니다."
+
 address_en: "35 Baekbeom-ro, Mapo-gu, Seoul 04107, Korea. (Prf. Office: F705, Student Office: R416, Laboratory: R415, TE210)"
 address_ko: "04107 서울특별시 마포구 백범로 35 (신수동) 서강대학교 (교수 사무실: F705, 학생 사무실: R416, 실험실: R415, TE210)"
 
