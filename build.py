@@ -152,6 +152,19 @@ def main():
             nav=NAV, current=out, group=group, page_title=title,
             items=lists.get(out), **data)
         (DIST / out).write_text(html, encoding="utf-8")
+
+    # 검색엔진용: 페이지 목록(sitemap.xml)과 robots.txt
+    base = "https://jyp-plastics.com/"
+    today = __import__("datetime").date.today().isoformat()
+    urls = "".join(
+        f"  <url><loc>{base}{'' if out == 'index.html' else out}</loc>"
+        f"<lastmod>{today}</lastmod></url>\n" for out, *_ in PAGES)
+    (DIST / "sitemap.xml").write_text(
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        f"{urls}</urlset>\n", encoding="utf-8")
+    (DIST / "robots.txt").write_text(
+        f"User-agent: *\nAllow: /\nSitemap: {base}sitemap.xml\n")
     print(f"Built {len(PAGES)} pages → {DIST}")
 
 
