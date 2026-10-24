@@ -74,6 +74,22 @@ networking:
   - {caption: "Nature Conference with KRICT-members at LG Science Park-Seoul (2021.10.)", image: ""}
 
 lectures:
+  - term: "2026-Fall"
+    courses:
+      - "Fundamental Chemistry for Engineering II (화공기초화학 II) (CBE2015-01) - Wed, Fri / 15:00-16:15"
+      - "화공생명공학실험II (CBE3017-01) - Wed / 16:30-22:15"
+      - "연구프로젝트III (CBE3303-08) - Mon / 18:00-20:45"
+      - "특수연구I (CBE7001)"
+      - "특수연구II (CBE7002)"
+  - term: "2026-Spring"
+    courses:
+      - "Fundamental Chemistry for Engineering I (화공기초화학 I) (CBE2014-01) - Wed, Fri / 13:30-14:45"
+      - "화공유기화학 (CBE2005-01) - Wed, Fri / 15:00-16:15"
+      - "연구프로젝트II (CBE3302-07) - Mon / 18:00-20:45"
+      - "알바트로스세미나(화공생명) (COR1027-06) - Wed / 18:00-18:50"
+      - "세미나 I, II, III, IV (CBE6103, CBE6068, CBE6069, CBE6070) - Wed / 10:30-11:45"
+      - "특수연구I (CBE7001)"
+      - "특수연구IV (CBE7004)"
   - term: "2025-Spring"
     courses:
       - "Fundamental Chemistry for Engineering I (화공기초화학 I) (CBE2014-01) - Thu, Thu / 16:30-17:45"
