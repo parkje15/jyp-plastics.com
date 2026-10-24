@@ -3,7 +3,7 @@
 {% block content %}
 <section class="block"><div class="wrap">
   <div class="fame">{% for h in achievements.hall_of_fame %}
-    <article><p class="fame-head">{{ h.head }}</p><h3>{{ h.text }}</h3>{% if h.sub %}<p class="muted">{{ h.sub }}</p>{% endif %}
+    <article>{% if h.image %}<img class="fame-img" src="{{ h.image }}" alt="{{ h.head }}" loading="lazy" onerror="this.style.display='none'">{% endif %}<p class="fame-head">{{ h.head }}</p><h3>{{ h.text }}</h3>{% if h.sub %}<p class="muted">{{ h.sub }}</p>{% endif %}
     {% if h.links %}<p class="tags">{% for l in h.links %}<a class="doi" href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }} ↗</a>{% endfor %}</p>{% endif %}</article>
   {% endfor %}</div>
 </div></section>
