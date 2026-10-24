@@ -1,5 +1,6 @@
 # Notification and News (첫 화면 + News 페이지)
 # 새 소식은 맨 위에 한 줄 추가: - {date: "2026.11.01.", text: "...", url: "(선택)"}
+- {date: "2026.11.01.", text: "Ultra Congrat.! 준혁 박사졸업생 취업: 삼성전기"}
 - {date: "2026.10.01.", text: "Congrat! 박정식 학생이 IUPAC-PSK50 국제학회의 최우수 포스터상을 수상하였습니다."}
 - {date: "2026.10.", text: "Citations > 1,000 times !!: Network of cyano-p-aramid nanofibres creates ultrastiff and water-rich hydrospongels, Nature Materials, 2024, 23, 414. First published online at 05-Jan-2024"}
 - {date: "2026.09.01.", text: "Welcome, 권예원, 정은빈 학부연구생 환영합니다."}
