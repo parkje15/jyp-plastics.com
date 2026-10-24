@@ -73,7 +73,7 @@ PAGES = [
 
 def main():
     data = {n: load(n) for n in [
-        "site", "research", "advisor", "team", "sci_papers",
+        "site", "research", "advisor", "team", "sci_papers", "seo",
         "lab_news", "achievements", "media", "life"]}
     papers = data["sci_papers"]
     for key in ("after_sogang", "before_sogang"):
@@ -147,10 +147,50 @@ def main():
     # 연결된 도메인 (GitHub Pages용)
     (DIST / "CNAME").write_text("jyp-plastics.com\n")
 
+    # 검색엔진용 구조화 데이터 (schema.org JSON-LD)
+    BASE = "https://jyp-plastics.com/"
+    person = {"@type": "Person", "@id": BASE + "advisor.html#person",
+              "name": "Jeyoung Park", "alternateName": "박제영",
+              "jobTitle": "Professor", "url": BASE + "advisor.html",
+              "affiliation": {"@type": "CollegeOrUniversity", "name": "Sogang University"},
+              "sameAs": ["https://scholar.google.co.kr/citations?user=0iebYc0AAAAJ",
+                         "https://orcid.org/0000-0002-9369-1597",
+                         "https://jeypark.owlstown.net/"]}
+    org = {"@type": "ResearchOrganization", "@id": BASE + "#lab",
+           "name": "Sustainable Plastics Lab. (JYP-Research Team)", "url": BASE,
+           "logo": BASE + "img/favicon.png",
+           "parentOrganization": {"@type": "CollegeOrUniversity",
+               "name": "Sogang University, Dept. of Chemical and Biomolecular Engineering"},
+           "address": {"@type": "PostalAddress", "streetAddress": "35 Baekbeom-ro, Mapo-gu",
+                       "addressLocality": "Seoul", "postalCode": "04107", "addressCountry": "KR"},
+           "founder": {"@id": person["@id"]}}
+    arts = []
+    for key in ("after_sogang", "before_sogang"):
+        for p in papers[key]:
+            if not p.get("doi"):
+                continue
+            a = {"@type": "ScholarlyArticle", "headline": p["title"],
+                 "author": [{"@type": "Person", "name": n.strip().rstrip("*")}
+                            for n in p.get("authors", "").split(",") if n.strip()],
+                 "sameAs": "https://doi.org/" + p["doi"]}
+            jn = re.split(r",\s*(?:19|20)\d\d\b", p.get("journal", ""))[0].strip()
+            if jn:
+                a["isPartOf"] = {"@type": "Periodical", "name": jn}
+            if p.get("year"):
+                a["datePublished"] = str(p["year"])
+            arts.append(a)
+    ld = {"index.html": [org, person], "advisor.html": [person, org],
+          "sci-papers.html": arts}
+
     for out, tpl, title, group in PAGES:
+        jsonld = ""
+        if out in ld:
+            jsonld = json.dumps({"@context": "https://schema.org", "@graph": ld[out]},
+                                ensure_ascii=False).replace("</", "<\\/")
         html = env.get_template(tpl).render(
             nav=NAV, current=out, group=group, page_title=title,
-            items=lists.get(out), **data)
+            items=lists.get(out), page_desc=data["seo"]["descriptions"].get(out, ""),
+            page_url=BASE + ("" if out == "index.html" else out), jsonld=jsonld, **data)
         (DIST / out).write_text(html, encoding="utf-8")
 
     # 검색엔진용: 페이지 목록(sitemap.xml)과 robots.txt

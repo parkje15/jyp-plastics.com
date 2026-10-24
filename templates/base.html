@@ -3,8 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{% if page_title %}{{ page_title }} | {% endif %}{{ site.name }} · {{ site.lab_title }}</title>
-<meta name="description" content="Jeyoung Park's research team for sustainable plastics, Sogang University">
+<title>{% if page_title %}{{ page_title }} | {{ site.name }} · {{ site.lab_title }}{% else %}{{ seo.home_title }}{% endif %}</title>
+<meta name="description" content="{{ page_desc }}">
+<link rel="canonical" href="{{ page_url }}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.name }} · {{ site.lab_title }}">
+<meta property="og:title" content="{% if page_title %}{{ page_title }} | {{ site.name }}{% else %}{{ seo.home_title }}{% endif %}">
+<meta property="og:description" content="{{ page_desc }}">
+<meta property="og:url" content="{{ page_url }}">
+<meta property="og:image" content="https://jyp-plastics.com/{{ site.logo }}">
+{% if jsonld %}<script type="application/ld+json">{{ jsonld|safe }}</script>{% endif %}
 <meta name="msvalidate.01" content="40EC1D086F671204742CA0D701E35576" />
 <link rel="icon" type="image/png" href="img/favicon.png">
 <link rel="apple-touch-icon" href="img/favicon.png">

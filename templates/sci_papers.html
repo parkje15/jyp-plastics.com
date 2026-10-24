@@ -4,7 +4,7 @@
 <li class="paper{% if p.image %} has-img{% endif %}" data-search="{{ (p.title ~ ' ' ~ p.journal ~ ' ' ~ p.authors)|lower }}">
   <span class="pno">[{{ '%03d' % p.num }}]</span>
   <div>
-    {% if p.image %}<img class="toc" src="{{ p.image }}" alt="" loading="lazy" loading="lazy" onerror="this.style.display='none'">{% endif %}
+    {% if p.image %}<img class="toc" src="{{ p.image }}" alt="{{ p.title }}" loading="lazy" onerror="this.style.display='none'">{% endif %}
     <h3>{% if p.doi %}<a href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</h3>
     {% set a = p.authors.split(", ", 1) %}<p class="authors"><u>{{ a[0] }}</u>{% if a|length > 1 %}, {{ a[1] }}{% endif %}</p>
     <p class="journal"><em>{{ p.journal }}</em>{% if p.date %} · {{ p.date }}{% endif %}</p>
