@@ -24,11 +24,12 @@ after_sogang:
     link_url: "https://doi.org/10.1016/j.polymertesting.2025.108990"
   - num: 138
     title: "Recoverable polyanion bead catalysts for selective depolymerization and fiber recovery from polyester composites"
-    date: "2026.12"
+    date: "2026.12.01"
     journal: "Chemical Engineering Journal, 2026, 549, 183070"
     if_info: "IF (JCR2023):, JCR% (Field:)"
-    authors: "Yongsu Kim, Dong Jun Lee, Mira Shin, Renhua Deng, Jeyoung Park, Hyeong Jun Kim"
+    authors: "Yongsu Kim, Dong Jun Lee, Mira Shin, Renhua Deng, Jeyoung Park*, Hyeong Jun Kim*"
     doi: "10.1016/j.cej.2026.183070"
+    image: "img/sci-papers/p138.jpg"
   - num: 137
     title: "Interfacial engineering of bacterial cellulose composites with enhanced mechanical robustness and environmental stability via itaconic acid–based poly(urethane-amide)"
     date: "2026.11.01"
