@@ -17,9 +17,19 @@
 <section class="block"><div class="wrap narrow">
   <input id="q" class="search" type="search" placeholder="Search title, journal or author…" aria-label="Search papers">
   <h2 class="sec">Publications After Joining Sogang U.</h2>
-  <ol class="papers">{% for p in sci_papers.after_sogang %}{{ paper(p) }}{% endfor %}</ol>
+  <div class="yearbar">
+    {% for g in sci_papers.after_sogang_by_year %}<a href="#y{{ g.year }}"><strong>{{ g.year }}</strong><span>{{ g.count }} paper{{ 's' if g.count != 1 }}</span></a>{% endfor %}
+    <span class="ytotal">Total {{ sci_papers.after_sogang_by_year|sum(attribute='count') }} (published)</span>
+  </div>
+  {% for g in sci_papers.after_sogang_by_year %}
+  <h3 class="year" id="y{{ g.year }}">{{ g.year }} <span class="ycount">· {{ g.count }} paper{{ 's' if g.count != 1 }}</span></h3>
+  <ol class="papers">{% for p in g.papers %}{{ paper(p) }}{% endfor %}</ol>
+  {% endfor %}
   <h2 class="sec">Selected Publications Before Sogang U.</h2>
-  <ol class="papers">{% for p in sci_papers.before_sogang %}{{ paper(p) }}{% endfor %}</ol>
+  {% for g in sci_papers.before_sogang_by_year %}
+  <h3 class="year">{{ g.year }}</h3>
+  <ol class="papers">{% for p in g.papers %}{{ paper(p) }}{% endfor %}</ol>
+  {% endfor %}
   <p id="noresult" class="muted" hidden>No matching papers.</p>
 </div></section>
 {% endblock %}

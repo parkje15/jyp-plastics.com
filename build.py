@@ -3,6 +3,7 @@
 data/*.yaml (내용) + templates/*.html (화면) → dist/ (완성된 웹사이트)
 사용법:  python build.py
 """
+import re
 import shutil
 from pathlib import Path
 
@@ -76,7 +77,17 @@ def main():
         "lab_news", "achievements", "media", "life"]}
     papers = data["sci_papers"]
     for key in ("after_sogang", "before_sogang"):
-        pass
+        for p in papers[key]:
+            m = re.search(r",\s*((?:19|20)\d\d)\b", p.get("journal", ""))
+            p["year"] = m.group(1) if m else "Other"
+            # 출판 기준 카운트: DOI가 있는 논문만 셈 (자리표시 항목 제외)
+            p["published"] = bool(p.get("doi"))
+        groups = {}
+        for p in papers[key]:
+            groups.setdefault(p["year"], []).append(p)
+        papers[key + "_by_year"] = [
+            {"year": y, "papers": groups[y], "count": sum(1 for p in groups[y] if p["published"])}
+            for y in sorted(groups, reverse=True)]
 
     lists = {
         "plastics-news.html": data["media"]["plastics_news"],
