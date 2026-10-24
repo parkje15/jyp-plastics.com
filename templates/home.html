@@ -92,7 +92,7 @@
   <div class="wrap">
     <h2 class="sec">{{ site.home_videos_title }}</h2>
     <ul class="link-list">
-      {% for v in site.home_videos %}<li><a href="{{ v.url }}" target="_blank" rel="noopener">▶ {{ v.label }}</a></li>{% endfor %}
+      {% for v in site.home_videos %}<li><a href="{{ v.url }}" target="_blank" rel="noopener">▶ {{ v.label }}</a>{% set v = (v.url)|yt_id %}{% if v %}<div class="yt"><iframe src="https://www.youtube-nocookie.com/embed/{{ v }}" title="YouTube video" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>{% endif %}</li>{% endfor %}
     </ul>
   </div>
 </section>

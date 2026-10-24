@@ -9,7 +9,7 @@
     {% set a = p.authors.split(", ", 1) %}<p class="authors"><u>{{ a[0] }}</u>{% if a|length > 1 %}, {{ a[1] }}{% endif %}</p>
     <p class="journal"><em>{{ p.journal }}</em>{% if p.date %} · {{ p.date }}{% endif %}</p>
     {% if p.if_info %}<p class="ifi">{{ p.if_info }}</p>{% endif %}
-    <p class="tags">{% if p.cover %}<span class="badge gold">{{ p.cover }}</span>{% endif %}{% if p.extra %}<a class="badge" href="{{ p.extra.url }}" target="_blank" rel="noopener">{{ p.extra.label }} ↗</a>{% endif %}{% if p.link_url %}<a class="doi" href="{{ p.link_url }}" target="_blank" rel="noopener">{{ p.link_text }}</a>{% endif %}{% if p.doi %}<a class="doi" href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener">doi:{{ p.doi }}</a>{% endif %}</p>
+    <p class="tags">{% if p.cover %}<span class="badge gold">{{ p.cover }}</span>{% endif %}{% if p.extra %}<a class="badge" href="{{ p.extra.url }}" target="_blank" rel="noopener">{{ p.extra.label }} ↗</a>{% endif %}{% if p.link_url %}<a class="doi" href="{{ p.link_url }}" target="_blank" rel="noopener">{{ p.link_text }}</a>{% endif %}{% if p.cited_by is defined %}<span class="badge cite">Cited by {{ p.cited_by }} <small>(OpenAlex)</small></span>{% endif %}{% if p.doi %}<span class="altmetric-embed" data-badge-type="2" data-badge-popover="right" data-hide-no-mentions="true" data-doi="{{ p.doi }}"></span>{% endif %}{% if p.doi %}<a class="doi" href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener">doi:{{ p.doi }}</a>{% endif %}</p>
   </div>
 </li>
 {% endmacro %}
@@ -30,6 +30,8 @@
   <h3 class="year">{{ g.year }}</h3>
   <ol class="papers">{% for p in g.papers %}{{ paper(p) }}{% endfor %}</ol>
   {% endfor %}
+  <p class="muted cite-note">Citation counts from OpenAlex (updated weekly; usually lower than Google Scholar). Altmetric badges load live from Altmetric. <a href="https://scholar.google.co.kr/citations?user=0iebYc0AAAAJ&hl=ko" target="_blank" rel="noopener">Google Scholar profile ↗</a></p>
+  <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js" async></script><!-- altmetric_embed -->
   <p id="noresult" class="muted" hidden>No matching papers.</p>
 </div></section>
 {% endblock %}

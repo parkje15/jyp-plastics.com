@@ -104,6 +104,13 @@ def main():
         if it.get("image") and d and (today - d).days <= 365:
             slides.append({"image": it["image"], "caption": it["caption"]})
     data["slides"] = slides
+    import json
+    cpath = ROOT / "data" / "citations.json"
+    cites = json.loads(cpath.read_text()) if cpath.exists() else {}
+    for key in ("after_sogang", "before_sogang"):
+        for p in papers[key]:
+            if p.get("doi") and p["doi"].lower() in cites:
+                p["cited_by"] = cites[p["doi"].lower()]
     import hashlib
     h = hashlib.md5()
     for f in ("static/css/style.css", "static/js/site.js"):
@@ -120,6 +127,11 @@ def main():
 
     env = Environment(loader=FileSystemLoader(ROOT / "templates"),
                       autoescape=select_autoescape(["html"]))
+
+    def yt_id(url):
+        m = re.search(r"(?:youtube\.com/(?:watch\?(?:.*&)?v=|embed/|shorts/)|youtu\.be/)([A-Za-z0-9_-]{11})", url or "")
+        return m.group(1) if m else ""
+    env.filters["yt_id"] = yt_id
 
     if DIST.exists():
         shutil.rmtree(DIST)

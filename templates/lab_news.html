@@ -2,7 +2,7 @@
 {% block content %}
 <section class="block"><div class="wrap narrow">
   <ul class="news-list">{% for n in lab_news %}
-    <li><time>{{ n.date }}</time><div>{{ n.text }}{% if n.url %} <a href="{{ n.url }}" target="_blank" rel="noopener">↗</a>{% endif %}</div></li>
+    <li><time>{{ n.date }}</time><div>{{ n.text }}{% if n.url %} <a href="{{ n.url }}" target="_blank" rel="noopener">↗</a>{% endif %}{% set v = (n.url)|yt_id %}{% if v %}<div class="yt"><iframe src="https://www.youtube-nocookie.com/embed/{{ v }}" title="YouTube video" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>{% endif %}</div></li>
   {% endfor %}</ul>
 </div></section>
 {% endblock %}
