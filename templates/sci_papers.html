@@ -28,12 +28,14 @@
   </details>
   {% endfor %}
   <h2 class="sec">Selected Publications Before Sogang U.</h2>
-  {% for g in sci_papers.before_sogang_by_year %}
-  <details class="ygroup">
-  <summary><span class="ytitle">{{ g.year }}</span></summary>
+  {% set bs = sci_papers.before_sogang_by_year %}
+  <details class="ygroup" id="before-sogang">
+  <summary><span class="ytitle">{{ (bs|last).year }}–{{ (bs|first).year }}</span> <span class="ycount">· {{ bs|sum(attribute='count') }} papers</span></summary>
+  {% for g in bs %}
+  <h3 class="ysub">{{ g.year }}</h3>
   <ol class="papers">{% for p in g.papers %}{{ paper(p) }}{% endfor %}</ol>
-  </details>
   {% endfor %}
+  </details>
   <p class="muted cite-note">Citation counts from OpenAlex (updated weekly; usually lower than Google Scholar). Altmetric badges load live from Altmetric. <a href="https://scholar.google.co.kr/citations?user=0iebYc0AAAAJ&hl=ko" target="_blank" rel="noopener">Google Scholar profile ↗</a></p>
   <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js" async></script><!-- altmetric_embed -->
   <p id="noresult" class="muted" hidden>No matching papers.</p>
