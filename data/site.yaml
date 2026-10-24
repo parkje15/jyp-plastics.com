@@ -36,3 +36,16 @@ home_videos:
   - {label: "Biodegradable, Efficient, and Breathable Multi-Use Face Mask Filter", url: "https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Fadvs.202003155&file=advs2310-sup-0002-MovieS1.mp4"}
   - {label: "YouTube video 3", url: "https://www.youtube.com/watch?v=Jj5J89vt6Aw"}
   - {label: "Biodegradable chito-beads replacing non-biodegradable microplastics for cosmetics", url: "https://www.rsc.org/suppdata/d1/gc/d1gc01588e/d1gc01588e1.mp4"}
+
+# 첫 화면 대표 성과 캐러셀 (기존 홈페이지 캐러셀 그대로, 순서대로 3초마다 넘어감)
+highlights:
+  - "img/home/002.jpg"
+  - "img/home/003.jpg"
+  - "img/home/004.jpg"
+  - "img/home/005.jpg"
+  - "img/home/006.jpg"
+  - "img/home/007.jpg"
+  - "img/home/008.jpg"
+  - "img/home/009.jpg"
+  - "img/home/010.jpg"
+  - "img/home/011.jpg"

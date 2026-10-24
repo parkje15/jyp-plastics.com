@@ -14,7 +14,7 @@
       </div>
     </div>
     {% if slides %}
-    <div class="slideshow" aria-label="Recent photos">
+    <div class="slideshow" data-random="1" data-interval="5000" aria-label="Recent photos">
       {% for sl in slides %}<figure class="slide{% if loop.first %} on{% endif %}"><img src="{{ sl.image }}" alt="" {% if not loop.first %}loading="lazy"{% endif %}><figcaption>{{ sl.caption }}</figcaption></figure>{% endfor %}
     </div>
     {% endif %}
@@ -26,6 +26,18 @@
   <div class="wrap">
     <span class="tag">Notice</span>
     <div>{% for n in site.notice %}<p>{{ n }}</p>{% endfor %}</div>
+  </div>
+</section>
+{% endif %}
+
+
+{% if site.highlights %}
+<section class="block highlights-block">
+  <div class="wrap">
+    <div class="slideshow carousel" data-interval="3000" aria-label="Highlights">
+      {% for h in site.highlights %}<figure class="slide{% if loop.first %} on{% endif %}"><img src="{{ h }}" alt="Highlight {{ loop.index }}"></figure>{% endfor %}
+      <div class="dots">{% for h in site.highlights %}<button type="button" aria-label="Show highlight {{ loop.index }}"></button>{% endfor %}</div>
+    </div>
   </div>
 </section>
 {% endif %}

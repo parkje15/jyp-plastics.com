@@ -14,18 +14,24 @@
   });
 })();
 
-// 첫 화면 사진 슬라이드: 무작위 순서로 5초마다 전환
-(function () {
-  var box = document.querySelector('.slideshow');
-  if (!box) return;
+// 슬라이드/캐러셀: 한 장씩 표시, 일정 시간마다 다음 장으로
+document.querySelectorAll('.slideshow').forEach(function (box) {
   var slides = Array.prototype.slice.call(box.querySelectorAll('.slide'));
+  var dots = Array.prototype.slice.call(box.querySelectorAll('.dots button'));
   if (slides.length < 2) return;
-  for (var i = slides.length - 1; i > 0; i--) {
-    var k = Math.floor(Math.random() * (i + 1)); var t = slides[i]; slides[i] = slides[k]; slides[k] = t;
+  if (box.dataset.random) {
+    for (var i = slides.length - 1; i > 0; i--) {
+      var k = Math.floor(Math.random() * (i + 1)); var t = slides[i]; slides[i] = slides[k]; slides[k] = t;
+    }
   }
-  slides.forEach(function (s) { s.classList.remove('on'); s.querySelector('img').loading = 'eager'; });
-  var n = 0; slides[0].classList.add('on');
-  setInterval(function () {
-    slides[n].classList.remove('on'); n = (n + 1) % slides.length; slides[n].classList.add('on');
-  }, 5000);
-})();
+  var n = 0, ms = +box.dataset.interval || 5000, timer;
+  function show(i) {
+    slides.forEach(function (s) { s.classList.remove('on'); });
+    dots.forEach(function (d) { d.classList.remove('on'); });
+    n = i; slides[n].classList.add('on');
+    if (dots.length) dots[box.dataset.random ? 0 : n].classList.add('on');
+  }
+  function start() { clearInterval(timer); timer = setInterval(function () { show((n + 1) % slides.length); }, ms); }
+  dots.forEach(function (d, i) { d.addEventListener('click', function () { show(i); start(); }); });
+  show(0); start();
+});

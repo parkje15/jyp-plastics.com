@@ -104,6 +104,11 @@ def main():
         if it.get("image") and d and (today - d).days <= 365:
             slides.append({"image": it["image"], "caption": it["caption"]})
     data["slides"] = slides
+    import hashlib
+    h = hashlib.md5()
+    for f in ("static/css/style.css", "static/js/site.js"):
+        h.update((ROOT / f).read_bytes())
+    data["asset_v"] = h.hexdigest()[:8]
 
     lists = {
         "plastics-news.html": data["media"]["plastics_news"],
