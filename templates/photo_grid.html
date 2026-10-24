@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="block"><div class="wrap"><div class="photos">
+  {% for t in items %}<figure class="photo">{% if t.image %}<img src="{{ t.image }}" alt="" loading="lazy" onerror="this.style.display='none'">{% endif %}<figcaption>{{ t.caption }}</figcaption></figure>{% endfor %}
+</div></div></section>
+{% endblock %}

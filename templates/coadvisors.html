@@ -1,0 +1,9 @@
+{% extends "base.html" %}{% from "_person.html" import person %}
+{% block intro %}<p class="sub">{{ team.coadvisors_intro }}</p>{% endblock %}
+{% block content %}
+<section class="block"><div class="wrap"><div class="people">{% for p in team.coadvisors %}{{ person(p) }}{% endfor %}</div></div></section>
+<section class="block alt"><div class="wrap">
+  <h2 class="sec">{{ team.krict_researchers_title }}</h2>
+  <ul class="chips">{% for n in team.krict_researchers %}<li>{{ n }}</li>{% endfor %}</ul>
+</div></section>
+{% endblock %}

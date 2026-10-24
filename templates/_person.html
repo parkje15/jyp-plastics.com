@@ -1,0 +1,14 @@
+{% macro person(p) %}
+<article class="person">
+  <div class="ph">{% if p.photo %}<img src="{{ p.photo }}" alt="{{ p.name }}" loading="lazy" onerror="this.style.display='none'">{% endif %}</div>
+  <div class="pb">
+    <h3>{{ p.name }}</h3>
+    {% if p.role %}<span class="badge">{{ p.role }}</span>{% endif %}
+    {% if p.org %}<p class="org">{{ p.org }}</p>{% endif %}
+    {% if p.nick %}<p class="nick">{{ p.nick }}</p>{% endif %}
+    {% for l in p.lines or [] %}<p>{{ l }}</p>{% endfor %}
+    {% if p.email %}<p class="mail">{{ p.email }}</p>{% endif %}
+    {% if p.topic %}<p class="topic">{{ p.topic }}</p>{% endif %}
+  </div>
+</article>
+{% endmacro %}

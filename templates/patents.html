@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% macro pat(p) %}<li class="paper"><span class="pno">{{ p.num }}.</span><div><h3>{{ p.title }}</h3><p class="authors">{{ p.inventors }}</p><p class="journal">{{ p.reg }}</p>{% for n in p.notes or [] %}<p class="ifi star">{{ n }}</p>{% endfor %}</div></li>{% endmacro %}
+{% block content %}
+<section class="block"><div class="wrap narrow">
+  <h2 class="sec">{{ achievements.patents_sogang_title }}</h2>
+  <ol class="papers">{% for p in achievements.patents_sogang %}{{ pat(p) }}{% endfor %}</ol>
+  <h2 class="sec">{{ achievements.patents_before_title }}</h2>
+  {% for year, group in achievements.patents_before|groupby('year')|reverse %}
+    <h3 class="year">{{ year }}</h3>
+    <ol class="papers">{% for p in group %}{{ pat(p) }}{% endfor %}</ol>
+  {% endfor %}
+</div></section>
+{% endblock %}

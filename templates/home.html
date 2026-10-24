@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero">
+  <div class="wrap hero-in">
+    <div class="hero-text">
+      <p class="eyebrow">{{ site.name }} · Sogang University</p>
+      <h1>{{ site.lab_title }}</h1>
+      <p class="lead">{{ site.welcome[1] }}</p>
+      <p class="pi">PI. Jeyoung Park, Ph.D. (박제영)</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="research.html">Research Interests</a>
+        <a class="btn" href="sci-papers.html">SCI Papers</a>
+        <a class="btn" href="contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="hero-mark">
+      <img src="{{ site.logo }}" alt="{{ site.name }} logo" onerror="this.parentNode.style.display='none'">
+    </div>
+  </div>
+</section>
+
+{% if site.notice %}
+<section class="notice">
+  <div class="wrap">
+    <span class="tag">Notice</span>
+    <div>{% for n in site.notice %}<p>{{ n }}</p>{% endfor %}</div>
+  </div>
+</section>
+{% endif %}
+
+<section class="block">
+  <div class="wrap two">
+    <div>
+      <h2 class="sec">Welcome</h2>
+      {% for w in site.welcome %}<p class="big">{{ w }}</p>{% endfor %}
+    </div>
+    <div>
+      <h2 class="sec">We do researches about...</h2>
+      <ol class="topics">
+        {% for t in research.topics %}<li><span>{{ '%02d' % loop.index }}</span>{{ t }}</li>{% endfor %}
+      </ol>
+      <a class="more" href="research.html">More about our research →</a>
+    </div>
+  </div>
+</section>
+
+<section class="block alt">
+  <div class="wrap">
+    <div class="sec-row">
+      <h2 class="sec">Notification and News</h2>
+      <a class="more" href="lab-news.html">All news →</a>
+    </div>
+    <ul class="news-cards">
+      {% for n in lab_news[:site.home_news_count] %}
+      <li>
+        <time>{{ n.date }}</time>
+        <p>{{ n.text }}</p>
+        {% if n.url %}<a href="{{ n.url }}" target="_blank" rel="noopener">Link ↗</a>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap">
+    <h2 class="sec">Explore</h2>
+    <div class="quick">
+      <a href="members.html"><strong>Team</strong><span>Members, co-advisors and alumni</span></a>
+      <a href="sci-papers.html"><strong>Achievements</strong><span>SCI papers, patents, Hall of Fame</span></a>
+      <a href="media-domestic.html"><strong>News</strong><span>Media coverage and team proud</span></a>
+      <a href="gallery.html"><strong>Life</strong><span>Friends, gallery and networking</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="block alt">
+  <div class="wrap">
+    <h2 class="sec">{{ site.home_videos_title }}</h2>
+    <ul class="link-list">
+      {% for v in site.home_videos %}<li><a href="{{ v.url }}" target="_blank" rel="noopener">▶ {{ v.label }}</a></li>{% endfor %}
+    </ul>
+  </div>
+</section>
+{% endblock %}

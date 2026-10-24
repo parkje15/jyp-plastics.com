@@ -1,0 +1,144 @@
+# Team 페이지 — 구성원 추가/졸업 시 이 파일만 수정
+members_intro: "On-site at Sogang University"
+members:
+  - name: "Dr. Se Bin Jin (진세빈 박사)"
+    photo: "https://sites.google.com/sitesv-images-rt/AMxu72t7l1SmJduZzMHF9cg1c6qtKVII8c97mAsolvncqgg5zKtzaf71Hbz7fe413EhJ-hyUxYH9Czo1ggGlbbmndwfu8ix0BPmois0nz54JYBWsHKv_hSLnxgt4u1LOHmoCEP0MNus9carzCveReoxAjdeGq_DAC6bil8s3QmR6zh9SYDz6-7N1Hdl138Ajs6ezl0lSfKUttv3NX2iu39kJ6SfdGniY_p91nJcU3WKWisU=w600"
+    lines: ["Ph.D. course at UST/KRICT (2021.09~2022.08)", "Ph.D. course student (2022.09~2026.02)", "Post-Doc (2026.03~)"]
+    email: "tpqls1230 /at/ gmail.com"
+    topic: "Self-healing/Aramid nanofiber"
+  - name: "Dr. Mira Shin (신미라 박사)"
+    photo: "https://sites.google.com/sitesv-images-rt/AMxu72sIXkcPeHlKCIvCKYjAUvxWHmKWV24fUZdkX37OVKTBxNSd2S-cuOQWGIJ3ecoAvMNiJFVQvbBFSboK9he9xth8EtfoV2UkcuM-7Ta2K_79A_Tgv0GNgFGIHJkfxc_TmX4b6VT2cPSOJVw2P9uz7yvycGklhbrYGlULCPwNc27MiWll08d_Ga4pjpEKGFa-2MrDoUI50JKOGTA8b8aMHTy92jRxA-n0LOxpwnuiCoA=w600"
+    lines: ["Combined Ph.D. course at KRICT/UNIST (2021.09~2022.12)", "Combined Ph.D. course at SGU/UNIST (2023.01-)"]
+    email: "shinmira0929 /at/ gmail.com"
+    topic: "Sustainable plastics"
+  - name: "Hyung Rai Kim (김형래)"
+    photo: "https://sites.google.com/sitesv-images-rt/AMxu72tvR7aUcm6n7qBrASmODG_dsgnA4Cwj_FOEopLCAG5akKcsEJqeXRVa1JiF8TduUurgCzOA3dZZN0b3e6B2OMNTDqv_cnr5vFeKfvS2qIijQW5bVQ0ozPFKpKaZSRgL8_OcwDizXEGUhtVIbx08FDk9jhPWP_Yw_oGgT0W2yCoGwqCymE4tqP8Xk8iDgAVZrVNhWVYDEV3Jw_fPclTKIoqCE12AjNb84WesHQolCzM=w600"
+    role: "Lab manager"
+    lines: ["Combined MS/Ph.D. course at SGU (2023.09-)"]
+    email: "cjswo97 /at/ naver.com"
+    topic: "Sustainable plastics"
+  - name: "Jaebeom Jang (장재범)"
+    photo: "https://sites.google.com/sitesv-images-rt/AMxu72tDzL8FraYko_uhSIIr545FTjkGW8EKUS5jwkQNCI9v5MUFIYxqXEG6M2YdTUz_1Bxk8o0thvD-bxE7JU-11BwEvr5savikwEkj7u4LLgshBXzABPTQPGL8-N4wGmWom1oAUke-e04x2ZEU9qr-uN_-8DUAVMuLv6Cxvfu3ml50JUDkE30X4yhn7ZqHH5CcvCnU8SaJbGUF_ABLthpMqYHUWnCfsj8XmtOukKHa=w600"
+    lines: ["Combined MS/Ph.D. course at SGU (2023.09-)"]
+    email: "jbjang527 /at/ kcl.re.kr"
+    topic: "Sustainable plastics"
+  - name: "(김지헌)"
+    photo: "https://sites.google.com/sitesv-images-rt/AMxu72tpzLk6f2tNo_taj1IBmj3EG_PaPss6FzRXxXGGNPtuN575kHS53jg9iEK0f3A-IWvVAgXJp8TTWnVe46urQa6gzn3thNUD_O41u7_AhbvSfqkvajIlnusDlG1lMCLNvj5KDrnsghVce0iTzL81s5Rux6psxFFYBZKhA0vx-1oBMqV2d4fZHYI3769kD5rKMXUzbadlfSkwPfwN7qHpVkhgcOgYEyRVupmUUiUygg4=w600"
+    lines: ["Combined MS/Ph.D. course at SGU (2024.09-)"]
+    email: "wlgjs4441 /at/ naver.com"
+    topic: "Sustainable plastics"
+  - name: "(안영환)"
+    photo: "https://sites.google.com/sitesv-images-rt/AMxu72s8ZocQUsksRhGIDmTI686bMaNYbua2HHfQx8YpsuHjCSbv1ZQvJPgNWmqu849qcggw2gQDhwwsz2klBeHIN7JPK426YNcvmBLBwILlIVzaTj-23GrZoWPjA9cRdZbKryLMpnje6Is323_ZKWgJFHKwOW_EW60kRDEOCmghOw7mHbDqMWfhIRzOltlSc5TeaXcd1EQ9MmlJdb_YYoitwQSGiSIH-iV2XyDPyoMvcNI=w600"
+    lines: ["Combined MS/Ph.D. course at SGU (2024.09-)"]
+    email: "sis0408487 /at/ naver.com"
+    topic: "Sustainable plastics"
+  - name: "(박정식)"
+    photo: "https://sites.google.com/sitesv-images-rt/AMxu72vow8PiPspxS1fqMvbAgVE0m5NPqb975adQmHUK-ydVPbQfSbiR93KDmgOiM2zNjX-9yCj9GHP6YU8Igqqla6kjvO-hv6RAyYTQPfpqJgkHrDPI_gohCgADFqF5p301Ekrbt0nvdO89_SIJ5Nxcj-T1FlzfTG2UqoAbJj5Y__YxMOMmhgiX7snOYi_r0n-lsImilOsGmMYg_aFprJkHmkK93My6p8-SW-deB3WRjD8=w600"
+    lines: ["Combined BS/MS course at SGU (2024.09-)"]
+    email: "formalpark0512 /at/ gmail.com"
+    topic: "Sustainable plastics"
+  - name: "(김태현)"
+    photo: "https://sites.google.com/sitesv-images-rt/AMxu72uCkO6A0sz-Ew9BpC--Qamk-0a1GGAyyvFWf8HgnxsHhU0ZCyqyz2jlSHIv_q21OF-L2wKbMVBQZuRNluyZix-oa3KuGEoM3GAmHZdEr3oRI4NrKfzAqj8lG20C-lz2JZ4Ta66wNFtuhouyfuapgDAwnp0XoVjpynrMWHscqv2r2IikTQWP6xbmwjztxsxgkkT0hEgaymdRL75uCK6seDvjFd1C0xWnkoVhLvsta5o=w600"
+    lines: ["Combined BS/MS course at SGU (2024.09-)"]
+    email: "finetree1999 /at/ gmail.com"
+    topic: "Sustainable plastics"
+  - name: "(이혜원)"
+    photo: "https://sites.google.com/sitesv-images-rt/AMxu72v7Xmm9Ny1uSIO7gzVafXOwtd5EqSGC7yLaey6Mm0q_sfI8DEIhtg8TLq2WpdALhPQwbl5Waar2kSLt6aOgQ-isPcFDvpjb1Rs5LV6nYH-FSjxfMFyM0wTMfbLLMlLgWrw7DzyU4xVLk5VKS55097Gi2m2NIMd5Y1c4FVjU5tLCi_aj_pvARo0bzGcX2lePQK1HgBFUTBbbjsIz70fvvrspvyTksHEyBp8YEeiyzjw=w600"
+    lines: ["Combined MS/Ph.D. course at SGU (2025.03-)"]
+    email: "hwlee /at/ sogang.ac.kr"
+    topic: "Sustainable plastics"
+  - name: "(김해민)"
+    photo: "https://sites.google.com/sitesv-images-rt/AMxu72tLb3cGDcXH8-hQxOR5QOSonqnwgQu9vucUecbEk7VIUkEzdvi_3aLwNJ5maGnEVQiuCibryKWajrsL7g4DivdUM3ixLrXGHjR-OzH4FU7fds6859CQGutE-bdY4uVLNdvjjS_Tvo5hz8bkbiuUnmPsho6bEJowngKD8Tu3IjEqL-hwhw1FthI3D6ObziCVWE_AOTgbvKQU9M58zSJleuOLtXXg_LifCyGjy-nr=w600"
+    lines: ["Combined MS/Ph.D. course at SGU (2025.09-)"]
+    topic: "Sustainable plastics"
+  - name: "(장나영)"
+    photo: "https://sites.google.com/sitesv-images-rt/AMxu72vX4BlPRoXWmgsVWAbqrSSi83806ufEJ6NB4AUmOcbDoZXwUJ_x2Pfo1SRCB2HwHX_jNAIiPviIM3P_ngSVzDnF7jzz4Bqlobt5bEUNPET5wu-BBfRJNqgj2hJ7W3xt-OFbwzhRPUk2328SrgvHwslfddavIMOOy0YAKDKEOwSvdK-9e45Adrxl0ShE0T5P14293ZQp6hx9PPxKMlXqiVNXyWLj5LHEzYiT9onY7p8=w600"
+    lines: ["Combined MS/Ph.D. course at SGU (2025.09-)"]
+    topic: "Sustainable plastics"
+  - name: "(동현지)"
+    photo: "https://sites.google.com/sitesv-images-rt/AMxu72vJEB3hpwjZSqMeSKEWCA2jAFXmY0rMvJCFHUthKRnVbJij2FSJhRew4IOMHtxhX58lYbQjrir4FOakQT7K8ydSDt8NFzgkh8nCrDRM13CePn3gKgyOJC4KTkYP6MzSpcjnGLbh_pNaJVY_lLmhy8LEcdAranM8TEm44sEiYqk810uUnbIQ5V-hCGRB0c-sK2wNaXblkdwe7AJfqOs5udTjCo2z4tuMRyV1Iif5_Ug=w600"
+    lines: ["Combined MS/Ph.D. course at SGU (2025.09-)"]
+    topic: "Sustainable plastics"
+  - name: "(정기연)"
+    photo: "https://sites.google.com/sitesv-images-rt/AMxu72turMMBI3qF9lCvBuiOrLuOg9AjD8K6ObNhJI8K0CjteBmW5yCusE0EVzb6EilcPMzRfFOIspVShlpHY1N4ac5grxQFChOev1Y-wjpM7Qui9iHfcGjP4TOTVO1LRU6Lao5K1Yr6VzkvzDiG8XlpEHb_cgzzpSoFehFlsL0iMlWDmAN-uDUVXSL7jqrIa_Er39o3UuEV99dJennReLU2w66wLx78D2uqYF0d2lJ2io8=w600"
+    lines: ["Combined MS/Ph.D. course at SGU (2026.03-)"]
+    topic: "Sustainable plastics"
+
+network_intro: "Deep-networking with Sogang University"
+network_members:
+  - name: "Dr. Lam Tan Hao (하오 박사)"
+    photo: "https://sites.google.com/sitesv-images-rt/AMxu72ur8YrWa2hWbsipFQ7QHh0x5ZvkT_NTqxVxFWO1F1uA5MRZspcoJHet7eEoLw6Z_vA7fNg3AjaFEpRuj7o51bpPh7O60q-dRJTKByge-7VtvXNkoWyGhW5eW6Ta85Ni4HN2suzt6Roy9Yqna11Uk3CQT1ioAz2D_FuP54V1tSl1U3FfefL_irCnKmMIA5IJGnl847St1tg8zTftw2SWdbw5KR4caqwJN_Idf1BO1BI=w600"
+    lines: ["Main-advisor: Dr. Dongyeop X. Oh"]
+    email: "tanhao /at/ krict.re.kr"
+    topic: "Natural nanomaterials"
+
+coadvisors_intro: "Currently, we are doing in-depth collaboration with KRICT (Korea Research Institute of Chemical Technology) in Ulsan."
+coadvisors:
+  - {name: "Prf. Dr. Sung Yeon Hwang /황성연", org: "Kyung Hee U.", nick: "Godfather", topic: "Industrial Perspectives", photo: "https://sites.google.com/sitesv-images-rt/AMxu72tLzsLLudN-5iEwrZw0H1vJOfRLrJwa-hscNGuc-dTY7Dr_py761SPg4amZyWqNv6Xu3lrKuTH9kN80fqgqbV_q3NTydDu-G7dH8nCZxAh3RHQ7KayzyWtJE18H9Uq_Q4aQNp3zVWqt6-SKK0VF9VHzpg1JRjTWM6C_XibyVFCQOmN4IEE3ftStVUOpHJy1hP7ogpIdeLq6Vaa78BuW3CHAAtxj3poUUvoSm6e9=w600"}
+  - {name: "Prf. Dr. Dongyeop X. Oh /오동엽", org: "Inha U.", nick: "Soul Research Mate", topic: "All-aspects", photo: "https://sites.google.com/sitesv-images-rt/AMxu72tU3FWcdes6rvIuhs1IZU_gvaSLgaL8F0fgAqO-k73cniNPtqYNRyWMv9xv5M4_2u3SmnbpulHlpN24pQ065aZbDDjtSDnvY3xCBW4D3716S8uxGT7dRynD_upf1Yod4G_nNjDSKuRSg2w8X9vsbOMMCOy4U_tzIGt6LZIrrg0vd-43fXlGuXvd1hh4JhrZQvQU1OGMyCu7LwiCKCf8e36-ROBdFeu3KeBIYAS499A=w600"}
+  - {name: "Dr. Hyeonyeol Jeon/전현열", org: "KRICT", nick: "Handsome Guy", topic: "Synthesis/Biomass-content", photo: "https://sites.google.com/sitesv-images-rt/AMxu72ueRjBCdpYuSlhFPzfWXGasgfKflMEXcAWi-LwXkGCeRXb4qiWb1aXtrzsVTFRCoJtTj8JuyHbQFlMW08bcCTxlYGD8ddxIeICKxyhQQR3vIKmYcf01nbH_EUrpH0J5a_9V7WF3RBPHgxla5pcn_0kFTXMdg9kT9DoiIKlYVqkTTCojsD3PkK8mbpruzggE-Yr9f7mH1pgp_37Rqkg7JvYK4CUXir9h98IM7q2MDto=w600"}
+  - {name: "Dr. Jun Mo Koo/구준모", org: "Chungnam Nat. U.", nick: "Koo-Yomi", topic: "Polymerization/Biodegradation", photo: "https://sites.google.com/sitesv-images-rt/AMxu72sFtVF-kwIBbDgvKXSx3TYZNgacdOKbtDZDtT9RMaMaopmgdfcZ3reRj7YaczCGP_HN0VcsReu0WGXMb9zOgaTODsh7FrboA1XOj2RuyJO0Dr5w18oX6Ql49NP_4VAXZkbCuw-nQrcDAps-3JSu8xvVaRDM3B2geN3KZG_nY2LLVac8U9YeXuJkzMjwgANM_dyCElMkWTBGwyQYdHHXnVPQY34QaOHPJKtceJp2pA4=w600"}
+  - {name: "Dr. Hyo Jeong Kim/김효정", org: "KRICT", nick: "", topic: "Toxicology/Ecology", photo: "https://sites.google.com/sitesv-images-rt/AMxu72v0mNVjD4gMDFJnBiGmrfko8NCqoEwF-cAduL8YR6w3upOLjnBYtm14aTmOfemmSNDPSjeQQUYiuPrbRhKoGMOPu969IeoB34Pc1Fk1XhCj7mldyTNwLt876u0rUrcESKdoBMUqjx1IyWm931gE-UzDrkohmPUnqFf2FSTpKDLdcbQDjmsuKr-xCvkT=w600"}
+  - {name: "Dr. Giyoung Shin/신기영", org: "KRICT", nick: "", topic: "Microbes", photo: "https://sites.google.com/sitesv-images-rt/AMxu72uqLsC_zOS8oUbJUv8_3gCfGbRuXG0ukm_QgG31zmjyAB1jz8Kw71mj5RLyZ93vXKubThlgc1sH8Yqkt7ILwjVHxivafHcv9D-S0-uSYg7uW1fWo62dXFhn1_0ykjU8NxYlOYGUNZpr7XgySVO697KrIXtDQMA3Or9yBYjX3hc6CSruEVC0JjNedcdZYBIk_rpUNThAS6AOc7dNcVYyqbrqL_AEpoaIwprwnozK=w600"}
+  - {name: "Prf. Dr. Dong Soo Hwang", org: "POSTECH", nick: "", topic: "Bio-/Marine", photo: "https://sites.google.com/sitesv-images-rt/AMxu72uCiiRCZkBbmx39gAGZZkyaX_YZwso-MMe0H_slVjy3tT-Re0-kZBecuUrQFhgUZBUuK4uymziezfF-5gKA531fncjMg5aQvu6-lpb_RVx3SrjGMOBh17PL-M2N2RM_cjxNoMETpxmTScFOTH710Jc_KwCaxNOysibtHRhOrCwNWNNY9NSnsl5FSzuLqy9jWaG3t36VAN6DIM3dvyM3yA3DJpHuHNy5_GDOEj9v8hM=w600"}
+  - {name: "Dr. Hyeon Su Jeong", org: "KIST", nick: "", topic: "Energy applications", photo: "https://sites.google.com/sitesv-images-rt/AMxu72vFQ-OSEQ85rB6rn1UP1S_A28agpHlZNEhfYEnfr9wv5oDFmhcK3D3Gx892GLddPV2Ern3TMiSj5YJ7-t2WfYRlAgsnjje2H6uB4Bf8e-ErZ44O7ygswUqzxZbQgPyYAimjplTANJUDykvJqPQwdODcITfE8TEJA74gWTHKCnL8ANd5DQ6-8Cijk2woFWVsuOV7E3ikU_WYEyc2aX9Hyoz3stiefi1-B_D2PRyGV2M=w600"}
+krict_researchers_title: "Professional researchers in KRICT"
+krict_researchers: ["박슬아", "김선미", "박성배", "이민경"]
+
+alumni:
+  - name: "Dr. Junhyeok Lee (이준혁 박사)"
+    photo: "https://sites.google.com/sitesv-images-rt/AMxu72tmAtaNF45szs4rkL3yRfH1kvynVnZigWcVxFfNbzAkXfG8mDZuA1ezn_LA8MmTMOSQyZo1zTbEDxZ_ekvTr3hDo-O_Zk-_yfhqLZcrSQeqH2XPH1Ufh296GA08HUdUKGjJqDM5S1L56A45wrlXzcexO8kzldn1-XdP9tAQQUaVSOhHXHdaWwmz8idKx2ivvNqKZxuV4u4NYnUJ_l-2FsxzCwTp8EjYEQ0y6AwGvcY=w600"
+    lines: ["Recieved PhD in Aug-2026", "ijunhyeok001 /at/ gmail.com", "Now, 삼성전기 (2026.11~)"]
+  - name: "Dr. Mira Shin (신미라 박사)"
+    photo: "https://sites.google.com/sitesv-images-rt/AMxu72sIXkcPeHlKCIvCKYjAUvxWHmKWV24fUZdkX37OVKTBxNSd2S-cuOQWGIJ3ecoAvMNiJFVQvbBFSboK9he9xth8EtfoV2UkcuM-7Ta2K_79A_Tgv0GNgFGIHJkfxc_TmX4b6VT2cPSOJVw2P9uz7yvycGklhbrYGlULCPwNc27MiWll08d_Ga4pjpEKGFa-2MrDoUI50JKOGTA8b8aMHTy92jRxA-n0LOxpwnuiCoA=w600"
+    lines: ["Recieved PhD in Aug-2026", "shinmira0929 /at/ gmail.com", "Now, PostDoc in our lab (2026.09~)"]
+  - name: "(정혜원)"
+    photo: "https://sites.google.com/sitesv-images-rt/AMxu72ukOq0Ag9-q9g7TTr4cKlt6lThdRUUc4o1J3-9N84ycvMmzk2zGhhvg7jQT0Jpsy9ZCqMygaEZQlHioFKn63yOq_EorXhGV6WU9ZHlJhXxg9NhZzr8mo_qkltTBuJA8gUSbYXYb3hjqTRbYrTuyqFCRBy2DntvrPs2TIRAgYgIGHB4wsGMJF8HIliqQHD8_oxWJZFMqPe8OK4jOQbWJa9ilDwaiHNC2oZIVkgCD-_k=w600"
+    lines: ["Recieved MS in Aug-2026", "hyewon /at/ kist.re.kr", "Now, KIST researcher (2026.09~)"]
+  - name: "Dr. Se Bin Jin (진세빈 박사)"
+    photo: "https://sites.google.com/sitesv-images-rt/AMxu72t7l1SmJduZzMHF9cg1c6qtKVII8c97mAsolvncqgg5zKtzaf71Hbz7fe413EhJ-hyUxYH9Czo1ggGlbbmndwfu8ix0BPmois0nz54JYBWsHKv_hSLnxgt4u1LOHmoCEP0MNus9carzCveReoxAjdeGq_DAC6bil8s3QmR6zh9SYDz6-7N1Hdl138Ajs6ezl0lSfKUttv3NX2iu39kJ6SfdGniY_p91nJcU3WKWisU=w600"
+    lines: ["Received PhD in Feb-2026 (2022.09-2026.02)", "tpqls1230 /at/ gmail.com", "Now, PostDoc in our lab (2026.03~)"]
+  - name: "Soobin Kim (김수빈 석사)"
+    photo: "https://sites.google.com/sitesv-images-rt/AMxu72uBHmV7a40zugA4mN3AUtuFY1GxlE0yk8nHOv4vh1tGV9iWC_5JcVw50M_uQpzoUL1O4UuVrlLv_BSCiybVu6NzpjtOghDdOtSvy6WvTEwwqMddIqniXoUeSlS6Cf61L4KKqWhf-od2m3t_-iHDbY4BKs9yHO8_L5gH581z2B-osc0tALufrnfU0sIviWa926laFbmYX0cgg5TABeqULefDuJfrxjwVTKFTzUU7v0U=w600"
+    lines: ["Received MS in Aug-2025 (2023.09-2025.08)", "soobinkorea /at/ gmail.com", "Now, 한국콜마 (2026~)"]
+  - name: "Jimin Ryoo (류지민 석사)"
+    photo: "https://sites.google.com/sitesv-images-rt/AMxu72t9pB848ds3rBcMuBuWrT7edkkmI9Z-sT9w5Y71jCFidY-My4sKDxpGCQePUKgLnJsvWc3NfRNaXXVahedi4PbGcIFrQ6aL2y2rriSXtjSGUQ2bLxNJRKTAzrflp3dO7oIWjwlZmCHymJrsAngqJ7n-dmUbTSvxKelN2VaLYba1UjRCB8ubfZ8W8HgmILfTrwhA9ZNP_3LGak9HiSzsjPB5ftybnLVOHdHZ6pPg=w600"
+    lines: ["Received MS in Aug-2025 (2023.09-2025.08)", "rjimin424 /at/ gmail.com", "Now, 한국고분자시험연구소(2026~)"]
+  - name: "Dr. Seonghyun Chung (정성현 박사)"
+    photo: "https://sites.google.com/sitesv-images-rt/AMxu72uncyw1gSPLp6A653vzN8bhoyoJ5UCUzsskseCCINgQwBAGUUOcpc-CfoI1wAIbSYBCUm5V1QrEcZs_kz7p4PLrF0CQmCNiuiyDbASIEeQ-xU7hWHkXansF3KdNYP0DCdxXgPsPeyTHlfKU7z0PYPyb6N2tAN2IfasCTASO4JI9kWoOQh8u-eYmBjMdTU3Rn9o4_ljFVGFLovia6f5mXsqkwjDrOhmyMj_ZoSys=w600"
+    lines: ["Received Ph.D. in Feb-2025", "Now, Post-Doc"]
+  - name: "조유미 학사"
+    photo: "https://sites.google.com/sitesv-images-rt/AMxu72vSVFNccq36m7iKvhtx1mqkNeu3roHoKjDPYEnk6cX8lTVI9B-ivZ5DeCw9vNAyb0doD6WIbnHY7rnY6nRrAbYovOOJPLXTu4_Fd89QOdFuDxGv26LdE-QyynBbO5ulTBCpgBv8f0UvGVG4Qn3mjBthnaSFVaZM9Oa21hsrFXJAtn1HHf_Bucyte7gNvV5eLQmy-no_80_lawBVaqlPFz5cE-39PlATh97sIedY-ww=w600"
+    lines: ["Bachelor's degree", "In our lab. (2023)", "Now, LG Energy Solution (2024~)"]
+  - name: "Dr. Lam Tan Hao (하오 박사)"
+    photo: "https://sites.google.com/sitesv-images-rt/AMxu72scszwtcD831636D4XcbYV1kl8ODR93fJBdbryOpd4xm4tJviZ1ota7ImsyQgF-1NF36F4aFShtUACYuWd5hNVjWOILaxd6RIAp2F96t_IyFXt_1_ykLrGP-werWUVqdNPM0MkXRbzeVrSs4bnVHMalNQnKFAghTVRSXLBN4NLNbJC7KOwLo5_aQ7zDua-L61yNv_pv_9u5G88fHxyrx1VAXutqjGOxL5Wf31bvVj0=w600"
+    lines: ["Received Ph.D. in Feb-2023", "Now, Post-Doc at KRICT (2023~)"]
+  - name: "Dr. Sungbin Ju (주성빈 박사)"
+    photo: "https://sites.google.com/sitesv-images-rt/AMxu72sB0teH5a3OsUHZLouDLsAhDXV5iOP2waUGDoej7lyqOqzZtt_Dr2HtQnkTLC1tebR0KkDVMd9vaMEpAZHYkLIPLS51FuVBrrEfczy9BK_gYUdRsiUkK4rIKOpSc4erLwTSPSoo1P42hSWqqbNlFCX_FX8xFfhwDgJ-w9V8_k0pdUXm5C31lchyPF9uKafrhXe4mRvZLATBulya-dgqEU-wwgdrcq4V40B3mJ8=w600"
+    lines: ["Received Ph.D. in Aug-2022", "Now, Researcher at 국도화학 (2026~)"]
+
+alumni_krict_title: "Alumni list (co-advising in KRICT)"
+alumni_krict:
+  - "곽호정 (부경대학교 교수)"
+  - "정현이 (KATRI)"
+  - "오지원 (롯데케미칼)"
+  - "장민 (Professor at Arizona State University)"
+  - "이민경 (Researcher, KRICT)"
+  - "박수용 (롯데케미칼)"
+  - "신기영 (Senior researcher, Ph.D., KRICT)"
+  - "양혜민 (한국타이어)"
+  - "최유미 (애경케미컬)"
+  - "임아연 (애경케미컬)"
+  - "김경미 (국도화학)"
+  - "Vu Thi Tuyet Thuy (Ph.D. in abroad)"
+  - "Thanh V.T. (Ph.D. in abroad)"
+  - "조하영 (Ph.D. course TBD)"
+  - "신성호 (Ph.D. at Purdue University, Applied Materials Inc.)"
+  - "김혜리 (Researcher, KRICT)"
+  - "김선미 (Researcher, KRICT)"
+  - "박슬아 (Researcher, KRICT)"
+  - "최세진 (Professor at Pusan National University)"
+  - "강재련 (롯데케미컬)"
+  - "최재훈 (SK 이노베이션)"
+  - "김세민 (Penn State University)"
+alumni_more: ".... and more to be updated...."

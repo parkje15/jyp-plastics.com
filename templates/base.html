@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page_title %}{{ page_title }} | {% endif %}{{ site.name }} · {{ site.lab_title }}</title>
+<meta name="description" content="Jeyoung Park's research team for sustainable plastics, Sogang University">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="index.html">
+      <img src="{{ site.logo }}" alt="" class="brand-logo" onerror="this.style.display='none'">
+      <span class="brand-text">
+        <strong>{{ site.name }}</strong>
+        <small>{{ site.lab_title }} · Sogang University</small>
+      </span>
+    </a>
+    <button class="menu-btn" aria-label="Menu" onclick="document.body.classList.toggle('nav-open')">☰</button>
+    <nav class="nav">
+      <ul>
+      {% for item in nav %}
+        <li class="{% if item.label == group %}active{% endif %}{% if item.children %} has-sub{% endif %}">
+          <a href="{{ item.href or item.children[0].href }}">{{ item.label }}</a>
+          {% if item.children %}
+          <ul class="sub">
+            {% for c in item.children %}<li><a href="{{ c.href }}" class="{% if c.href == current %}on{% endif %}">{{ c.label }}</a></li>{% endfor %}
+          </ul>
+          {% endif %}
+        </li>
+      {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>
+
+{% if page_title %}
+<section class="page-head">
+  <div class="wrap">
+    <p class="crumb">{{ group }}</p>
+    <h1>{{ page_title }}</h1>
+    {% block intro %}{% endblock %}
+  </div>
+</section>
+{% endif %}
+
+<main>
+{% block content %}{% endblock %}
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-in">
+    <div>
+      <strong>{{ site.name }}</strong> · {{ site.lab_title }}<br>
+      <span class="muted">{{ site.university }}</span>
+    </div>
+    <div class="addr">
+      <p>Address: {{ site.address_en }}</p>
+      <p>주소: {{ site.address_ko }}</p>
+    </div>
+  </div>
+</footer>
+<script src="js/site.js"></script>
+</body>
+</html>

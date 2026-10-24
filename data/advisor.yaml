@@ -1,0 +1,58 @@
+# Main Advisor 페이지
+name: "Jeyoung Park, Ph.D. (박제영)"
+photo: "https://sites.google.com/sitesv-images-rt/AMxu72saOYmNkPK2mlSaynxLkrOLU3c0_WCV_XbHaniQi0tDec03fCCBdYV_zswP6iovIhQ8G0yrcgr6UHJ4iFNfWoyNQS0KW8xEDyng4pkJMN2_PP_1lsFp_B_dRjIs4nwlHk7lE0On-g7Mqvq5M6Ro-0_BybuxhuZRyHReLeUxdi4KXRMtzBaIQ3laErLl-TXsgBHaWN_1MZnK68cD8MSPFOalr-jMfIBRU4jCqJM=w1280"
+emails: ["jeypark /at/ sogang.ac.kr", "parkje15 /at/ gmail.com"]
+links:
+  - {label: "Google Scholar", url: "https://scholar.google.co.kr/citations?user=0iebYc0AAAAJ&hl=ko"}
+  - {label: "Other mini-website", url: "https://jeypark.owlstown.net/"}
+  - {label: "ORCID: 0000-0002-9369-1597", url: "https://orcid.org/my-orcid?orcid=0000-0002-9369-1597"}
+cv_note: "Full CV (TBD)"
+
+appointments:
+  - {period: "2026.09 - Present", text: "Professor at Sogang University, Dept. of Chemical and Biomolecular Engineering (Seoul, Korea)"}
+  - {period: "2022.09 - 2026.08", text: "Associate Professor at Sogang University, Dept. of Chemical and Biomolecular Engineering"}
+  - {period: "2014.09 - 2022.08", text: "Principal Researcher at KRICT (Korea Research Institute of Chemical Technology), Research Center for Bio-based Chemistry (Daejeon, Korea)"}
+  - {period: "2020.07 - 2022.08", text: "Affiliate Faculty at POSTECH (Pohang University of Science and Technology), Div. of Environmental Science & Engineering (Pohang, Korea)"}
+  - {period: "2016.03 - 2022.08", text: "Associate Professor at UST (University of Science and Technology), Dept. of Advanced Materials and Chemical Engineering (Daejeon, Korea)"}
+  - {period: "2012.08 - 2014.08", text: "Researcher at SK Innovation Corp., Chemical R&BD Center (Daejeon, Korea)"}
+
+education:
+  - {period: "2008.09 - 2012.08", text: "Ph.D. in Chemistry, Korea Advanced Institute of Science & Technology (KAIST) (Daejeon, Korea), Advisor: Prof. Sang Youl Kim"}
+  - {period: "2007.02 - 2008.08", text: "M.S. in Chemistry, KAIST; Advisor: Prof. Sang Youl Kim"}
+  - {period: "2003.03 - 2007.02", text: "B.S. in Chemistry, Summa Cum Laude, KAIST (minor in Business Economics Program)"}
+
+activities:
+  - "The member of Academy and Education, The polymer Society of Korea (2024) — 한국고분자학회 학술위원회 위원"
+  - "General secretary, The polymer Society of Korea: Eco Materials Division (2023-2024) — 한국고분자학회 에코소재 분과 임원진"
+  - "Organizing secretary, Korean Chemical Society: Polymer Chemistry Division (2022) — 대한화학회 고분자화학분과회 임원진 (기획간사)"
+  - "Organizing committee, Global ESG Forum (Waste: Plastic) parallel with Nature Forum (2022) — 2022 글로벌 ESG 포럼, 폐기물: 플라스틱, 조직위원"
+  - "Secretariat, POLYCONDENSATION 2022 (2022)"
+  - "Special Issue Editor in International Journal of Molecular Sciences (2021~2022): Special Issue \"Self-Healing Polymers and Composites\""
+  - "Program Committee [Polymers and Environment], IUPAC-MACRO2020+ (2021)"
+  - "Reviewer Community Member, Green Chemistry, and other RSC journals (2021~)"
+  - "Reviewer Board Member, Nanomaterials (2020~)"
+  - "Chief-program organizer of Global Symposium on Bio-based Polymeric Materials (KRICT) (2018~2022)"
+  - "Co-organizer of 2018 Fall Meeting of The Polymer Society of Korea (2018)"
+  - "Member, Polymer Society of Korea"
+  - "Member, Korean Chemical Society"
+  - "Member, The Korean Institute of Chemical Engineers"
+
+honors:
+  - "2025 서강대학교 총동문회-서강알바트로스 학술상 (2026)"
+  - "2024학년도 연구업적 우수 교원 선정 (2025)"
+  - "2025서강 리치 영펠로우 선정 (2025)"
+  - "2025서강 리치 공학 학술상 - 최다 피인용 (2025)"
+  - "2025서강 리치 공학 학술상 - 최우수 논문 (2025)"
+  - "2025 우수 피인용 논문상 (Review of polymer tech...)(3년간 50회) (2025)"
+  - "2024 서강 리치 공학 학술상 - 최우수 연구 (2024)"
+  - "The Polymer Science Advancement Award (고분자학술진보상) in Fall meeting of the Polymer Society of Korea (2024)"
+  - "Keynote presentation in INTERNATIONAL SYMPOSIUM ON DYNAMIC POLYMER NETWORKS, Changchun, China (2024)"
+  - "The 1st EYSA·Ecopro Young Scientist Awards-Environment division (에코프로 젊은 과학자상-환경부문) (2023)"
+  - "TCI-Emerging scholar award (신진학술상) in Fall meeting of Korean Chemical Society (Polymer Chemistry Division) (2023)"
+  - "The Best 100 Technologies among National R&D Projects by Ministry of Science and ICT of 2021 (2021) — 자가치유 물질기반 온도변화 감지필름 제조기술 (오동엽, 황성연, 박제영 외)"
+  - "The Best 100 Technologies among National R&D Projects by Ministry of Science and ICT of 2020 (2020) — 비닐봉투용 고강도 생분해성 플라스틱 제조 기술개발 (황성연, 박제영, 오동엽 외)"
+  - "KRICT Team-Grand Prize of 2020, KRICT (2020)"
+  - "Selected as a Major National R&D Achievement Reported to “Mr. President”: High-performance bioplastics (2019)"
+  - "Ulsan Metropolitan Award in Science Technology and Industrial Development of 2019 (2019)"
+  - "Excellence Staff Award of 2018, KRICT (2018)"
+  - "KRICT Innovation Team Award of 2017, KRICT (2017)"

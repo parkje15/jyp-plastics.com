@@ -1,0 +1,92 @@
+# Notification and News (첫 화면 + News 페이지)
+# 새 소식은 맨 위에 한 줄 추가: - {date: "2026.11.01.", text: "...", url: "(선택)"}
+- {date: "2026.10.01.", text: "Congrat! 박정식 학생이 IUPAC-PSK50 국제학회의 최우수 포스터상을 수상하였습니다."}
+- {date: "2026.10.", text: "Citations > 100 times !!: Network of cyano-p-aramid nanofibres creates ultrastiff and water-rich hydrospongels, Nature Materials, 2024, 23, 414. First published online at 05-Jan-2024"}
+- {date: "2026.09.01.", text: "Welcome, 권예원, 정은빈 학부연구생 환영합니다."}
+- {date: "2026.08.31.", text: "Congrat! Graduation 이준혁, 신미라 박사님, 박사졸업을 축하합니다. 정혜원 석사 졸업을 축하합니다."}
+- {date: "2026.08.23.", text: "Congrat! 준혁, 정식, 기연; Paper in Journal of Materials Chemistry A 's, Chemical Engineering Journal accepted."}
+- {date: "2026.08.", text: "Citations > 100 times !!: Biodegradable chito-beads replacing non-biodegradable microplastics for cosmetics, Green Chemistry, 2021, 23, 6953. First published online at 21-Jul-2021"}
+- {date: "2026.06.01.", text: "Congrat! 미라,영환; Paper in Chemical Engineering Journal accepted."}
+- {date: "2026.05.15.", text: "Ultra Congrat.! 지민 석사졸업생 취업: 한국고분자시험연구소"}
+- {date: "2026.03.12.", text: "Congrat! 준혁,기연; Paper in Chem Eng J accepted."}
+- {date: "2026.03.01.", text: "Welcome!! 정기연 joined the team as master/combined course students."}
+- {date: "2026.01.24.", text: "Ultra Congrat.! 미라; 삼성휴먼테크논문대상 은상 수상"}
+- {date: "2026.01.06.", text: "Congrat! 형래; Paper in Polymers accepted."}
+- {date: "2026.01.02.", text: "Ultra Congrat.! 수빈 석사졸업생 취업: 한국콜마"}
+- {date: "2025.12.xx.", text: "Congrat! 세빈, 미라; Papers in ChemSusChem, Chem Eng J; and SusMat accepted."}
+- {date: "2025.09.10.", text: "Congrat! 재범, 수빈. Paper in Polymer accepted."}
+- {date: "2025.09.01.", text: "Welcome!! 김해민, 동현지, 장나영 joined the team as master/combined course students."}
+- {date: "2025.08.21.", text: "Congrat! Graduation Jimin, and Subin. 석사졸업을 축하합니다."}
+- {date: "2025.08.21.", text: "Congrat! Jimin. Paper in Advanced Sustainable Systems accepted."}
+- {date: "2025.08.05.", text: "News article in 동아 사이언스: 1300℃ 화염에 노출돼도 쉽게 꺼지는 플라스틱 소재", url: "https://m.dongascience.com/news.php?idx=73265"}
+- {date: "2025.07.16.", text: "Paper in Adv Compos Hybrid Mater accepted: Flame-retardant ANF-composites."}
+- {date: "2025.06.25.", text: "고분자 과학과 기술 (Polymer Science and Technology) Vol.36, No.3 에 연구실 소개"}
+- {date: "2025.06.10.", text: "언론보도: 레고 원리로 배양육에 '마블링' 구현했다", url: "https://www.chosun.com/economy/science/2025/06/10/GGWCLEYV2UFEWOM76WL64QBCOE/"}
+- {date: "2025.03.05.", text: "Front Cover selected on Advanced Materials 2025, 37, 2570070; 언론보도", url: "https://www.etnews.com/20250427000118"}
+- {date: "2025.03.01.", text: "Welcome!! 이혜원 joined the team as master/combined course students."}
+- {date: "2025.03.", text: "Many Congrats below new SCI papers outcome! (성현-1st author) Polymer Degradation and Stability; Polymer Testing / Advanced Materials, ACS Sustainable Chemistry & Engineering"}
+- {date: "2024.12.", text: "Citations > 100 times !!: Nanochitin and nanochitosan: Chitin nanostructure engineering with multiscale properties for biomedical and environmental applications, Advanced Materials, 2023, 35, 2203325. First published online at 31-May-2022"}
+- {date: "2024.12.17.", text: "Congrat! (Dr.) Seonghyun Chung passed the defense seminar for his Ph.D."}
+- {date: "2024.12.", text: "Citations > 100 times !!: A self‐healing nanofiber‐based self‐responsive time‐temperature indicator for securing a cold‐supply chain, Advanced Materials, 2020, 32, 1907064. First published online at 5-Feb-2020"}
+- {date: "2024.11.", text: "Many Congrats below new SCI papers outcome! (세빈-1st author) Progress in Organic Coatings; Bulletin of the Korean Chemical Society; Polymers for Advanced Technologies"}
+- {date: "2024.10.", text: "Citations > 100 times !!: Highly self-healable and flexible cable-type pH sensors for real-time monitoring of human fluids, Biosensors and Bioelectronics, 2023, 150, 111946. First published online at 7-Dec-2019"}
+- {date: "2024.10.01.", text: "Thank you for winning the Polymer Science Advancement Award (고분자학술진보상) in Fall meeting of the Polymer Society of Korea"}
+- {date: "2024.09.25.", text: "Keynote presentation in INTERNATIONAL SYMPOSIUM ON DYNAMIC POLYMER NETWORKS, Changchun, China"}
+- {date: "2024.09.01.", text: "Welcome!! Undergraduate participant: 동현지"}
+- {date: "2024.09.01.", text: "Welcome!! 장재범 changed to combined MS/PhD course student."}
+- {date: "2024.09.01.", text: "Welcome!! 김지헌, 안영환, 정혜원 joined the team as master/combined course students."}
+- {date: "2024.09.01.", text: "Welcome!! 박정식, 김태현 joined the team as BS/MS combined course students."}
+- {date: "2024.08.", text: "Citations > 100 times !!: Review of polymer technologies for improving the recycling and upcycling efficiency of plastic waste, Chemosphere, 2023, 320, 138089. First published online at 6-Feb-2022"}
+- {date: "2024.05.07.", text: "Congrat! New SCI papers [100th] outcome! titled: Next-generation all-organic composites: A sustainable successor to organic–inorganic hybrid materials, International Journal of Biological Macromolecules", url: "https://doi.org/10.1016/j.ijbiomac.2023.127790"}
+- {date: "2024.05.", text: "Citations > 100 times !!: Biorenewable, transparent, and oxygen/moisture barrier nanocellulose/nanochitin-based coating on polypropylene for food packaging applications, Carbohydrate Polymers, 2021, 271, 118421. First published online at 10-Jul-2021"}
+- {date: "2024.04.16.", text: "Honorable Congrat! Our Nat. Rev. Bioeng. review article is featured in Front Cover as well as Editorial comment of Apr.-issue-2024", url: "https://www.nature.com/natrevbioeng/volumes/2/issues/4"}
+- {date: "2024.03.", text: "Citations > 100 times !!: Highly self-healable and flexible cable-type pH sensors for real-time monitoring of human fluids, Biosensors and Bioelectronics, 2020, 150, 111946. First published online at 12-Dec-2019"}
+- {date: "2024.03.01.", text: "Welcome!! Undergraduate participant: 혜원"}
+- {date: "2024.03.", text: "Many Congrats below new SCI papers outcome! (준혁-1st author) Polymer Testing / (미라-1st author) Polymer Testing / (세민-1st author) Advanced Science / (지원-1st author) Chemical Engineering Journal"}
+- {date: "2024.02.", text: "Citations > 100 times !!: Sustainable and recyclable super engineering thermoplastic from biorenewable monomer, Nature Communications, 2019, 10, 2601. First published online at 13-Jun-2019"}
+- {date: "2024.01.18.", text: "Congrat! New SCI papers outcome! titled: Optimizing bioplastics translation, Nature Review Bioengineering", url: "https://doi.org/10.1038/s44222-023-00142-5"}
+- {date: "2024.01.05.", text: "Congrat! New SCI papers outcome! titled: Network of cyano-p-aramid nanofibres creates ultrastiff and water-rich hydrospongels. Nature Materials", url: "https://doi.org/10.1038/s41563-023-01760-5"}
+- {date: "2024.01.01.", text: "Welcome!! Undergraduate participants/researchers: 태현, 의린, 지헌"}
+- {date: "2023.12.14.", text: "Thank you for winning the 1st EYSA·Ecopro Young Scientist Awards-Environment Division (에코프로 젊은 과학자상-환경부문)"}
+- {date: "2023.11.27.", text: "Our research out is featured in YOUTUBE! (self-healing materials)", url: "https://www.youtube.com/watch?v=bKN4XvX8RI4"}
+- {date: "2023.11.21.", text: "Congrat! New SCI papers outcome! titled: Improved mechanical properties of biodegradable polycaprolactone nanocomposites prepared using cellulose nanocrystals. Celluose", url: "https://doi.org/10.1007/s10570-023-05615-9"}
+- {date: "2023.11.04.", text: "Congrat! New SCI papers outcome! titled: Preparation of a nanocellulose/nanochitin coating on a poly(lactic acid) film for improved hydrolysis resistance, International Journal of Biological Macromolecules", url: "https://doi.org/10.1016/j.ijbiomac.2023.127790"}
+- {date: "2023.10.26.", text: "Thank you for winning the TCI-Emerging scholar award (신진학술상) in Fall meeting of Korean Chemical Society (Polymer Chemistry Division)"}
+- {date: "2023.10.07.", text: "Congrat! New SCI papers outcome! titled: Circular waste management: Superworms as a sustainable solution for biodegradable plastic degradation and resource recovery, Waste Management", url: "https://doi.org/10.1016/j.wasman.2023.09.027"}
+- {date: "2023.09.30.", text: "Citations > 100 times !!: Recent progress in self-healing polymers and hydrogels based on reversible dynamic B–O bonds: boronic/boronate esters, borax, and benzoxaborole, Journal of Materials Chemistry A, 2021, 9, 14630. First published online at 18-May-2021"}
+- {date: "2023.09.27.", text: "Congrat! New SCI papers outcome! titled: Molecular dynamics interpretation of hydrogen bonds for colorless, water-resistant, tough, and self-healable elastomers, Journal of Materials Chemistry A (Outside Front Cover)", url: "https://doi.org/10.1039/D3TA03811D"}
+- {date: "2023.09.22.", text: "Congrat! New SCI papers outcome! titled: Exploring the Potential of 2,5-furandicarboxylic acid-Based Bioplastics: Properties, Synthesis, and Applications, Polymer Degradation and Stability", url: "https://doi.org/10.1016/j.polymdegradstab.2023.110539"}
+- {date: "2023.09.12.", text: "Congrat! The first patent registered with assignee of \"Sogang U.\" titled: 생분해도가 우수한 방향족 폴리아미드-방향족 폴리에스테르 공중합체 및 이의 제조 방법"}
+- {date: "2023.09.11.", text: "Congrat! New SCI papers outcome! titled: Extending the high-performing boundaries of a fully bio-based thermal shrinkage film targeted for food packaging applications (Green Chemistry); Flexible Poly(Lactic acid) suitable for deep freeze packaging synthesized using lactic acid-based ester precursors (Polymer Testing)", url: "https://doi.org/10.1039/D3GC02193A"}
+- {date: "2023.09.01.", text: "Welcome!! Undergraduate participants/researchers: 예락, 해민, 하윤"}
+- {date: "2023.09.01.", text: "Huge Welcome!! Hyung Rai Kim, Jimin Ryoo, Soobin Kim, Jaebeom Jang joined the team as post-graduate students."}
+- {date: "2023.08.30.", text: "[Youtube-크랩] 종이 빨대가 해롭다고 말 나오는 이유 진짜인지 확인해 봄", url: "https://youtu.be/99iCcRGrukE"}
+- {date: "2023.07.13.", text: "Welcome!! Undergraduate participants/researchers: 기연"}
+- {date: "2023.06.17.", text: "Congrat! New SCI paper outcome! titled: Biobased super engineering plastic nanocomposite of cellulose nanofibers and isosorbide, Polymer Degradation and Stability", url: "https://doi.org/10.1016/j.polymdegradstab.2023.110445"}
+- {date: "2023.06.03.", text: "Citations > 100 times !!: Extremely fast self-healable bio-based supramolecular polymer for wearable real-time sweat-monitoring sensor, ACS Applied Materials & Interfaces, 2019, 11, 46165. First published online at 27-Nov-2019"}
+- {date: "2023.05.31.", text: "Wish good luck to 수정 for her happy life."}
+- {date: "2023.05.03./05.24.", text: "Welcome!! Undergraduate participants/researchers: 형래, 영"}
+- {date: "2023.04.18.", text: "Congrat! New SCI paper outcome! titled: Method to analyze phthalate esters from soft toys dissolving into water mimicking infant playing, Chemosphere", url: "https://doi.org/10.1016/j.chemosphere.2023.138695"}
+- {date: "2023.04.01.", text: "Welcome!! Soobin Kim, Jimin Ryoo, Sujeong Kim joined the team as pre-master participant students."}
+- {date: "2023.04.01.", text: "Citations > 100 times !!: Mechano-responsive hydrogen-bonding array of thermoplastic polyurethane elastomer captures both strength and self-healing, Nature Communications, 2021, 12, 621. First published online at 27-Jan-2021"}
+- {date: "2023.04.01.", text: "Citations > 100 times !!: Biodegradable, Efficient, and Breathable Multi-Use Face Mask Filter, Advanced Science, 2021, 8, 2003155. First published online at 29-Jan-2021"}
+- {date: "2023.03.08.", text: "Congrat! New SCI paper outcome! titled: Chitosan Coating in the Form of Polymer and Nanowhiskers on Clothing Fabrics for Improved Particulate Matter Removal Efficiency in Face Mask Filters, Journal of Natural Fibers", url: "https://doi.org/10.1080/15440478.2023.2187507"}
+- {date: "2023.02.22.", text: "Welcome!! Undergraduate participants/researchers: 수정"}
+- {date: "2023.02.10.", text: "Congrat! Drs. 도훈, 성빈, 하오's PhD graduation ceremony"}
+- {date: "2023.02.09.", text: "Huge Congrat! 150 Altmetric score recorded in the SCI paper entitled \"Biodegradable, Water‐Resistant, Anti‐Fizzing, Polyester Nanocellulose Composite Paper Straws\"", url: "https://wiley.altmetric.com/details/138709867"}
+- {date: "2023.02.06.", text: "Congrat! New SCI paper outcome! titled: Review of polymer technologies for improving the recycling and upcycling efficiency of plastic waste, Chemosphere", url: "https://doi.org/10.1016/j.chemosphere.2023.138089"}
+- {date: "2023.02.02.", text: "Huge Congrat! Our New SCI paper is featured in International news, titled: Want a stronger biodegradable plastic? Add a ‘pinch’ of cream of tartar", url: "https://www.eurekalert.org/news-releases/977960"}
+- {date: "2022.01.22.", text: "Congrat! New SCI paper outcome! titled: Toward Sustaining Bioplastics: Add a Pinch of Seasoning, ACS Sustainable Chemistry & Engineering. As well as Huge Congrat to be featured as Editor's choice.", url: "https://doi.org/10.1021/acssuschemeng.2c06247"}
+- {date: "2023.1.13.", text: "Congrat! Outside Front Cover Selected in ACS Appl. Polym. Mater. Vol. 5. Iss. 1", url: "https://pubs.acs.org/toc/aapmcd/5/1"}
+- {date: "2023.1.10.", text: "Welcome!! Junhyeok Lee, Mira Shin joined the team as combined Ph.D. course students."}
+- {date: "2023.1.4.", text: "Congrat! Inside Front Cover Selected in Adv. Sci. Vol. 10. Iss. 1", url: "https://onlinelibrary.wiley.com/doi/10.1002/advs.202370002"}
+- {date: "2023.1.3.", text: "Welcome!! Undergraduate participants/researchers: 수빈, 지민, 태현, 정식, 정우, 세원, 유미 (7-members)"}
+- {date: "2022.12.30.", text: "Citations > 100 times !!: Ion-conductive self-healing hydrogels based on an interpenetrating polymer network for a multimodal sensor, Chem. Eng. J. 2019, 371, 452-460. First published online at 11-Apr-2019"}
+- {date: "2022.12.15.", text: "Congrat! New SCI paper outcome! titled: Enhanced Mechanical Properties of Poly(butylene adipate-co-terephthalate)/Cellulose Nanocrystal Nanocomposites Obtained by In Situ Polymerization, ACS Applied Polymer Materials", url: "https://doi.org/10.1021/acsapm.2c01694"}
+- {date: "2022.12.15.", text: "Congrat! Se Bin Jin! New SCI paper outcome! titled: Masterbatch of Chitosan Nanowhiskers for Preparation of Nylon 6,10 Nanocomposite by Melt Blending, Polymers", url: "https://doi.org/10.3390/polym14245488"}
+- {date: "2022.12.07.", text: "Huge Congrat! Our New SCI paper is featured in Domestic media and news, titled: “눅눅해져 불편했는데”...젖지 않는 친환경 빨대 개발", url: "https://n.news.naver.com/mnews/article/009/0005055959?sid=105"}
+- {date: "2022.11.21.", text: "Huge Congrat! Our New SCI paper is featured in Advanced Science News! titled: Finally, an anti-fizzing paper straw that doesn’t get soggy", url: "https://www.advancedsciencenews.com/finally-an-anti-fizzing-paper-straw-that-doesnt-get-soggy/"}
+- {date: "2022.11.20.", text: "Congrat! New SCI paper outcome! titled: Biodegradable, Water-Resistant, Anti-Fizzing, Polyester Nanocellulose Composite Paper Straws, Advanced Science", url: "https://doi.org/10.1002/advs.202205554"}
+- {date: "2022.11.15.", text: "Congrat! New SCI paper outcome! titled: Ultra-Fast Self-Healable Stretchable Bio-based Elastomer/Graphene Ink using Fluid Dynamics Process for Printed Wearable Sweat-Monitoring Sensor, Chemical Engineering Journal", url: "https://doi.org/10.1016/j.cej.2022.140443"}
+- {date: "2022.09.01.", text: "Welcome!! Se Bin Jin joined the team as a Ph.D. course student."}
+- {date: "2022.09.01.", text: "Start JYP-Research Team at Sogang University."}

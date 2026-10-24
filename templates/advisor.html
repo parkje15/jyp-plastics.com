@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="block"><div class="wrap pi-grid">
+  <aside class="pi-card">
+    <img src="{{ advisor.photo }}" alt="{{ advisor.name }}" onerror="this.style.display='none'">
+    <h2>{{ advisor.name }}</h2>
+    <h3>Contact</h3>
+    {% for e in advisor.emails %}<p>{{ e }}</p>{% endfor %}
+    <ul class="link-list">{% for l in advisor.links %}<li><a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }} ↗</a></li>{% endfor %}</ul>
+    <p class="muted">{{ advisor.cv_note }}</p>
+  </aside>
+  <div>
+    <h2 class="sec">Appointments</h2>
+    <dl class="timeline">{% for a in advisor.appointments %}<dt>{{ a.period }}</dt><dd>{{ a.text }}</dd>{% endfor %}</dl>
+    <h2 class="sec">Education</h2>
+    <dl class="timeline">{% for a in advisor.education %}<dt>{{ a.period }}</dt><dd>{{ a.text }}</dd>{% endfor %}</dl>
+    <h2 class="sec">Professional Activities</h2>
+    <ul class="plain">{% for a in advisor.activities %}<li>{{ a }}</li>{% endfor %}</ul>
+    <h2 class="sec">Honors &amp; Awards</h2>
+    <ul class="plain">{% for a in advisor.honors %}<li>{{ a }}</li>{% endfor %}</ul>
+  </div>
+</div></section>
+{% endblock %}

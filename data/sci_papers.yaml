@@ -1,0 +1,535 @@
+# SCI Papers — 새 논문은 맨 위에 추가하세요.
+# 논문 그림을 넣으려면 해당 논문에  image: "주소"  한 줄을 추가하세요.
+# 필드: num(번호), title, date, journal, authors, doi, if_info(선택), cover(선택), featured(선택)
+note: "1st authors underlined, corresponding authors with asterisk, ..."
+
+after_sogang:
+  - num: 140
+    title: "H2"
+    date: "2026.01.xx"
+    journal: "Engineering, 2026, x, xx"
+    if_info: "IF (JCR2023):, JCR% (Field:)"
+    authors: "Y*"
+    doi: ""
+    link_text: "https://doi.org/"
+    link_url: "https://doi.org/10.1016/j.polymertesting.2025.108990"
+  - num: 139
+    title: "CaCO3-PP"
+    date: "2026.01.xx"
+    journal: "ACS Applied Polymer Materials, 2026, x, xx"
+    if_info: "IF (JCR2023):, JCR% (Field:)"
+    authors: "Y*"
+    doi: ""
+    link_text: "https://doi.org/"
+    link_url: "https://doi.org/10.1016/j.polymertesting.2025.108990"
+  - num: 138
+    title: "Glycolysis cat. beads"
+    date: "2026.01.xx"
+    journal: "Chemical Engineering Journal, 2026, x, xx"
+    if_info: "IF (JCR2023):, JCR% (Field:)"
+    authors: "Y*"
+    doi: ""
+    link_text: "https://doi.org/"
+    link_url: "https://doi.org/10.1016/j.polymertesting.2025.108990"
+  - num: 137
+    title: "Interfacial engineering of bacterial cellulose composites with enhanced mechanical robustness and environmental stability via itaconic acid–based poly(urethane-amide)"
+    date: "2026.11.01"
+    journal: "Chemical Engineering Journal, 2026, 547, 180851"
+    if_info: "IF (JCR2023):, JCR% (Field:)"
+    authors: "Junhyeok Lee, Giyeon Jeong, Sungsik Eom, Hyeonyeol Jeon, Sung Bae Park, Chanwook Park, Sungwan Jeon, Jaesik Seo, Hyungjun Kim*, Dongyeop X. Oh*, Jeyoung Park*"
+    doi: "10.1016/j.cej.2026.180851"
+  - num: 136
+    title: "Paradigm-shifting carbon capture with high efficiency and net-negativity through bio-inspired oceanic mineralization"
+    date: "2026.08.27"
+    journal: "Jounal of Materials Chemistry A, 2026, 14, 34751"
+    if_info: "IF (JCR2023):, JCR% (Field:)"
+    authors: "Jeongsik E. Park, Sungbin Ju, Dongyeop X. Oh*, Jeyoung Park*"
+    doi: "10.1039/d6ta03540j"
+    cover: "Front Cover (Issue 51, 2026)"
+  - num: 135
+    title: "Time-Resolved Investigation of the Priming Effect of Biodegradable Plastics on Soil Organic Matter Using Radiocarbon Analysis"
+    date: "2026.08.19"
+    journal: "Journal of Polymers and the Environment, 2026, 34, 223"
+    if_info: "IF (JCR2023):, JCR% (Field:)"
+    authors: "Sungbin Ju, Lam Tan Hao, Semin Kim, Minkyung Lee, Hyo Jeong Kim, Hyeonyeol Jeon*, Jeyoung Park*, Dongyeop X Oh*"
+    doi: "10.1007/s10924-026-03940-1"
+  - num: 134
+    title: "Separation-free upcycling of emerging PET/PEF waste streams into high-performance PEFT copolymers via direct melt transesterification"
+    date: "2026.01.xx"
+    journal: "Jounal of Materials Chemistry A, 2026, x, xx"
+    if_info: "IF (JCR2023):, JCR% (Field:)"
+    authors: "Junhyeok Lee, Yun-Ching Lin, Hsu Cheng Hua, Bor-Yih Yu*, Dongyeop X. Oh*, Jeyoung Park*"
+    doi: "10.1039/d6ta04823d"
+  - num: 133
+    title: "Dual-Feedstock Bio-Based Polyurethane Elastomers from Lignin Polyol and PHB-Diol with Enhanced Mechanical and Thermal Performance"
+    date: "2026.01.xx"
+    journal: "International Journal of Biological Macromolecules, 2026, 379, 153972"
+    if_info: "IF (JCR2023):, JCR% (Field:)"
+    authors: "Rizki Utami, Jiheon Kim, Tisa Rani Saha, Jeyoung Park*, Eun Yeol Lee*"
+    doi: "10.1016/j.ijbiomac.2026.153972"
+  - num: 132
+    title: "Direct polymer-to-polymer upcycling of mixed PET/PBT wastes into biodegradable plastics: an environmental techno-economic assessment"
+    date: "2026.08.01"
+    journal: "Journal of Environmental Management, 2026, 414, 130513"
+    if_info: "IF (JCR2023):, JCR% (Field:)"
+    authors: "Minjin Kim, Mira Shin, Byeongchan Ahn, Jeyoung Park*, Wangyun Won*"
+    doi: "10.1016/j.jenvman.2026.130513"
+  - num: 131
+    title: "Upcycled copolyester as a compatibilizer for mechanical recycling of PET/PBT/TPU ternary blends toward closed-loop recycling"
+    date: "2026.10.01"
+    journal: "Reactive and Functional Polymers, 2026, 227, 106854"
+    if_info: "IF (JCR2023):, JCR% (Field:)"
+    authors: "Jinyoung Park, Mira Shin, Jitae Song, Junyong Seo, Jaeyoung Park, Kwangsoo Shin, Jeyoung Park*, Dongyeop X. Oh*"
+    doi: "10.1016/j.reactfunctpolym.2026.106854"
+  - num: 130
+    title: "Synergistic low-temperature upcycling of post-consumer PET into engineering-grade PBT: Dual-activation by deep eutectic solvents and anisole-induced swelling"
+    date: "2026.08.15"
+    journal: "Chemical Engineering Journal, 2026, 542, 177960"
+    if_info: "IF (JCR2023):, JCR% (Field:)"
+    authors: "Mira Shin1, Younghwan Ahn1, Jingi Ahn, Yongsu Kim, Chaenyung Cha, Hyeong Jun Kim, Dongyeop X. Oh*, Jeyoung Park*"
+    doi: "10.1016/j.cej.2026.177960"
+  - num: 129
+    title: "Development of green-solvent-processable vitrimer-like polyurethane elastomers with reversible covalent adaptable network for fiber applications"
+    date: "2026.08.18"
+    journal: "European Polymer Journal, 2026, 255, 114859"
+    if_info: "IF (JCR2023):, JCR% (Field:)"
+    authors: "MinJeong Kim, Sebin Jin, Jun Mo Koo, Jeyoung Park*, Dongyeop X. Oh*"
+    doi: "10.1016/j.eurpolymj.2026.114859"
+  - num: 128
+    title: "Fully biocompatible poly(butylene adipate-co-terephthalate) based microstructures for eco-friendly light extraction in organic light-emitting diodes"
+    date: "2026.03.06"
+    journal: "Journal of Information Display, 2026, 27, 4"
+    if_info: "IF (JCR2023):, JCR% (Field:)"
+    authors: "Hyunjun Jang, Sora Han, Baeksang Sung, Jooho Lee, Sohee Jang, Hyerin Kang, Seoyeon Kim, Jin-Wook Shin, Jae-Hyun Lee, Jeyoung Park*, Jonghee Lee*"
+    doi: "10.1007/s44469-025-00005-2"
+  - num: 127
+    title: "Superior pseudo-vitrimer: A high-performance bio-based polyurethane with self-healing and chemical recyclability via Diels–Alder chemistry"
+    date: "2026.05.01"
+    journal: "Chemical Engineering Journal, 2026, 535, 175193"
+    if_info: "IF (JCR2023):, JCR% (Field:)"
+    authors: "Junhyeok Lee, Haemin Kim, Giyoung Shin, Chaenyung Cha, Dongyeop X. Oh*, Jeyoung Park*"
+    doi: "10.1016/j.cej.2026.175193"
+  - num: 126
+    title: "Cellulose nanocrystal–reinforced biodegradable polyesters: a comprehensive review of mechanical, thermal, and barrier property enhancements toward industrial implementation"
+    date: "2026.03.01"
+    journal: "Cellulose, 2026, 33, 2559"
+    if_info: "IF (JCR2023):, JCR% (Field:)"
+    authors: "Soobin Kim, Dongyeop X. Oh*, Jeyoung Park*"
+    doi: "10.1007/s10570-026-06982-9"
+  - num: 125
+    title: "Reframing Biodegradable Plastic as an Effective, Chemically Recyclable Resource for a Circular Economy"
+    date: "2026.03.01"
+    journal: "Engineering, 2026, 58, 48"
+    if_info: "IF (JCR2023):, JCR% (Field:)"
+    authors: "Sungbin Ju, Seonghyun Chung, Sung Bae Park, Jun Mo Koo, Giyoung Shin, Hyeonyeol Jeon*, Jeyoung Park*, Dongyeop X. Oh*"
+    doi: "10.1016/j.eng.2025.12.040"
+  - num: 124
+    title: "Structurally Tuned Citric Acid–Based Polyester Thermoset with Balanced Barrier, Durability, and Biodegradation Performance"
+    date: "2026.01.19"
+    journal: "ACS Sustainable Chemistry & Engineering, 2026, 14, 943"
+    if_info: "IF (JCR2023):, JCR% (Field:)"
+    authors: "Eunjung Cho, Seul-A Park, Jin Young Seo, Sung Bae Park, Seung-Ho Baek, Dong Ki Hwang, Jeyoung Park, Dongyeop X Oh, Giyoung Shin*, Hyeonyeol Jeon*, Jun Mo Koo*"
+    doi: "10.1021/acssuschemeng.5c08559"
+  - num: 123
+    title: "Mechanical Reinforcement of Ethylene Vinyl Acetate (EVA) Nanocomposites Prepared from Masterbatch of Cellulose Nanofibers Wrapped with Ethylene Vinyl Alcohol (EVOH)"
+    date: "2026.01.08"
+    journal: "Polymers, 2026, 18, 167"
+    if_info: "IF (JCR2023):, JCR% (Field:)"
+    authors: "Hyungrai Kim, Hyewon Lee, Seokkyoo Seo, Heejung Jang, Jeyoung Park*"
+    doi: "10.3390/polym18020167"
+  - num: 122
+    title: "In–use robust and self–healing, on–demand multi–pathway degradations: Bio–based poly (urethane–urea) elastomers with disulfide bonds"
+    date: "2026.01.15"
+    journal: "Chemical Engineering Journal, 2026, 528, 172098"
+    if_info: "IF (JCR2023):, JCR% (Field:)"
+    authors: "Sebin Jin, Dongyeop X. Oh*, Jeyoung Park*"
+    doi: "10.1016/j.cej.2025.172098"
+  - num: 121
+    title: "Assessing the Role of Compostable Plastics in Circular Economy Transition"
+    date: "2026.01.01"
+    journal: "ChemSusChem, 2026, 19, e202501938"
+    if_info: "IF (JCR2023):, JCR% (Field:)"
+    authors: "Dong Ki Hwang, Jeyoung Park*, Dongyeop X. Oh*, Hyeonyeol Jeon*, Jun Mo Koo*"
+    doi: "10.1002/cssc.202501938"
+  - num: 120
+    title: "Physically programmed vegan leather emulating the mechanical and sensory characteristics of animal leather from once-discarded gluten"
+    date: "2026.01.12"
+    journal: "Materials Horizons, 2026, 13, 233"
+    if_info: "IF (JCR2023):, JCR% (Field:)"
+    authors: "Soyeon Kim, Jimin Choi, Somyong Lee, Dong Soo Hwang, Giyoung Shin, Jeyoung Park*, Dongyeop X. Oh*"
+    doi: "10.1039/D5MH01579K"
+    cover: "Back Cover (Issue 1, 2026)"
+  - num: 119
+    title: "Dynamic Disulfide Chemistry for Functional Polymers: Self-Healing, Vitrimer Behavior, and Biochemical/Electronic Applications"
+    date: "2026.01.01"
+    journal: "ChemSusChem, 2026, 19, e202501023"
+    if_info: "IF (JCR2023):, JCR% (Field:)"
+    authors: "Sebin Jin, Dongyeop X. Oh*, Jeyoung Park*"
+    doi: "10.1002/cssc.202501023"
+  - num: 118
+    title: "One-Pot Upcycling of Heterogeneous Polyester Waste to Biodegradable Thermoplastics: A Cost-Effective Solution for a Circular Economy"
+    date: "2025.12.02"
+    journal: "SusMat, 2025, 5, e70046"
+    if_info: "IF (JCR2023):, JCR% (Field:)"
+    authors: "Mira Shin, Minjin Kim, Giyoung Shin, Sung Bae Park, Hyeonyeol Jeon, Dongyeop X. Oh*, Jun Mo Koo*, Wangyun Won*, Jeyoung Park*"
+    doi: "10.1002/sus2.70046"
+    cover: "Front Cover (Issue 6, 2025)"
+  - num: 117
+    title: "High-performance furandicarboxylate polyesters: Structure–property relationships in 1,3-propanediol and neopentyl glycol copolymers"
+    date: "2025.11.01"
+    journal: "Polymer Testing, 2025, 152, 108990"
+    if_info: "IF (JCR2023):, JCR% (Field:)"
+    authors: "Young Jae Lee, Jin Young Seo, Minkyung Lee, Hyeonyeol Jeon, Jeyoung Park, Sung Bae Park*, Dongyeop X. Oh*, Jun Mo Koo*"
+    doi: "10.1016/j.polymertesting.2025.108990"
+  - num: 116
+    title: "Enhancement of crystallization and mechanical properties of poly(ethylene adipate-co-terephthalate) by in-situ preparation of nanocomposites with cellulose nanofibers"
+    date: "2025.11.10"
+    journal: "Polymer, 2025, 338, 129053"
+    if_info: "IF (JCR2024): 4.5, JCR 71.8% (Field:POLYMER SCIENCE )"
+    authors: "Jaebeom Jang, Soobin Kim, Inho Kim, Jisoo Jang, Jeyoung Park*"
+    doi: "10.1016/j.polymer.2025.129053"
+  - num: 115
+    title: "Composting a Sticky Problem: Synthesis and Degradation of Isosorbide-Derived Hot-Melt Adhesive"
+    date: "2025.11.01"
+    journal: "Polymer Degradation and Stability, 2025, 241, 111617"
+    if_info: "IF (JCR2024): 7.4, JCR 93.1% (Field: POLYMER SCIENCE)"
+    authors: "Kyeong Mi Kim, Dong Ki Hwang, Huijeong Park, Hyo Jeong Kim, Jeyoung Park, Dongyeop X Oh, Sung Bae Park*, Hyeonyeol Jeon*, Jun Mo Koo*"
+    doi: "10.1016/j.polymdegradstab.2025.111617"
+  - num: 114
+    title: "Engineering Poly(Lactic Acid)/Cellulose Nanocrystal Composites: A Comparative Review of Preparation Strategies and their Influence on Structure-Property Relationships"
+    date: "2025.10.01"
+    journal: "Advanced Sustainable Systems, 2025, 9, e00654"
+    if_info: "IF (JCR2023):, JCR% (Field:)"
+    authors: "Jimin Ryoo, Dongyeop X. Oh*, Jeyoung Park*"
+    doi: "10.1002/adsu.202500654"
+  - num: 113
+    title: "High-performance transparent polysulfone nanocomposites enhanced with masterbatch-based aramid nanofibers for improved toughness and flame retardancy"
+    date: "2025.7.16"
+    journal: "Advanced Composites and Hybrid Materials, 2025, 8, 307"
+    if_info: "IF (JCR2023):, JCR% (Field:)"
+    authors: "Seul-A Park, Hyeonyeol Jeon, Hojung Kwak, Jun Mo Koo, Dongyeop X. Oh*, Jeyoung Park*"
+    doi: "10.1007/s42114-025-01392-0"
+  - num: 112
+    title: "In situ soil environment-based evaluation on degradation of biodegradable plastics"
+    date: "2025.8.25"
+    journal: "Science of The Total Environment, 2025, 992, 179919"
+    if_info: "IF (JCR2023):, JCR% (Field:)"
+    authors: "Yoora Cho, Min Jang, Geonwook Hwang, Jeyoung Park, Dongyeop X. Oh, Yujin Choi, Sung Yeon Hwang*, Yong Sik Ok*"
+    doi: "10.1016/j.scitotenv.2025.179919"
+  - num: 111
+    title: "Biobased Poly(ester amide)s as Sustainable Coating Materials for Vegan Leather with Improved Haptic Sensation"
+    date: "2025.5.26"
+    journal: "ACS Sustainable Chemistry & Engineering, 2025, 13, 7585"
+    if_info: "IF (JCR2023):, JCR% (Field:)"
+    authors: "Jieun Ryu, Lam Tan Hao, Hyeri Kim, Somyong Lee, Hyeonyeol Jeon, Dong Soo Hwang, Jeyoung Park, Cheol Hun Park, Dongyeop X. Oh*, Jun Mo Koo*, Sung Bae Park*"
+    doi: "10.1021/acssuschemeng.5c01838"
+  - num: 110
+    title: "Self-Healing Scaffolding Technology with Strong, Reversible Interactions under Physiological Conditions for Engineering Marbled Cultured Meat"
+    date: "2025.6.4"
+    journal: "ACS Applied Materials & Interfaces, 2025, 17, 31881"
+    if_info: "IF (JCR2024): 8.2, JCR 82.1% (Field: MATERIALS SCIENCE, MULTIDISCIPLINARY)"
+    authors: "Lam Tan Hao, Seunghyeon Lee, Dong Soo Hwang, Hyeonyeol Jeon, Jeyoung Park*, Hyo Jeong Kim*, Dongyeop X Oh*"
+    doi: "10.1021/acsami.5c03479"
+    cover: "Supporting Cover (Issue 22, 2025)"
+  - num: 109
+    title: "Exploiting Structural Benefit of Biobased Monomers for Sustainable Packaging Application with High Elasticity, UV-Blocking, and Biodegradability"
+    date: "2025.4.21"
+    journal: "ACS Sustainable Chemistry & Engineering, 2025, 13, 5613"
+    if_info: "IF (JCR2023):, JCR% (Field:)"
+    authors: "Hye Kyeong Sung, Hojung Kwak, Seul-A Park, Hyeri Kim, Sungbin Ju, Sung Bae Park, Jeyoung Park*, Dongyeop X Oh*, Hyeonyeol Jeon*, Jun Mo Koo*"
+    doi: "10.1021/acssuschemeng.5c00025"
+  - num: 108
+    title: "Development of degradable thermosets and laminated films with cellulose nanofibers: From new bio-based monomer composed of geraniol and 2,5-furandicarboxylic acid"
+    date: "2025.3.1"
+    journal: "Polymer Testing, 2025, 144, 108733"
+    if_info: "IF (JCR2024): 6.0, JCR 98.6% (Field: MATERIALS SCIENCE, CHARACTERIZATION & TESTING)"
+    authors: "Seonghyun Chung, Sung Bae Park, Cheol Hun Park, Giyoung Shin, Jin Young Seo, Hyo Jeong Kim, Hyeonyeol Jeon*, Dongyeop X Oh*, Dong Soo Hwang*, Jeyoung Park*"
+    doi: "10.1016/j.polymertesting.2025.108733"
+  - num: 107
+    title: "Research roadmap for sustainable polymeric materials in Korea"
+    date: "2025.05.01"
+    journal: "Macromolecular Research, 2025, 33, 535"
+    if_info: "IF (JCR2023):, JCR% (Field:)"
+    authors: "Jeong F. Kim, Hee Joong Kim, Jeyoung Park, Hyeonyeol Jeon, Jeung Gon Kim, Chungryong Choi, Ki-Ho Nam, Giyoung Shin, Sae Hume Park, Jihoon Shin, Dong-Ku Kang, Dongyeop X. Oh*, Dong Yun Lee*, Sung Woo Hong*, Gi-Ra Yi*"
+    doi: "10.1007/s13233-024-00357-4"
+  - num: 106
+    title: "Extended shelf-life of biodegradable poly(butylene succinate-co-carbonate)/chitin nanowhisker-based bags"
+    date: "2025.3.1."
+    journal: "Polymer Degradation and Stability, 2025, 233, 111185"
+    if_info: "IF (JCR2024): 7.4, JCR 93.1% (Field: POLYMER SCIENCE)"
+    authors: "Seonghyun Chung, Sung Bae Park, Lam Tan Hao, Hyeri Kim, Seul-A Park, Hyeonyeol Jeon, Dong Soo Hwang*, Dongyeop X. Oh*, Jun Mo Koo*, Jeyoung Park*"
+    doi: "10.1016/j.polymdegradstab.2025.111185"
+  - num: 105
+    title: "Development of Marine‐Degradable Poly (Ester Amide) s with Strong, Up‐Scalable, and Up‐Cyclable Performance"
+    date: "2025.03.05."
+    journal: "Advanced Materials, 2025, 37, 2417266"
+    if_info: "IF (JCR2024): 26.8, JCR 97.9% (Field: MATERIALS SCIENCE, MULTIDISCIPLINARY)"
+    authors: "Sung Bae Park, Hojung Kwak, Dohoon Lee, Giyoung Shin, Min Jang, Hyuni Jung, Hyeonyeol Jeon*, Hyo Jeong Kim*, Jeyoung Park*, Dongyeop X Oh*"
+    doi: "10.1002/adma.202417266"
+    cover: "Outside Front Cover (Issue 9, 2025)"
+  - num: 104
+    title: "Self-healable spray paint coatings based on polyurethanes with thermal stability: Effects of disulfides and diisocyanates"
+    date: "2025.1.1."
+    journal: "Progress in Organic Coatings, 2025, 198, 108931"
+    if_info: "IF (JCR2023): 6.5, JCR 93.5% (Field: MATERIALS SCIENCE, COATINGS & FILMS)"
+    authors: "Sebin Jin, Hyeonyeol Jeon, Seon-Mi Kim, Minkyung Lee, Chanwook Park, Yongtae Joo, Jaesik Seo*, Dongyeop X. Oh*, Jeyoung Park*"
+    doi: "10.1016/j.porgcoat.2024.108931"
+  - num: 103
+    title: "Biotoxicity Evaluation of Biodegradable Polymeric Particles: Exploring the Possible Adverse Impacts on Biological Systems"
+    date: "2024.11.x."
+    journal: "Polymers for Advanced Technologies, 2024, 35, e6631"
+    if_info: "IF (JCR2023): 31., JCR 58.4% (Field: POLYMER SCIENCE)"
+    authors: "Yoonyoung Kim, Eunsol Lee, Jiseung Kim, Giyoung Shin, Dongyeop X. Oh, Sung Bae Park, Jeyoung Park*, Eun Seong Lee*"
+    doi: "10.1002/pat.6631"
+  - num: 102
+    title: "Recent advances in utilizing surface-features of naturally derived nanocellulose and nanochitin for self-cleaning and purifying applications"
+    date: "2024.11.x."
+    journal: "Bulletin of the Korean Chemical Society, 2024, xx, xx"
+    if_info: "IF (JCR2023): 2.3, JCR 47.0% (Field: CHEMISTRY, MULTIDISCIPLINARY)"
+    authors: "Donggyu Lee, Jun Mo Koo, Yumi Cho, Jinsik Kim, Soyeon Kim, Dongyeop X. Oh, Hyeonyeol Jeon*, Jeyoung Park*"
+    doi: "10.1002/bkcs.12906"
+  - num: 101
+    title: "Isosorbide-based Poly (arylene ether) Biopolymer Membranes for Gas Separation"
+    date: "2024.07.01."
+    journal: "Journal of Membrane Science, 2024, 706, 122928"
+    if_info: "IF (JCR2023): 8.4, JCR 95.3% (Field: Polymer Science)"
+    authors: "Jeong Uk Ryu, Hyun Jung Yu, Jeong Ho Seong, Hyung-Ju Kim, Jeyoung Park, Jong Suk Lee*"
+    doi: "10.1016/j.memsci.2024.122928"
+  - num: 100
+    title: "Next-generation all-organic composites: A sustainable successor to organic–inorganic hybrid materials"
+    date: "2024.06.01."
+    journal: "International Journal of Biological Macromolecules, 2024, 269 (Part 2), 132129"
+    if_info: "IF (JCR2022): 8.2, JCR 94.8% (Field: Polymer Science)"
+    authors: "Lam Tan Hao, Semin Kim, Minkyung Lee, Sung Bae Park, Jun Mo Koo, Hyeonyeol Jeon*, Jeyoung Park*, Dongyeop X Oh*"
+    doi: "10.1016/j.ijbiomac.2024.132129"
+  - num: 99
+    title: "Fishing gear with enhanced drapability and biodegradability: Artificial, eco-friendly fibers inspired by the mussel byssus"
+    date: "2024.06.01."
+    journal: "Chemical Engineering Journal, 2024, 489, 151388"
+    if_info: "IF (JCR2022): 15.1, JCR 96.8% (Field: ENGINEERING, CHEMICAL)"
+    authors: "Yuri Hong, Ho-Sung Yang, Min Hee Lee, Sinyang Kim, Sung Bae Park, Sung Yeon Hwang, Jeyoung Park, Jun Mo Koo, Dongyeop Oh*, Dong Soo Hwang*"
+    doi: "10.1016/j.cej.2024.151388"
+  - num: 98
+    title: "Effects of biodegradable poly (butylene adipate‐co‐terephthalate) and poly (lactic acid) plastic degradation on soil ecosystems"
+    date: "2024.04.01."
+    journal: "Soil Use and Management, 2024, 40, e13055"
+    if_info: "IF (JCR2022): 3.8, JCR 52.7% (Field: SOIL SCIENCE)"
+    authors: "Pavani Dulanja Dissanayake, Piumi Amasha Withana, Mee Kyung Sang, Yoora Cho, Jeyoung Park, Dongyeop X Oh, Scott X Chang, Carol Sze Ki Lin, Michael S Bank, Sung Yeon Hwang*, Yong Sik Ok*"
+    doi: "10.1111/sum.13055"
+  - num: 97
+    title: "Structural evaluation of Poly(lactic acid) degradation at standardized composting temperature of 58 degrees"
+    date: ""
+    journal: "Chemosphere, 2024, accepted"
+    if_info: "IF (JCR2022): 8.8, JCR 89.3% (Field: Environmental Sciences)"
+    authors: "Jiwon Oh, Sung Bae Park, Chaenyung Cha, Dong Ki Hwang, Seul-A Park, Jeyoung Park, Dongyeop X. Oh*, Hyeonyeol Jeon*, Jun Mo Koo*"
+    doi: "10.1016/j.chemosphere.2024.141729"
+  - num: 96
+    title: "Cellulose nanofiber/bio-polycarbonate composites as a transparent glazing material for carbon sequestration"
+    date: ""
+    journal: "Cellulose, 2024, accepted"
+    if_info: "IF (JCR2022): 5.7, JCR 97.6% (Field: Materials Science, Paper & Wood)"
+    authors: "Seul-A Park, Hyeonyeol Jeon, Min Jang, Semin Kim, Sung Yeon Hwang, Chae Hwan Hong, Jun Mo Koo, Dongyeop X. Oh*, Jeyoung Park*"
+    doi: "10.1007/s10570-024-05802-2"
+  - num: 95
+    title: "Practical Applications of Self-Healing Polymers Beyond Mechanical and Electrical Recovery"
+    date: ""
+    journal: "Advanced Science, 2024, 11, 2302463"
+    if_info: "IF (JCR2022): 15.1, JCR 93.2% (Materials Science, Multidisciplinary)"
+    authors: "Semin Kim, Hyeonyeol Jeon, Jun Mo Koo, Dongyeop X. Oh*, Jeyoung Park*"
+    doi: "10.1002/advs.202302463"
+  - num: 94
+    title: "Compostable plastic/paper composites with high gas/moisture barriers for sustainable beverage bottles"
+    date: "2024.03.15."
+    journal: "Chemical Engineering Journal, 2024, 484, 149651"
+    if_info: "IF (JCR2022): 15.1, JCR 96.8% (ENGINEERING, CHEMICAL)"
+    authors: "Jiwon Oh, Sung Bae Park, Chaenyung Ch, Hyeonyeol Jeon, Dongyeop X. Oh*, Jun Mo Koo*, Jeyoung Park*"
+    doi: "10.1016/j.cej.2024.149651"
+  - num: 93
+    title: "Biodegradation behavior of polyesters with various internal chemical structures and external environmental factors in real seawater"
+    date: "2024.03.01."
+    journal: "Polymer Testing, 2024, 132, 108357"
+    if_info: "IF (JCR2022): 5.1, JCR 98.4% (Field: Materials science, characterization & testing)"
+    authors: "Mira Shin, Hyeri Kim, Soyoun Kim, Hyo Jeong Kim*, Dongyeop X. Oh*, Jeyoung Park*"
+    doi: "10.1016/j.polymertesting.2024.108357"
+  - num: 92
+    title: "Mimicking real-field degradation of biodegradable plastics in soil and marine environments: From product utility to end-of-life analysis"
+    date: "2024.02.01."
+    journal: "Polymer Testing, 2024, 131, 108338"
+    if_info: "IF (JCR2022): 5.1, JCR 98.4% (Field: Materials science, characterization & testing)"
+    authors: "Junhyeok Lee, Semin Kim, Sung Bae Park, Mira Shin, Soyoun Kim, Min-Sun Kim, Giyoung Shin, Taewook Kang, Hyo Jeong Kim*, Dongyeop X. Oh*, Jeyoung Park*"
+    doi: "10.1016/j.polymertesting.2024.108338"
+  - num: 91
+    title: "Optimizing bioplastics translation"
+    date: "2024.04.01."
+    journal: "Nature Reviews Bioengineering, 2024, 2, 289-304"
+    if_info: "IF (JCR2022): N/A, JCR N/A% (Field: N/A)"
+    authors: "Lam Tan Hao, Sungbin Ju, Dong Ki Hwang, Dong Soo Hwang, Yong Sik Ok, Sung Yeon Hwang, Hyo Jeong Kim, Hyeonyeol Jeon*, Jeyoung Park*, Dongyeop X. Oh*, Jun Mo Koo*"
+    doi: "10.1038/s44222-023-00142-5"
+  - num: 90
+    title: "Network of cyano-p-aramid nanofibres creates ultrastiff and water-rich hydrospongels"
+    date: "2024.."
+    journal: "Nature Materials, 2024, 23, 414"
+    if_info: "IF (JCR2022): 41.2, JCR 99.7% (Field: CHEMISTRY, PHYSICAL)"
+    authors: "Minkyung Lee, Hojung Kwak, Youngho Eom, Seul-A Park, Takamasa Sakai, Hyeonyeol Jeon, Jun Mo Koo, Dowan Kim, Chaenyung Cha, Sung Yeon Hwang*, Jeyoung Park*, Dongyeop X. Oh*"
+    doi: "10.1038/s41563-023-01760-5"
+  - num: 89
+    title: "Interface engineering of Si-based anodes with fluorinated binder enabling lean-additive lithium-ion batteries"
+    date: "2024.02.01."
+    journal: "Energy Storage Materials, 2024, 65, 103176"
+    if_info: "IF (JCR2022): 20.4, JCR  % (Field:  )"
+    authors: "Dong-Yeob Han, Im Kyung Han, Ho Yeon Jang, Sungho Kim, Jin Yong Kwon, Jeyoung Park, Seoin Back*, Soojin Park*, Jaegeon Ryu*"
+    doi: "10.1016/j.ensm.2024.103176"
+  - num: 88
+    title: "Preparation of a nanocellulose/nanochitin coating on a poly(lactic acid) film for improved hydrolysis resistance"
+    date: "2024.01.01."
+    journal: "International Journal of Biological Macromolecules, 2024, 254 (Part 2), 127790"
+    if_info: "IF (JCR2022): 8.2, JCR 94.8% (Field: Polymer Science)"
+    authors: "Hyeonyeol Jeon, Joo Hee Son, Junhyeok Lee, Sung Bae Park, Sungbin Ju a, Dongyeop X. Oh*, Jun Mo Koo*, Jeyoung Park*"
+    doi: "10.1016/j.ijbiomac.2023.127790"
+  - num: 87
+    title: "Improved mechanical properties of biodegradable polycaprolactone nanocomposites prepared using cellulose nanocrystals"
+    date: "2023.12.01."
+    journal: "Cellulose, 2023, 30, 11561"
+    if_info: "IF (JCR2022): 5.7, JCR 97.6% (Field: Materials Science, Paper & Wood)"
+    authors: "Hyeonyeol Jeon, Min-Sun Kim, Sung Bae Park, Semin Kim, Minkyung Lee, Seul-A Park, Sung Yeon Hwang, Jun Mo Koo*, Dongyeop X Oh*, Jeyoung Park*"
+    doi: "10.1007/s10570-023-05615-9"
+  - num: 86
+    title: "Circular waste management: Superworms as a sustainable solution for biodegradable plastic degradation and resource recovery"
+    date: "2023.11.01."
+    journal: "Waste Management, 2023, 171, 568"
+    if_info: "IF (JCR2022): 8.1, JCR 87.5% (Field: Environmental Sciences)"
+    authors: "Hyuni Jung, Giyoung Shin, Sung Bae Park, Jonggeon Jegal, Seul-A Park, Jeyoung Park*, Dongyeop X. Oh*, Hyo Jeong Kim*"
+    doi: "10.1016/j.wasman.2023.09.027"
+  - num: 85
+    title: "Molecular dynamics interpretation of hydrogen bonds for colorless, water-resistant, tough, and self-healable elastomers"
+    date: "2023.11.14."
+    journal: "Journal of Materials Chemistry A, 2023, 11, 22737"
+    if_info: "IF (JCR2022): 11.9, JCR 91.2% (Field: ENERGY & FUELS)"
+    authors: "Seon-Mi Kim, Minkyung Lee, Sanggil Park, Seul-A Park, Hyeonyeol Jeon, Jun Mo Koo, Sung Bae Park, Hyo Jeong Kim, Youngho Eom, Eun Seong Lee, Hyungjun Kim*, Dongyeop X. Oh*, Jeyoung Park*"
+    doi: "10.1039/D3TA03811D"
+    cover: "Outside Front Cover (Issue 42, 2023)"
+  - num: 84
+    title: "Exploring the Potential of 2,5-furandicarboxylic acid-Based Bioplastics: Properties, Synthesis, and Applications"
+    date: "2023.12.01."
+    journal: "Polymer Degradation and Stability, 2023, 218, 110539"
+    if_info: "IF (JCR2022): 5.9, JCR 91.3% (Field: Polymer science)"
+    authors: "Dong Ki Hwang, Seonghyun Chung, Semin Kim, Jin Park, Jieun Ryu, Jeyoung Park, Dongyeop X. Oh, Hyeonyeol Jeon*, Jun Mo Koo*"
+    doi: "10.1016/j.polymdegradstab.2023.110539"
+  - num: 83
+    title: "Flexible Poly(Lactic acid) suitable for deep freeze packaging synthesized using lactic acid-based ester precursors"
+    date: "2023.10.01."
+    journal: "Polymer Testing, 2023, 127, 108197"
+    if_info: "IF (JCR2022): 5.1, JCR 98.4% (Field: Materials science, characterization & testing)"
+    authors: "Hyemin Yang, Soo-Yong Park, Sung Bae Park*, Jeyoung Park*, Sung Yeon Hwang*"
+    doi: "10.1016/j.polymertesting.2023.108197"
+  - num: 82
+    title: "Extending the high-performing boundaries of a fully bio-based thermal shrinkage film targeted for food packaging applications"
+    date: "2023.12.07."
+    journal: "Green Chemistry, 2023, 25, 9711-9719"
+    if_info: "IF (JCR2022): 9.8, JCR 86.8% (Field: Chemistry, multidisciplinary)"
+    authors: "A-Yeon Lim, Sung Bae Park, Yumi Choi, Dongyeop X. Oh*, Jeyoung Park*, Hyeonyeol Jeon*, Jun Mo Koo*"
+    doi: "10.1039/D3GC02193A"
+  - num: 81
+    title: "Biobased super engineering plastic nanocomposite of cellulose nanofibers and isosorbide"
+    date: "2023.09.01."
+    journal: "Polymer Degradation and Stability, 2023, 215, 110445"
+    if_info: "IF (JCR2022): 5.9, JCR 91.3% (Field: Polymer science)"
+    authors: "Seonghyun Chung, Seul-A Park, Sung Bae Park, Hojung Kwak, Dongyeop X. Oh, Dong Soo Hwang, Hyeonyeol Jeon*, Jun Mo Koo*, Jeyoung Park*"
+    doi: "10.1016/j.polymdegradstab.2023.110445"
+  - num: 80
+    title: "Method to analyze phthalate esters from soft toys dissolving into water mimicking infant playing"
+    date: "2023.07.01."
+    journal: "Chemosphere, 2023, 330, 138695"
+    if_info: "IF (JCR2021): 8.943, JCR 88.35% (Field: Environmental sciences)"
+    authors: "Min Jang, Minkyung Lee, Hyemin Yang, Huichan Lee, Sung Bae Park, Hyeonyeol Jeon, Sung Yeon Hwang, Hyo Jeong Kim, Dongyeop X. Oh*, Jeyoung Park*"
+    doi: "10.1016/j.chemosphere.2023.138695"
+  - num: 79
+    title: "Chitosan coating in the form of polymer and nanowhiskers on clothing fabrics for improved particulate matter removal efficiency in face mask filters"
+    date: "2023.03.08."
+    journal: "Journal of Natural Fibers, 2023, 20, 2187507"
+    if_info: "IF (JCR2021): 3.507"
+    authors: "Minkyung Lee, Sung Yeon Hwang, Jun Mo Koo, Hyeonyeol Jeon*, Hyo Jeong Kim*, Dongyeop X. Oh*, Jeyoung Park*"
+    doi: "10.1080/15440478.2023.2187507"
+  - num: 78
+    title: "Review of polymer technologies for improving the recycling and upcycling efficiency of plastic waste"
+    date: "2023.04.01."
+    journal: "Chemosphere, 2023, 320, 138089"
+    if_info: "IF (JCR2021): 8.943"
+    authors: "Hyuni Jung, Giyoung Shin, Hojung Kwak, Lam Tan Hao, Jonggeon Jegal, Hyo Jeong Kim, Hyeonyeol Jeon*, Jeyoung Park*, Dongyeop X. Oh*"
+    doi: "10.1016/j.chemosphere.2023.138089"
+  - num: 77
+    title: "Toward Sustaining Bioplastics: Add a Pinch of Seasoning"
+    date: "2023.02.06."
+    journal: "ACS Sustainable Chemistry & Engineering, 2023, 11, 1846-1856"
+    if_info: "IF (JCR2021): 9.224"
+    authors: "Hyeri Kim, Giyoung Shin, Min Jang, Fritjof Nilsson, Minna Hakkarainen, Hyo Jung Kim, Sung Yeon Hwang, Junhyeok Lee, Sung Bae Park, Jeyoung Park*, Dongyeop X. Oh*, Hyeonyeol Jeon*, and Jun Mo Koo*"
+    doi: "10.1021/acssuschemeng.2c06247"
+    cover: "ACS Editors’ Choice (January 22, 2023)"
+    extra: {label: "Featured in AAAS News", url: "https://www.eurekalert.org/news-releases/977960"}
+  - num: 76
+    title: "Ultra-Fast Self-Healable Stretchable Bio-based Elastomer/Graphene Ink using Fluid Dynamics Process for Printed Wearable Sweat-Monitoring Sensor"
+    date: "2023.02.15."
+    journal: "Chemical Engineering Journal, 2023, 454, 140443"
+    if_info: "IF (JCR2021): 16.744"
+    authors: "Seon Gyu Son, Hong Jun Park, Seon-Mi Kim, Seo Jin Kim, Min Sik Kil, Jae-Min Jeong, Youngeun Lee, Youngho Eom, Sung Yeon Hwang*, Jeyoung Park*, Bong Gill Choi*"
+    doi: "10.1016/j.cej.2022.140443"
+  - num: 75
+    title: "Enhanced Mechanical Properties of Poly(butylene adipate-co-terephthalate)/Cellulose Nanocrystal Nanocomposites Obtained by In Situ Polymerization"
+    date: "2023.01.13."
+    journal: "ACS Applied Polymer Materials, 2023, 5, 635-643"
+    if_info: "IF (JCR2021): 4.855"
+    authors: "Hyeri Kim, Hyeonyeol Jeon, Minkyung Lee, Seul-A Park, Seon-Mi Kim, Sung Bae Park, Kyung Youn Kim, Seong Dong Kim, Dongyeop X. Oh*, Jun Mo Koo*, Sung Yeon Hwang*, Jeyoung Park*"
+    doi: "10.1021/acsapm.2c01694"
+    cover: "Outside Front Cover (Issue 01, 2023)"
+  - num: 74
+    title: "Biodegradable, Water-Resistant, Anti-Fizzing, Polyester Nanocellulose Composite Paper Straws"
+    date: "2023.01.04."
+    journal: "Advanced Science, 2023, 10, 2205554"
+    if_info: "IF (JCR2021): 17.521"
+    authors: "Hojung Kwak, Hyeri Kim, Seul-A Park, Minkyung Lee, Min Jang, Sung Bae Park, Sung Yeon Hwang, Hyo Jeong Kim, Hyeonyeol Jeon, Jun Mo Koo*, Jeyoung Park*, Dongyeop X. Oh*"
+    doi: "10.1002/advs.202205554"
+    cover: "Inside Front Cover (Issue 01, 2023)"
+    extra: {label: "Featured in Advanced Science News", url: "https://www.advancedsciencenews.com/finally-an-anti-fizzing-paper-straw-that-doesnt-get-soggy/"}
+  - num: 73
+    title: "Masterbatch of Chitosan Nanowhiskers for Preparation of Nylon 6,10 Nanocomposite by Melt Blending"
+    date: "2022.12.15."
+    journal: "Polymers, 2022, 14, 5488."
+    if_info: "IF (JCR2021): 4.967"
+    authors: "Se Bin Jin, Lam Tan Hao, Sung Yeon Hwang, Dongyeop X. Oh, Jun Mo Koo, Hyeonyeol Jeon, Sung Bae Park*, Jeyoung Park*"
+    doi: "10.3390/polym14245488"
+
+before_sogang:
+  - {num: 72, title: "Nanochitin and Nanochitosan: Chitin Nanostructure Engineering with Multiscale Properties for Biomedical and Environmental Applications", date: "2023.01.26.", journal: "Advanced Materials, 2023, 35, 2203325.", if_info: "IF (JCR2021): 32.086", authors: "Suyoung Lee, Lam Tan Hao, Jeyoung Park*, Dongyeop X. Oh*, Dong Soo Hwang*", doi: "10.1002/adma.202203325"}
+  - {num: 71, title: "Sustainable poly(butylene adipate-co-furanoate) composites with sulfated chitin nanowhiskers: Synergy leading to superior robustness and improved biodegradation", date: "2022.07.04.", journal: "ACS Sustainable Chemistry & Engineering, 2022, 10, 8411-8422", if_info: "IF (JCR2021): 9.224", authors: "Truong Vu Thanh, Lam Tan Hao, Ha-Young Cho, Hyeri Kim, Seul-A Park, Minkyung Lee, Hyo Jeong Kim, Hyeonyeol Jeon, Sung Yeon Hwang, Jeyoung Park*, Dongyeop Oh*, Jun Mo Koo*", doi: "10.1021/acssuschemeng.2c01395", cover: "Supporting cover (Issue 26, 2022)"}
+  - {num: 70, title: "Analysis of volatile organic compounds produced during incineration of non-degradable and biodegradable plastics", date: "2022.09.01.", journal: "Chemosphere, 2022, 303, 134946", if_info: "IF (JCR2021): 8.943", authors: "Min Jang, Hyemin Yang, Seul-A Park, Hye Kyeong Sung, Jun Mo Koo, Sung Yeon Hwang, Hyeonyeol Jeon*, Dongyeop X. Oh*, Jeyoung Park*", doi: "10.1016/j.chemosphere.2022.134946"}
+  - {num: 66, title: "Biodegradable chito-beads replacing non-biodegradable microplastics for cosmetics", date: "2021.09.21.", journal: "Green Chemistry, 2021, 23, 6953-6965", if_info: "IF (JCR2020): 10.182", authors: "Sungbin Ju, Giyoung Shin, Minkyung Lee, Jun Mo Koo, Hyeonyeol Jeon, Yong Sik Ok, Dong Soo Hwang*, Sung Yeon Hwang*, Dongyeop X. Oh*, Jeyoung Park*", doi: "10.1039/D1GC01588E", cover: "Inside front cover (Issue 18, 2021)"}
+  - {num: 65, title: "Strong, Multifaceted Guanidinium-Based Adhesion of Bioorganic Nanoparticles to Wet Biological Tissue", date: "2021.09.27.", journal: "JACS Au, 2021, 1, 1399-1411", if_info: "IF (JCR2020): N/A", authors: "Lam Tan Hao, Sohee Park, Seunghwan Choy, Young-Min Kim, Seung-Woo Lee, Yong Sik Ok, Jun Mo Koo, Sung Yeon Hwang*, Dong Soo Hwang*, Jeyoung Park*, Dongyeop X. Oh*", doi: "10.1021/jacsau.1c00193", cover: "Supporting cover (Issue 9, 2021)"}
+  - {num: 61, title: "Recent progress in self-healing polymers and hydrogels based on reversible dynamic B–O bonds: boronic/boronate esters, borax, and benzoxaborole", date: "2021.07.14.", journal: "Journal of Materials Chemistry A, 2021, 9, 14630-14655", if_info: "IF (JCR2020): 12.732", authors: "Seungwan Cho, Sung Yeon Hwang*, Dongyeop X. Oh*, Jeyoung Park*", doi: "10.1039/D1TA02308J", cover: "Front cover (Issue 26, 2021)"}
+  - {num: 58, title: "Micro-spray-based high-throughput screening system for bioplastic-degrading microorganisms", date: "2021.08.07.", journal: "Green Chemistry, 2021, 23, 5429-5436", if_info: "IF (JCR2020): 10.182", authors: "Giyoung Shin, Seul-A Park, Jun Mo Koo, Min Sun Kim, Minkyung Lee, Jonggeon Jegal, Sung Yeon Hwang*, Jeyoung Park*, Dongyeop X. Oh*", doi: "10.1039/D1GC01916C", cover: "Back cover (Issue 15, 2021)"}
+  - {num: 56, title: "Highly reinforced poly (butylene succinate) nanocomposites prepared from chitosan nanowhiskers by in-situ polymerization", date: "2021.03.15.", journal: "International Journal of Biological Macromolecules, 2021, 173, 128-135", if_info: "IF (JCR2020): 6.953", authors: "Hyeri Kim, Myung Suk Shin, Hyeonyeol Jeon, Jun Mo Koo, Youngho Eom, Sejin Choi, Giyoung Shin, Dongyeop X Oh, Sung Yeon Hwang, Jeyoung Park*", doi: "10.1016/j.ijbiomac.2021.01.102"}
+  - {num: 54, title: "Tamper-Proof Time–Temperature Indicator for Inspecting Ultracold Supply Chain", date: "2021.03.30.", journal: "ACS Omega, 2021, 6, 8598-8604", if_info: "IF (JCR2020): 3.512", authors: "Lam Tan Hao, Minkyung Lee, Hyeonyeol Jeon, Jun Mo Koo, Sung Yeon Hwang*, Dongyeop X Oh*, Jeyoung Park*", doi: "10.1021/acsomega.1c00404", cover: "Supporting cover (Issue 12, 2021)"}
+  - {num: 53, title: "Biodegradable, Efficient, and Breathable Multi‐Use Face Mask Filter", date: "2021.03.17.", journal: "Advanced Science, 2021, 8, 2003155", if_info: "IF (JCR2020): 16.806", authors: "Sejin Choi, Hyeonyeol Jeon, Min Jang, Hyeri Kim, Giyoung Shin, Jun Mo Koo, Minkyung Lee, Hye Kyeong Sung, Youngho Eom, Ho‐Sung Yang, Jonggeon Jegal, Jeyoung Park*, Dongyeop X Oh*, Sung Yeon Hwang*", doi: "10.1002/advs.202003155", cover: "Front cover (Issue 6, 2021)"}
+  - {num: 50, title: "Mechano-responsive hydrogen-bonding array of thermoplastic polyurethane elastomer captures both strength and self-healing", date: "2021.01.27.", journal: "Nature Communications, 2021, 12, 621", if_info: "IF (JCR2020): 14.919", authors: "Youngho Eom, Seon-Mi Kim, Minkyung Lee, Hyeonyeol Jeon, Jaeduk Park, Eun Seong Lee, Sung Yeon Hwang*, Jeyoung Park*, Dongyeop X Oh*", doi: "10.1038/s41467-021-20931-z"}
+  - {num: 48, title: "Biodegradable nanocomposite of poly (ester-co-carbonate) and cellulose nanocrystals for tough tear-resistant disposable bags", date: "2021.03.21.", journal: "Green Chemistry, 2021, 23, 2293-2299", if_info: "IF (JCR2020): 10.182", authors: "Hyeri Kim, Hyeonyeol Jeon, Giyoung Shin, Minkyung Lee, Jonggeon Jegal, Sung Yeon Hwang, Dongyeop X Oh, Jun Mo Koo*, Youngho Eom*, Jeyoung Park*", doi: "10.1039/D0GC04072J", cover: "Back cover (Issue 6, 2021)"}
+  - {num: 47, title: "Sustainable, self-cleaning, transparent, and moisture/oxygen-barrier coating films for food packaging", date: "2021.04.07.", journal: "Green Chemistry, 2021, 23, 2658-2667", if_info: "IF (JCR2020): 10.182", authors: "Vu Thi Tuyet Thuy, Lam Tan Hao, Hyeonyeol Jeon, Jun Mo Koo, Jaeduk Park, Eun Seong Lee, Sung Yeon Hwang*, Sejin Choi*, Jeyoung Park*, Dongyeop X Oh*", doi: "10.1039/D0GC03647A", cover: "Back cover (Issue 7, 2021)"}
+  - {num: 46, title: "Skin-Inspired Hydrogel-Elastomer Hybrid Forms a Seamless Interface by Autonomous Hetero-Self-Healing", date: "2020.12.11.", journal: "ACS Applied Polymer Materials, 2020, 2, 5352-5357", if_info: "IF (JCR2020): 4.089", authors: "Sung-Ho Shin, Seon-Mi Kim, Hyeonyeol Jeon, Sung Yeon Hwang*, Dongyeop X Oh*, Jeyoung Park*", doi: "10.1021/acsapm.0c00925", cover: "Supporting cover (Issue 12, 2020)"}
+  - {num: 45, title: "Malleable Hydrogel Embedded with Micellar Cargo‐Expellers as a Prompt Transdermal Patch", date: "2020.10.07.", journal: "Advanced Healthcare Materials, 2020, 9, 2000876", if_info: "IF (JCR2020): 9.933", authors: "Sung‐Ho Shin, Youngho Eom, Eun Seong Lee, Sung Yeon Hwang*, Dongyeop X Oh*, Jeyoung Park*", doi: "10.1002/adhm.202000876", cover: "Back cover (Issue 19, 2020)"}
+  - {num: 44, title: "Lysine-cyclodipeptide-based polyamidoamine microparticles: Balance between the efficiency of copper ion removal and degradation in water", date: "2020.07.01.", journal: "Chemical Engineering Journal, 2020, 391, 123493", if_info: "IF (JCR2020): 13.273", authors: "Sungbin Ju, Youngho Eom, Sang Youl Kim, Sung Yeon Hwang*, Dong Soo Hwang*, Dongyeop X Oh*, Jeyoung Park*", doi: "10.1016/j.cej.2019.123493"}
+  - {num: 43, title: "Aramid Nanofiber Templated In Situ SNAr Polymerization for Maximizing the Performance of All-Organic Nanocomposites", date: "2020.04.21.", journal: "ACS Macro Letters, 2020, 9, 558-564", if_info: "IF (JCR2020): 6.903", authors: "Seul-A Park, Youngho Eom, Hyeonyeol Jeon, Jun Mo Koo, Taehyung Kim, Jaemin Jeon, Moon Jeong Park, Sung Yeon Hwang*, Byeong-Su Kim*, Dongyeop X Oh*, Jeyoung Park*", doi: "10.1021/acsmacrolett.0c00156"}
+  - {num: 42, title: "A self‐healing nanofiber‐based self‐responsive time‐temperature indicator for securing a cold‐supply chain", date: "2020.03.19.", journal: "Advanced Materials, 2020, 32, 1907064", if_info: "IF (JCR2020): 30.849", authors: "Sejin Choi, Youngho Eom, Seon‐Mi Kim, Da‐Woon Jeong, Jongmin Han, Jun Mo Koo, Sung Yeon Hwang*, Jeyoung Park*, Dongyeop X Oh*", doi: "10.1002/adma.201907064", cover: "Frontispiece cover (Issue 12, 2020)"}
+  - {num: 41, title: "Highly self-healable and flexible cable-type pH sensors for real-time monitoring of human fluids", date: "2020.02.15.", journal: "Biosensors and Bioelectronics, 2020, 150, 111946", if_info: "IF (JCR2020): 10.257", authors: "Jo Hee Yoon, Seon-Mi Kim, Hong Jun Park, Yeong Kyun Kim, Dongyeop X Oh, Han-Won Cho, Kyoung G Lee, Sung Yeon Hwang*, Jeyoung Park*, Bong Gill Choi*", doi: "10.1016/j.bios.2019.111946"}
+  - {num: 38, title: "Research Trend of Biomass-Derived Engineering Plastics (바이오매스 기반 엔지니어링 플라스틱 연구 동향)", date: "2021.03.30.", journal: "Applied Chemistry for Engineering, 2020, 31, 115-124", if_info: "IF (JCR2020): SCOPUS", authors: "Hyeonyeol Jeon, Jun Mo Koo, Seul-a Park, Seon-mi Kim, Jonggeon Jegal, Hyun Gil Cha, Dongyeop X. Oh*, Sung Yeon Hwang*, Jeyoung Park*", doi: "10.14478/ace.2020.1016", cover: "Front cover (Issue 2, 2020)"}
+  - {num: 36, title: "Rediscovery of nylon upgraded by interactive biorenewable nano-fillers", date: "2020.01.28.", journal: "Nanoscale, 2020, 12, 2393-2405", if_info: "IF (JCR2020): 7.790", authors: "Lam Tan Hao, Youngho Eom, Thang Hong Tran, Jun Mo Koo, Jonggeon Jegal, Sung Yeon Hwang*, Dongyeop X Oh*, Jeyoung Park*", doi: "10.1039/C9NR08091K", cover: "Front cover (Issue 4, 2020)"}
+  - {num: 35, title: "Extremely fast self-healable bio-based supramolecular polymer for wearable real-time sweat-monitoring sensor", date: "2019.12.11.", journal: "ACS Applied Materials & Interfaces, 2019, 11, 46165-46175", if_info: "IF (JCR2020): 9.229", authors: "Jo Hee Yoon, Seon-Mi Kim, Youngho Eom, Jun Mo Koo, Han-Won Cho, Tae Jae Lee, Kyoung G Lee, Hong Jun Park, Yeong Kyun Kim, Hyung-Joun Yoo, Sung Yeon Hwang*, Jeyoung Park*, Bong Gill Choi*", doi: "10.1021/acsami.9b16829"}
+  - {num: 34, title: "Ion-conductive self-healing hydrogels based on an interpenetrating polymer network for a multimodal sensor", date: "2019.09.01.", journal: "Chemical Engineering Journal, 2019, 371, 452-460", if_info: "IF (JCR2020): 13.273", authors: "Sung-Ho Shin, Woojoo Lee, Seon-Mi Kim, Minkyung Lee, Jun Mo Koo, Sung Yeon Hwang*, Dongyeop X Oh*, Jeyoung Park*", doi: "10.1016/j.cej.2019.04.077"}
+  - {num: 32, title: "Sustainable and recyclable super engineering thermoplastic from biorenewable monomer", date: "2019.06.13.", journal: "Nature communications, 2019, 10, 2601", if_info: "IF (JCR2020): 14.919", authors: "Seul-A Park, Hyeonyeol Jeon, Hyungjun Kim, Sung-Ho Shin, Seunghwan Choy, Dong Soo Hwang, Jun Mo Koo, Jonggeon Jegal, Sung Yeon Hwang*, Jeyoung Park*, Dongyeop X Oh*", doi: "10.1038/s41467-019-10582-6"}
+  - {num: 28, title: "Five different chitin nanomaterials from identical source with different advantageous functions and performances", date: "2019.02.01.", journal: "Carbohydrate polymers, 2019, 205, 392-400", if_info: "IF (JCR2020): 9.381", authors: "Thang Hong Tran, Hoang-Linh Nguyen, Dong Soo Hwang, Ju Young Lee, Hyun Gil Cha, Jun Mo Koo, Sung Yeon Hwang*, Jeyoung Park*, Dongyeop X Oh*", doi: "10.1016/j.carbpol.2018.10.089"}
+  - {num: 27, title: "Nonstop monomer-to-aramid nanofiber synthesis with remarkable reinforcement ability", date: "2019.02.12.", journal: "Macromolecules, 2019, 52, 923-934", if_info: "IF (JCR2020): 5.985", authors: "Jun Mo Koo, Hojun Kim, Minkyung Lee, Seul-A Park, Hyeonyeol Jeon, Sung-Ho Shin, Seon-Mi Kim, Hyun Gil Cha, Jonggeon Jegal, Byeong-Su Kim, Bong Gill Choi, Sung Yeon Hwang*, Dongyeop X Oh*, Jeyoung Park*", doi: "10.1021/acs.macromol.8b02391"}
+  - {num: 26, title: "Preparation of synergistically reinforced transparent bio-polycarbonate nanocomposites with highly dispersed cellulose nanocrystals", date: "2019.10.07.", journal: "Green Chemistry, 2019, 21, 5212-5221", if_info: "IF (JCR2020): 10.182", authors: "Seul-A Park, Youngho Eom, Hyeonyeol Jeon, Jun Mo Koo, Eun Seong Lee, Jonggeon Jegal, Sung Yeon Hwang*, Dongyeop X Oh*, Jeyoung Park*", doi: "10.1039/C9GC02253H", cover: "Front cover (Issue 19, 2019)"}
+  - {num: 20, title: "Trans crystallization behavior and strong reinforcement effect of cellulose nanocrystals on reinforced poly (butylene succinate) nanocomposites", date: "2018.04.24.", journal: "RSC Advances, 2018, 8, 15389-15398", if_info: "IF (JCR2020): 3.119", authors: "Taeho Kim, Hyeonyeol Jeon, Jonggeon Jegal, Joo Hyun Kim, Hoichang Yang, Jeyoung Park*, Dongyeop X Oh*, Sung Yeon Hwang*", doi: "10.1039/C8RA01868E"}
+  - {num: 17, title: "Superior toughness and fast self‐healing at room temperature engineered by transparent elastomers", date: "2018.01.04.", journal: "Advanced Materials, 2018, 30, 1705145", if_info: "IF (JCR2020): 30.849", authors: "Seon‐Mi Kim, Hyeonyeol Jeon, Sung‐Ho Shin, Seul‐A Park, Jonggeon Jegal, Sung Yeon Hwang*, Dongyeop X Oh*, Jeyoung Park*", doi: "10.1002/adma.201705145", cover: "Front cover (Issue 1, 2018)"}
+  - {num: 10, title: "Copolycarbonates of bio-based rigid isosorbide and flexible 1, 4-cyclohexanedimethanol: Merits over bisphenol-A based polycarbonates", date: "2017.05.05.", journal: "Polymer, 2017, 116, 153-159", if_info: "IF (JCR2020): 4.430", authors: "Seul-A Park, Jaehoon Choi, Sungbin Ju, Jonggeon Jegal, Kang Mun Lee, Sung Yeon Hwang*, Dongyeop X Oh*, Jeyoung Park*", doi: "10.1016/j.polymer.2017.03.077"}
+  - {num: 5, title: "Dual-mode fluorescence switching induced by self-assembly of well-defined poly (arylene ether sulfone) s containing pyrene and amide moieties", date: "2012.11.04.", journal: "Chemical Communications, 2012, 48, 10556-10558", if_info: "IF (JCR2020): 5.996", authors: "Jeyoung Park, Jisung Kim, Myungeun Seo, Jinhee Lee, Sang Youl Kim*", doi: "10.1039/C2CC35804B"}
+  - {num: 4, title: "Self-assembly driven by an aromatic primary amide motif", date: "2012.07.28.", journal: "Organic & biomolecular chemistry, 2012, 10, 5332-5342", if_info: "IF (JCR2020): 3.412", authors: "Myungeun Seo, Jeyoung Park, Sang Youl Kim*", doi: "10.1039/C2OB25117E"}
+  - {num: 3, title: "Synthesis and physical gelation induced by self-assembly of well-defined poly (arylene ether sulfone) s with various numbers of arms", date: "2011.05.01.", journal: "Polymer Chemistry, 2011, 2, 1174-1179", if_info: "IF (JCR2020): 5.342", authors: "Jeyoung Park, Myungeun Seo, Hyungsam Choi, Sang Youl Kim*", doi: "10.1039/C0PY00418A"}
+  - {num: 2, title: "Well-Defined Star-Shaped Rod− Coil Diblock Copolymers as a New Class of Unimolecular Micelles: Encapsulation of Guests and Thermoresponsive Phase Transition", date: "2010.10.12.", journal: "Macromolecules, 2010, 43, 8304-8313", if_info: "IF (JCR2020): 5.985", authors: "Jeyoung Park, Mihee Moon, Myungeun Seo, Hyungsam Choi, Sang Youl Kim*", doi: "10.1021/ma101567p"}

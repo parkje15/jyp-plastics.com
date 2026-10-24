@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="block"><div class="wrap narrow">
+  <ol class="papers">{% for g in achievements.general_papers %}
+    <li class="paper"><span class="pno">{{ g.num }}.</span><div><h3>{{ g.text }}</h3>
+    <p class="tags">{% for l in g.links %}<a class="doi" href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }} ↗</a>{% endfor %}</p></div></li>
+  {% endfor %}</ol>
+</div></section>
+{% endblock %}

@@ -1,0 +1,38 @@
+# 사이트 기본 정보 — 연구실 이름, 로고, 첫 화면 문구, 주소
+name: "JYP-Research Team"
+lab_title: "Sustainable Plastics Lab."
+university: "Dept. of Chemical and Biomolecular Engineering, Sogang University"
+logo: "https://sites.google.com/sitesv-images-rt/AMxu72uMuq_tiPsWoFxnGVHwYO9OwS7RrKGXiuGy_9Q3aLmotJynIwmZBq7ATBxgGvr7R6zHBTpdanKKhHdXi9ykPX5y6kLDhxovMVRBiUMwiV8eKc7v04krv1kOkc6Fv_6RptEiFFuR7PYxALL7T5LqZFiuS9ZcEXKNA_GEfiqTPv1HV6KdOv-_zlYyEBBRqBk=w400"
+
+# 모집 공지 (첫 화면 상단 띠) — 비우면 표시되지 않음
+notice:
+  - "27년 1학기 연구프로젝트/학부연구생은 박사과정/통합과정 (for 27~28년 이후) 을 전제로한 참여만 가능합니다."
+  - "관심있으신 분들은 본인의 각오(^^)를 이메일로 신청바랍니다."
+  - "26년 2학기 TO는 마감되었습니다."
+
+welcome:
+  - "Welcome to Jeyoung Park's research team for sustainable plastics!"
+  - "Our laboratory mainly aims for plastic-waste-free society by doing research, science, and technology."
+  - "Also, we welcome new ideas to change the world toward sustainable society."
+
+address_en: "35 Baekbeom-ro, Mapo-gu, Seoul 04107, Korea. (Prf. Office: F705, Student Office: R416, Laboratory: R415, TE210)"
+address_ko: "04107 서울특별시 마포구 백범로 35 (신수동) 서강대학교 (교수 사무실: F705, 학생 사무실: R416, 실험실: R415, TE210)"
+
+contact:
+  emails: ["jeypark /at/ sogang.ac.kr", "parkje15 /at/ gmail.com"]
+  phone: "(+82)-02-705-8477"
+  professor_office: "F705"
+  student_office: "R416"
+  laboratory: "R415, TE210"
+
+# 첫 화면 '최근 소식'에 몇 건 보여줄지
+home_news_count: 6
+
+# 첫 화면 하단 영상 링크 (중국에서 YouTube가 막히므로 영상은 링크로만 표시)
+home_videos_title: "Please take a look at these videos what we are pursuing."
+home_videos:
+  - {label: "YouTube video 1", url: "https://www.youtube.com/watch?v=-QEfbMOA-z0"}
+  - {label: "YouTube video 2", url: "https://www.youtube.com/watch?v=kUuA5MIQrHk"}
+  - {label: "Biodegradable, Efficient, and Breathable Multi-Use Face Mask Filter", url: "https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Fadvs.202003155&file=advs2310-sup-0002-MovieS1.mp4"}
+  - {label: "YouTube video 3", url: "https://www.youtube.com/watch?v=Jj5J89vt6Aw"}
+  - {label: "Biodegradable chito-beads replacing non-biodegradable microplastics for cosmetics", url: "https://www.rsc.org/suppdata/d1/gc/d1gc01588e/d1gc01588e1.mp4"}

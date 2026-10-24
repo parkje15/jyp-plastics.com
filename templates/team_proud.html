@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block intro %}<p class="sub">{{ media.team_proud_intro }}</p>{% endblock %}
+{% block content %}
+<section class="block"><div class="wrap"><div class="photos">
+  {% for t in media.team_proud %}<figure class="photo">{% if t.image %}<img src="{{ t.image }}" alt="" loading="lazy" onerror="this.style.display='none'">{% endif %}<figcaption>{{ t.title }}</figcaption></figure>{% endfor %}
+</div></div></section>
+{% endblock %}

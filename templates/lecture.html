@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="block"><div class="wrap"><div class="terms">
+  {% for t in life.lectures %}<article><h3>{{ t.term }}</h3><ul class="plain">{% for c in t.courses %}<li>{{ c }}</li>{% endfor %}</ul></article>{% endfor %}
+</div></div></section>
+{% endblock %}

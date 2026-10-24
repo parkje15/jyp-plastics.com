@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="block"><div class="wrap two">
+  <div class="contact-card">
+    <h2 class="sec">Rooms</h2>
+    <dl class="kv">
+      <dt>Professor office</dt><dd>{{ site.contact.professor_office }}</dd>
+      <dt>Student office</dt><dd>{{ site.contact.student_office }}</dd>
+      <dt>Laboratory</dt><dd>{{ site.contact.laboratory }}</dd>
+      <dt>Phone</dt><dd>{{ site.contact.phone }}</dd>
+      <dt>Email</dt><dd>{% for e in site.contact.emails %}{{ e }}<br>{% endfor %}</dd>
+    </dl>
+  </div>
+  <div class="contact-card">
+    <h2 class="sec">Address</h2>
+    <p class="big">{{ site.address_en }}</p>
+    <p class="big">{{ site.address_ko }}</p>
+  </div>
+</div></section>
+{% endblock %}
