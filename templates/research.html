@@ -3,7 +3,7 @@
 <section class="block"><div class="wrap">
   <figure class="figure"><img src="{{ research.intro_image }}" alt="Research overview" loading="lazy" onerror="this.parentNode.style.display='none'"></figure>
   <h2 class="sec">We do researches about...</h2>
-  <ol class="topics">{% for t in research.topics %}<li><span>{{ '%02d' % loop.index }}</span>{{ t }}</li>{% endfor %}</ol>
+  <ol class="topics">{% for t in research.topics %}{% set d = (research.topic_details or [])[loop.index0] if research.topic_details and loop.index0 < research.topic_details|length else none %}<li><span>{{ '%02d' % loop.index }}</span><div class="tbody"><strong>{{ t }}</strong>{% if d and d.desc %}<p class="tdesc">{{ d.desc }}</p>{% endif %}{% if d and d.papers %}<p class="tpapers">{% for n in d.papers %}{% set pp = paper_by_num.get(n) %}{% if pp %}<a href="{{ 'https://doi.org/' ~ pp.doi if pp.doi else 'sci-papers.html' }}" target="_blank" rel="noopener" title="{{ pp.title }}">[{{ '%03d' % n }}] {{ pp.short }}</a>{% endif %}{% endfor %}</p>{% endif %}</div></li>{% endfor %}</ol>
 </div></section>
 <section class="block alt"><div class="wrap narrow">
   <h2 class="sec">Research Interests</h2>

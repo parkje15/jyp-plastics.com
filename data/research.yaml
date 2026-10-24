@@ -10,6 +10,23 @@ topics:
   - "From cradle to grave of plastics"
   - "Open innovations for sustainable society!"
 
+# 주제별 설명과 대표 논문(교신저자 논문 번호) — topics 순서와 같음
+topic_details:
+  - desc: "We design and synthesize polymers from bio-based monomers such as isosorbide and 2,5-furandicarboxylic acid, targeting performance that rivals petroleum-based plastics."
+    papers: [32, 82, 109]
+  - desc: "We study how biodegradable plastics break down in real soil, compost and marine environments, and develop chemical routes that turn mixed plastic waste back into useful polymers."
+    papers: [105, 118, 125, 130]
+  - desc: "We industrialize monomers from industrial biotechnology and materials from nature, such as PHB, lignin, chitin and cellulose, into practical polymer products."
+    papers: [133, 66, 26]
+  - desc: "We build polymers with new architectures, including room-temperature self-healing elastomers, aramid nanofiber networks and nanocellulose/nanochitin composites."
+    papers: [17, 50, 90, 72]
+  - desc: "We translate these materials into applications such as biodegradable face-mask filters, paper straws, wearable sweat sensors and cold-chain indicators."
+    papers: [53, 74, 35, 42]
+  - desc: "We consider end-of-life from the very first design step, including compostability, biodegradation and resource recovery."
+    papers: [91, 121, 86]
+  - desc: ""
+    papers: []
+
 paragraphs:
   - "It has been 100 years in macromolecular chemistry since the first concept of macromolecules consisting of a large number of repeating units in 1920. Polymer science and plastic industry have been developed rapidly, producing 400 million tons per year, yet current recycling rate is only 9%. In 2050, the proportion of plastics in total carbon emission is expected to reach 15%, so research attentions to sustainable polymers are urgent."
   - "For the next 100 years of polymers and plastics, our research group focuses on the sustainability from the design of novel chemical structure, polymerization, biodegradation, and to the applications related to carbon neutrality considering end-of-life."

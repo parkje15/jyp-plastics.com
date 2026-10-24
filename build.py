@@ -111,6 +111,11 @@ def main():
         for p in papers[key]:
             if p.get("doi") and p["doi"].lower() in cites:
                 p["cited_by"] = cites[p["doi"].lower()]
+    def short_cite(p):
+        j = re.split(r",\s*(?:19|20)\d\d\b", p.get("journal", ""))[0].strip()
+        return f"{j} {p.get('year', '')}".strip()
+    data["paper_by_num"] = {p["num"]: dict(p, short=short_cite(p))
+                            for k in ("after_sogang", "before_sogang") for p in papers[k]}
     import hashlib
     h = hashlib.md5()
     for f in ("static/css/style.css", "static/js/site.js"):

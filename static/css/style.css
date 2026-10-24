@@ -244,3 +244,8 @@ img{max-width:100%;display:block}
 .news-img{max-width:320px;width:100%;border-radius:10px;border:1px solid var(--line);margin:0 0 8px}
 
 .ygroup .ysub{font-size:1rem;color:var(--muted,#667);margin:18px 0 6px;padding-bottom:4px;border-bottom:1px solid rgba(0,0,0,.08)}
+.topics .tbody strong{font-weight:600}
+.topics .tdesc{margin:6px 0 0;font-weight:400;color:var(--muted,#556);font-size:.95rem;line-height:1.55}
+.topics .tpapers{margin:8px 0 0;display:flex;flex-wrap:wrap;gap:6px}
+.topics .tpapers a{font-size:.8rem;font-weight:500;padding:3px 9px;border:1px solid var(--line);border-radius:999px;text-decoration:none;color:var(--green-2)}
+.topics .tpapers a:hover{background:var(--green-2);color:#fff}
