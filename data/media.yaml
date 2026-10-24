@@ -1,57 +1,57 @@
 # News 메뉴: 국제/국내 언론, General Plastics News, Team Proud
 international:
-  - {date: "2026.03.23.", title: "Beyond disposal: redefining biodegradable plastics as high-value resources for carbon neutrality", url: "https://www.eurekalert.org/news-releases/1120957"}
-  - {date: "2026.02.12.", title: "Gluten-based vegan leather gains strength with heat and UV treatment", url: "https://www.chemistryworld.com/news/gluten-based-vegan-leather-gains-strength-with-heat-and-uv-treatment/4022906.article"}
-  - {date: "2025.11.26.", title: "ChemSusChem 综述：动态二硫键功能聚合物：自修复、可回收与生物电子多领域应用", url: "https://mp.weixin.qq.com/s?__biz=MzU4OTkyODE3MQ==&mid=2247489358&idx=1&sn=cb3154a5341704987fac33934923870c"}
-  - {date: "2025.05.14.", title: "New Marine-Biodegradable Polymer Decomposes by 92% in One Year, Rivals Nylon in Strength", url: "https://www.newswise.com/articles/new-marine-biodegradable-polymer-decomposes-by-92-in-one-year-rivals-nylon-in-strength"}
-  - {date: "2024.01.09.", title: "Nature Research Highlight: Stiff gel as squishable as a sponge takes its cue from cartilage", url: "https://www.nature.com/articles/d41586-024-00004-z"}
-  - {date: "2023.01.30.", title: "EurekAlert! AAAS: Want a stronger biodegradable plastic? Add a ‘pinch’ of cream of tartar", url: "https://www.eurekalert.org/news-releases/977960", url2: "https://www.acs.org/pressroom/presspacs/2023/january/want-a-stronger-biodegradable-plastic-add-a-pinch-of-cream-of-tartar.html"}
-  - {date: "2023.02.01", title: "EurekAlert! AAAS: Development of 100% biodegradable paper straws that do not become soggy", url: "https://www.eurekalert.org/news-releases/978102"}
-  - {date: "2022.11.21.", title: "Advanced Science News: Finally, an anti-fizzing paper straw that doesn’t get soggy", url: "https://www.advancedsciencenews.com/finally-an-anti-fizzing-paper-straw-that-doesnt-get-soggy/"}
-  - {date: "2021.03.31.", title: "ACS News Weekly PressPac: Temperature sensor could help safeguard mRNA vaccines", url: "https://www.acs.org/content/acs/en/pressroom/presspacs/2021/acs-presspac-march-31-2021/temperature-sensor-could-help-safeguard-mrna-vaccines.html"}
-  - {date: "2021.02.15.", title: "Advanced Science News: Biodegradable masks could help curb the rise in plastic waste", url: "https://www.advancedsciencenews.com/biodegradable-masks-could-help-curb-the-rise-in-plastic-waste-as-a-result-of-the-pandemic/"}
-  - {date: "2020.04.06.", title: "AAAS News: Development of a sticker that indicates whether cold-chain food products have gone bad", url: "https://www.eurekalert.org/pub_releases/2020-04/nrco-doa040620.php"}
+  - {date: "2026.03.23.", image: "img/media-int/002.jpg", title: "Beyond disposal: redefining biodegradable plastics as high-value resources for carbon neutrality", url: "https://www.eurekalert.org/news-releases/1120957"}
+  - {date: "2026.02.12.", image: "img/media-int/003.jpg", title: "Gluten-based vegan leather gains strength with heat and UV treatment", url: "https://www.chemistryworld.com/news/gluten-based-vegan-leather-gains-strength-with-heat-and-uv-treatment/4022906.article"}
+  - {date: "2025.11.26.", image: "img/media-int/004.jpg", title: "ChemSusChem 综述：动态二硫键功能聚合物：自修复、可回收与生物电子多领域应用", url: "https://mp.weixin.qq.com/s?__biz=MzU4OTkyODE3MQ==&mid=2247489358&idx=1&sn=cb3154a5341704987fac33934923870c"}
+  - {date: "2025.05.14.", image: "img/media-int/005.jpg", title: "New Marine-Biodegradable Polymer Decomposes by 92% in One Year, Rivals Nylon in Strength", url: "https://www.newswise.com/articles/new-marine-biodegradable-polymer-decomposes-by-92-in-one-year-rivals-nylon-in-strength"}
+  - {date: "2024.01.09.", image: "img/media-int/006.jpg", title: "Nature Research Highlight: Stiff gel as squishable as a sponge takes its cue from cartilage", url: "https://www.nature.com/articles/d41586-024-00004-z"}
+  - {date: "2023.01.30.", image: "img/media-int/007.jpg", title: "EurekAlert! AAAS: Want a stronger biodegradable plastic? Add a ‘pinch’ of cream of tartar", url: "https://www.eurekalert.org/news-releases/977960", url2: "https://www.acs.org/pressroom/presspacs/2023/january/want-a-stronger-biodegradable-plastic-add-a-pinch-of-cream-of-tartar.html"}
+  - {date: "2023.02.01", image: "img/media-int/008.jpg", title: "EurekAlert! AAAS: Development of 100% biodegradable paper straws that do not become soggy", url: "https://www.eurekalert.org/news-releases/978102"}
+  - {date: "2022.11.21.", image: "img/media-int/009.jpg", title: "Advanced Science News: Finally, an anti-fizzing paper straw that doesn’t get soggy", url: "https://www.advancedsciencenews.com/finally-an-anti-fizzing-paper-straw-that-doesnt-get-soggy/"}
+  - {date: "2021.03.31.", image: "img/media-int/010.jpg", title: "ACS News Weekly PressPac: Temperature sensor could help safeguard mRNA vaccines", url: "https://www.acs.org/content/acs/en/pressroom/presspacs/2021/acs-presspac-march-31-2021/temperature-sensor-could-help-safeguard-mrna-vaccines.html"}
+  - {date: "2021.02.15.", image: "img/media-int/011.jpg", title: "Advanced Science News: Biodegradable masks could help curb the rise in plastic waste", url: "https://www.advancedsciencenews.com/biodegradable-masks-could-help-curb-the-rise-in-plastic-waste-as-a-result-of-the-pandemic/"}
+  - {date: "2020.04.06.", image: "img/media-int/012.jpg", title: "AAAS News: Development of a sticker that indicates whether cold-chain food products have gone bad", url: "https://www.eurekalert.org/pub_releases/2020-04/nrco-doa040620.php"}
   - {date: "2019.12.18.", title: "ACS News Weekly PressPac: A self-healing sweat sensor (video)", url: "https://www.youtube.com/watch?v=TtomKJYnDUk"}
-  - {date: "2019.09.12.", title: "Chemistry World News: Glucose derivative replaces BPA in sustainable polycarbonate plastic", url: "https://www.chemistryworld.com/news/glucose-derivative-replaces-bpa-in-sustainable-polycarbonate-plastic/3010964.article"}
-  - {date: "2018.01.17.", title: "Advanced Science News: A Rapidly Self-Healing Polymer for Wearable Devices", url: "https://www.advancedsciencenews.com/rapidly-self-healing-polymer-wearable-devices/"}
+  - {date: "2019.09.12.", image: "img/media-int/013.jpg", title: "Chemistry World News: Glucose derivative replaces BPA in sustainable polycarbonate plastic", url: "https://www.chemistryworld.com/news/glucose-derivative-replaces-bpa-in-sustainable-polycarbonate-plastic/3010964.article"}
+  - {date: "2018.01.17.", image: "img/media-int/014.jpg", title: "Advanced Science News: A Rapidly Self-Healing Polymer for Wearable Devices", url: "https://www.advancedsciencenews.com/rapidly-self-healing-polymer-wearable-devices/"}
 
 domestic:
-  - {date: "2026.10.06.", title: "[동아일보] 경희대-서강대, 리그닌·바이오플라스틱 결합한 고성능 친환경 고무 개발", url: "https://www.donga.com/news/Society/article/all/20261006/134791736/1"}
-  - {date: "2026.09.02.", title: "[전자신문] 바다에 넣으면 '인공 산호'로 변신… 바닷속 이산화탄소를 광물로 바꾸는 신소재 개발", url: "https://www.etnews.com/20260902000045"}
-  - {date: "2026.08.19.", title: "[서강] 대학원혁신전략팀, 2026 SG 3MT Competition 본선 개최", url: "https://sogang.ac.kr/ko/detail/550914"}
-  - {date: "2026.06.29.", title: "[중앙일보] 서강대 공동연구팀, 폐 PET 고성능 플라스틱 전환 기술 개발", url: "https://v.daum.net/v/20260629144207597"}
+  - {date: "2026.10.06.", image: "img/media-domestic/002.jpg", title: "[동아일보] 경희대-서강대, 리그닌·바이오플라스틱 결합한 고성능 친환경 고무 개발", url: "https://www.donga.com/news/Society/article/all/20261006/134791736/1"}
+  - {date: "2026.09.02.", image: "img/media-domestic/003.jpg", title: "[전자신문] 바다에 넣으면 '인공 산호'로 변신… 바닷속 이산화탄소를 광물로 바꾸는 신소재 개발", url: "https://www.etnews.com/20260902000045"}
+  - {date: "2026.08.19.", image: "img/media-domestic/004.jpg", title: "[서강] 대학원혁신전략팀, 2026 SG 3MT Competition 본선 개최", url: "https://sogang.ac.kr/ko/detail/550914"}
+  - {date: "2026.06.29.", image: "img/media-domestic/005.jpg", title: "[중앙일보] 서강대 공동연구팀, 폐 PET 고성능 플라스틱 전환 기술 개발", url: "https://v.daum.net/v/20260629144207597"}
   - {date: "2026.05.20.", title: "[시선집중] 변기에 버려도 된다는 '비데용·친환경 물티슈', 환경 영향은?", url: "https://youtu.be/NqG6uw8Oxlo"}
-  - {date: "2026.05.08.", title: "[서강대] 2025학년도 피인용 최우수논문 시상", url: "https://sogang.ac.kr/ko/detail/550052"}
-  - {date: "2026.04.11.", title: "[동아사이언스] 깨끗해진 손, 더러워진 바다…간편한 물티슈의 역습", url: "https://v.daum.net/v/0A2Xsr9U7w"}
-  - {date: "2026.01.29.", title: "[서강대Youtube] 서강대 공식 홍보영상 출연", url: "https://youtu.be/F5clG5-UZfc"}
-  - {date: "2025.12.26.", title: "[뉴시스] 서강대 화공생명공학과, 폐플라스틱 업사이클링 기술 개발", url: "https://www.newsis.com/view/NISX20251226_0003455882"}
-  - {date: "2025.08.05.", title: "[동아사이언] 1300℃ 화염에 노출돼도 쉽게 꺼지는 플라스틱 소재", url: "https://m.dongascience.com/news.php?idx=73265"}
-  - {date: "2025.07.30.", title: "[Sogang Story] 세계 최초 마블링이 살아있는 배양육 기술 개발, 화공생명공학과 박제영 교수를 만나다", url: "https://www.sogang.ac.kr/ko/gazette/details-page/572/925090"}
-  - {date: "2025.06.10.", title: "[조선일보] 레고 원리로 배양육에 '마블링' 구현했다", url: "https://www.chosun.com/economy/science/2025/06/10/GGWCLEYV2UFEWOM76WL64QBCOE/"}
-  - {date: "2025.04.27.", title: "[전자신문] 화학연, 바다 속에서 잘 썩고, 강도도 높은 폴리에스터-아마이드 소재 개발", url: "https://www.etnews.com/20250427000118"}
+  - {date: "2026.05.08.", image: "img/media-domestic/006.jpg", title: "[서강대] 2025학년도 피인용 최우수논문 시상", url: "https://sogang.ac.kr/ko/detail/550052"}
+  - {date: "2026.04.11.", image: "img/media-domestic/007.jpg", title: "[동아사이언스] 깨끗해진 손, 더러워진 바다…간편한 물티슈의 역습", url: "https://v.daum.net/v/0A2Xsr9U7w"}
+  - {date: "2026.01.29.", image: "img/media-domestic/008.jpg", title: "[서강대Youtube] 서강대 공식 홍보영상 출연", url: "https://youtu.be/F5clG5-UZfc"}
+  - {date: "2025.12.26.", image: "img/media-domestic/009.jpg", title: "[뉴시스] 서강대 화공생명공학과, 폐플라스틱 업사이클링 기술 개발", url: "https://www.newsis.com/view/NISX20251226_0003455882"}
+  - {date: "2025.08.05.", image: "img/media-domestic/010.jpg", title: "[동아사이언] 1300℃ 화염에 노출돼도 쉽게 꺼지는 플라스틱 소재", url: "https://m.dongascience.com/news.php?idx=73265"}
+  - {date: "2025.07.30.", image: "img/media-domestic/011.jpg", title: "[Sogang Story] 세계 최초 마블링이 살아있는 배양육 기술 개발, 화공생명공학과 박제영 교수를 만나다", url: "https://www.sogang.ac.kr/ko/gazette/details-page/572/925090"}
+  - {date: "2025.06.10.", image: "img/media-domestic/012.jpg", title: "[조선일보] 레고 원리로 배양육에 '마블링' 구현했다", url: "https://www.chosun.com/economy/science/2025/06/10/GGWCLEYV2UFEWOM76WL64QBCOE/"}
+  - {date: "2025.04.27.", image: "img/media-domestic/013.jpg", title: "[전자신문] 화학연, 바다 속에서 잘 썩고, 강도도 높은 폴리에스터-아마이드 소재 개발", url: "https://www.etnews.com/20250427000118"}
   - {date: "2025.03.26.", title: "[서강학개론] 플라스틱 없으면 지구가 더 위험해진다", url: "https://youtu.be/XisCqZ1cRg0"}
-  - {date: "2024.06.25.", title: "[헬스조선][단독]새우깡 속 미세플라스틱 함유 논란 후… 식약처, 시험법 개발 완료 “과자류부터 검사”", url: "https://m.health.chosun.com/svc/news_view.html?contid=2024062501827"}
-  - {date: "2024.03.18.", title: "[서울신문] 친횐경 종이 맥주병 나온다...서강대 공동연구팀, 친환경 식품포장소재 개발 성공", url: "https://v.daum.net/v/20240318144805596"}
-  - {date: "2024.01.22.", title: "[전자신문] '전기차 배터리 폭발·발화 해결'…인하대, 배터리 안전성 위한 원천기술 개발", url: "https://www.etnews.com/20240122000144"}
-  - {date: "2023.12.14.", title: "[서울경제] '에코프로 젊은 과학자상' 유승호·박제영 교수", url: "https://v.daum.net/v/20231219094428369"}
+  - {date: "2024.06.25.", image: "img/media-domestic/014.jpg", title: "[헬스조선][단독]새우깡 속 미세플라스틱 함유 논란 후… 식약처, 시험법 개발 완료 “과자류부터 검사”", url: "https://m.health.chosun.com/svc/news_view.html?contid=2024062501827"}
+  - {date: "2024.03.18.", image: "img/media-domestic/015.jpg", title: "[서울신문] 친횐경 종이 맥주병 나온다...서강대 공동연구팀, 친환경 식품포장소재 개발 성공", url: "https://v.daum.net/v/20240318144805596"}
+  - {date: "2024.01.22.", image: "img/media-domestic/016.jpg", title: "[전자신문] '전기차 배터리 폭발·발화 해결'…인하대, 배터리 안전성 위한 원천기술 개발", url: "https://www.etnews.com/20240122000144"}
+  - {date: "2023.12.14.", image: "img/media-domestic/017.jpg", title: "[서울경제] '에코프로 젊은 과학자상' 유승호·박제영 교수", url: "https://v.daum.net/v/20231219094428369"}
   - {date: "2023.11.27.", title: "[YTN] 흠집내고 잘라도 원상 복귀...자가치유 소재 개발", url: "https://www.youtube.com/watch?v=bKN4XvX8RI4"}
   - {date: "2023.08.30.", title: "[크랩] 종이 빨대가 해롭다고 말 나오는 이유 진짜인지 확인해 봄", url: "https://youtu.be/99iCcRGrukE"}
-  - {date: "2022.12.08.", title: "[헤이뉴스] 눅눅해지지 않는 종이 빨대", url: "https://hey.news.co.kr/article/now/2022120800988564"}
-  - {date: "2022.12.06.", title: "[매일경제] “눅눅해져 불편했는데”...젖지 않는 친환경 빨대 개발", url: "https://n.news.naver.com/mnews/article/009/0005055959?sid=105"}
-  - {date: "2022.06.10.", title: "[SBS 희망TV-193회] 미세플라스틱 편 출연", url: "https://programs.sbs.co.kr/culture/sbshopetv/vod/52259/22000450852"}
-  - {date: "2021.12.14.", title: "[한국경제] [과학과 놀자] 바다 뒤덮는 플라스틱…썩는 제품 사용 늘려야", url: "https://sgsg.hankyung.com/article/2021121089911"}
-  - {date: "2021.10.13.", title: "[조선일보] 미세플라스틱 걱정 없다...게 껍질서 추출한 물질 화장품에 쓴다", url: "https://www.chosun.com/economy/science/2021/10/13/P2RAYGZ5PBDUVMZDOXLZLMTBJ4/"}
-  - {date: "2021.09.13", title: "[헤럴드경제] 플라스틱 먹어치우는 미생물 있다고?”…골칫덩어리 플라스틱 쓰레기문제 해결", url: "http://news.heraldcorp.com/view.php?ud=20210913000702"}
-  - {date: "2021.07.17.", title: "[콜드체인뉴스][인터뷰] 박제영 한국화학연구원 선임연구원 (“극저온 콜드체인 신뢰성 확보 온도일탈 감지장치 개발”)", url: "http://www.coldchainnews.kr/news/article.html?no=23723"}
-  - {date: "2021.06.29.", title: "[UST] 강의 단상, 극저온 온도변화 감지장치 개발, 세상에 없던 콘셉트를 만들어낸 새로운 아이디어", url: "http://www.ust.ac.kr/bbs/BBSMSTR_000000000761/view.do?nttId=56041&mno=sub06_02_03"}
+  - {date: "2022.12.08.", image: "img/media-domestic/018.jpg", title: "[헤이뉴스] 눅눅해지지 않는 종이 빨대", url: "https://hey.news.co.kr/article/now/2022120800988564"}
+  - {date: "2022.12.06.", image: "img/media-domestic/019.jpg", title: "[매일경제] “눅눅해져 불편했는데”...젖지 않는 친환경 빨대 개발", url: "https://n.news.naver.com/mnews/article/009/0005055959?sid=105"}
+  - {date: "2022.06.10.", image: "img/media-domestic/020.jpg", title: "[SBS 희망TV-193회] 미세플라스틱 편 출연", url: "https://programs.sbs.co.kr/culture/sbshopetv/vod/52259/22000450852"}
+  - {date: "2021.12.14.", image: "img/media-domestic/021.jpg", title: "[한국경제] [과학과 놀자] 바다 뒤덮는 플라스틱…썩는 제품 사용 늘려야", url: "https://sgsg.hankyung.com/article/2021121089911"}
+  - {date: "2021.10.13.", image: "img/media-domestic/022.jpg", title: "[조선일보] 미세플라스틱 걱정 없다...게 껍질서 추출한 물질 화장품에 쓴다", url: "https://www.chosun.com/economy/science/2021/10/13/P2RAYGZ5PBDUVMZDOXLZLMTBJ4/"}
+  - {date: "2021.09.13", image: "img/media-domestic/023.jpg", title: "[헤럴드경제] 플라스틱 먹어치우는 미생물 있다고?”…골칫덩어리 플라스틱 쓰레기문제 해결", url: "http://news.heraldcorp.com/view.php?ud=20210913000702"}
+  - {date: "2021.07.17.", image: "img/media-domestic/024.jpg", title: "[콜드체인뉴스][인터뷰] 박제영 한국화학연구원 선임연구원 (“극저온 콜드체인 신뢰성 확보 온도일탈 감지장치 개발”)", url: "http://www.coldchainnews.kr/news/article.html?no=23723"}
+  - {date: "2021.06.29.", image: "img/media-domestic/025.jpg", title: "[UST] 강의 단상, 극저온 온도변화 감지장치 개발, 세상에 없던 콘셉트를 만들어낸 새로운 아이디어", url: "http://www.ust.ac.kr/bbs/BBSMSTR_000000000761/view.do?nttId=56041&mno=sub06_02_03"}
   - {date: "2021.05.10.", title: "[JTBC] '울버린처럼' 찢기고 잘려도 원상회복…고강도 신소재 개발", url: "https://www.youtube.com/watch?v=oOQ7mSc7J4U"}
-  - {date: "2021.04.14.", title: "[조선일보] 코로나 백신, 극저온 보관 잘됐는지 눈으로 확인하는 간단한 장치 개발", url: "https://www.chosun.com/economy/science/2021/04/14/65VCFXOOZFHWRG3XTXJBQLFVNU"}
-  - {date: "2021.03.22.", title: "[동아사이언스] 한달내 자연에서 분해되는 KF94 마스크용 필터 나왔다", url: "http://dongascience.donga.com/news.php?idx=44956"}
+  - {date: "2021.04.14.", image: "img/media-domestic/026.jpg", title: "[조선일보] 코로나 백신, 극저온 보관 잘됐는지 눈으로 확인하는 간단한 장치 개발", url: "https://www.chosun.com/economy/science/2021/04/14/65VCFXOOZFHWRG3XTXJBQLFVNU"}
+  - {date: "2021.03.22.", image: "img/media-domestic/027.jpg", title: "[동아사이언스] 한달내 자연에서 분해되는 KF94 마스크용 필터 나왔다", url: "http://dongascience.donga.com/news.php?idx=44956"}
   - {date: "2020.11.20.", title: "[YOUTUBE] 진로상담 영상", url: "https://www.youtube.com/watch?v=RkJ5FTcLtos&t=338s"}
-  - {date: "2020.08.17.", title: "[HelloDD] 식품 상온노출 여부, 나노필름 스티커로 확인한다", url: "https://www.hellodd.com/news/articleView.html?idxno=72611"}
-  - {date: "2020.05.19.", title: "[성대신문] \"앞으로도 바이오플라스틱 한계 보완하며 연구 지속할 것\"", url: "http://www.skkuw.com/news/articleView.html?idxno=21789"}
-  - {date: "2020.03.04.", title: "[UST] UST 학생 국제학술지 표지논문 잇따라 채택…“연구 전념 성과”", url: "http://www.ust.ac.kr/bbs/BBSMSTR_000000000765/view.do?nttId=53407&mno=sub06_03_06"}
-  - {date: "2020.01.21.", title: "[매일경제] 잘려도 20초 만에 스스로 복구하는 웨어러블 센서 개발", url: "https://www.mk.co.kr/news/it/view/2020/01/68553/"}
+  - {date: "2020.08.17.", image: "img/media-domestic/028.jpg", title: "[HelloDD] 식품 상온노출 여부, 나노필름 스티커로 확인한다", url: "https://www.hellodd.com/news/articleView.html?idxno=72611"}
+  - {date: "2020.05.19.", image: "img/media-domestic/029.jpg", title: "[성대신문] \"앞으로도 바이오플라스틱 한계 보완하며 연구 지속할 것\"", url: "http://www.skkuw.com/news/articleView.html?idxno=21789"}
+  - {date: "2020.03.04.", image: "img/media-domestic/030.jpg", title: "[UST] UST 학생 국제학술지 표지논문 잇따라 채택…“연구 전념 성과”", url: "http://www.ust.ac.kr/bbs/BBSMSTR_000000000765/view.do?nttId=53407&mno=sub06_03_06"}
+  - {date: "2020.01.21.", image: "img/media-domestic/031.jpg", title: "[매일경제] 잘려도 20초 만에 스스로 복구하는 웨어러블 센서 개발", url: "https://www.mk.co.kr/news/it/view/2020/01/68553/"}
   - {date: "2020.01.17.", title: "[KBS] [본격 화학 다큐멘터리] 2부 '케미롭게 살아가기'", url: "https://www.youtube.com/watch?v=I2lwChKMeYM"}
   - {date: "2019.10.16.", title: "[KBS] 일본 독점 ‘친환경 플라스틱’ 제조 기술 국산화 성공", url: "https://www.youtube.com/watch?v=kHbn_8ScI18"}
   - {date: "2019.06.24.", title: "[KBS] 강철보다 강하고 환경호르몬 없는 ‘바이오플라스틱’ 개발", url: "https://www.youtube.com/watch?v=QAA-UT8a3T0"}
