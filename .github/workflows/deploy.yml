@@ -5,7 +5,7 @@ on:
     branches: [main]
   workflow_dispatch:
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 concurrency:
@@ -20,15 +20,6 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
-      # Google Sites 사진을 저장소로 옮김 (처음 한 번만 실제로 내려받고, 이후엔 건너뜀)
-      - run: python tools/fetch_images.py
-      - name: Save downloaded images to the repository
-        run: |
-          if [ -n "$(git status --porcelain)" ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add -A && git commit -m "Move images from Google Sites into the site" && git push
-          fi
       - run: python build.py
       - uses: actions/upload-pages-artifact@v3
         with:
