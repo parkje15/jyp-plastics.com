@@ -15,7 +15,7 @@
 | 갤러리·네트워킹·강의 | `data/life.yaml` |
 | 연구 분야 소개 | `data/research.yaml` |
 
-GitHub 웹사이트에서 파일을 열고 연필(✏️) 버튼으로 수정한 뒤 "Commit changes"를 누르면
+https://github.com/parkje15/jyp-plastics.com 에서 파일을 열고 연필(✏️) 버튼으로 수정한 뒤 "Commit changes"를 누르면
 1~2분 뒤 사이트에 자동 반영됩니다.
 
 ## 직접 만들어 보기 (선택)
