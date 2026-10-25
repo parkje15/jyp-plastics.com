@@ -209,7 +209,7 @@ def main():
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         f"{urls}</urlset>\n", encoding="utf-8")
     (DIST / "robots.txt").write_text(
-        f"User-agent: *\nAllow: /\nSitemap: {base}sitemap.xml\n")
+        f"User-agent: *\nAllow: /\nSitemap: {base}sitemap.xml\n\n#DaumWebMasterTool:e926d6cd441fec93a07bb74fdc65fa6a8ed8006166fc2762690fdfe8c4f5a4a4:kHsTc7yt7rZFR+42wFNLLw==\n")
     print(f"Built {len(PAGES)} pages → {DIST}")
 
 
