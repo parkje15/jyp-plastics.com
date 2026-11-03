@@ -225,6 +225,9 @@ def main():
     shutil.copytree(ROOT / "static", DIST)
     # 연결된 도메인 (GitHub Pages용)
     (DIST / "CNAME").write_text("jyp-plastics.com\n")
+    # 인용수 백업: 다음 배포 때 OpenAlex가 실패하면 이 값을 재사용
+    if cpath.exists():
+        shutil.copy(cpath, DIST / "citations.json")
 
     # 검색엔진용 구조화 데이터 (schema.org JSON-LD)
     BASE = "https://jyp-plastics.com/"
