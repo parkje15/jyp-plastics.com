@@ -262,3 +262,11 @@ img{max-width:100%;display:block}
 .ychart .bar:hover .fill{opacity:.8}
 .ychart .val{font-size:11px;fill:var(--ink-2);text-anchor:middle;font-weight:700}
 .ychart .yr{font-size:10px;fill:var(--muted);text-anchor:middle}
+.ychart{margin:-12px 0 28px}
+.ychart figcaption small{font-weight:400;color:var(--muted)}
+.ylegend{list-style:none;display:flex;flex-wrap:wrap;gap:6px 14px;margin:4px 0 6px;padding:0;font-size:12px;color:var(--ink-2)}
+.ylegend i{display:inline-block;width:14px;height:3px;border-radius:2px;vertical-align:middle;margin-right:5px}
+.ychart .grid{stroke:var(--line);stroke-width:1}
+.ychart .tick{font-size:11px;fill:var(--muted)}
+.ychart .elab{font-size:11px;fill:var(--ink-2);font-weight:600}
+.ychart .dot:hover circle:not(.hit){r:6}

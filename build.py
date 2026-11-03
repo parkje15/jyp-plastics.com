@@ -71,6 +71,58 @@ PAGES = [
 ]
 
 
+def paper_chart(groups):
+    """연도별 논문 수·IF·인용수를 한 그래프(dot-line)에 그림.
+    단위가 서로 달라 각 지표를 '최고 연도 = 100%'로 맞춰 같은 축에 표시하고,
+    점에 마우스를 올리면 실제 값이 보임."""
+    from html import escape
+    series = [
+        ("Papers", "count", "{:,}", "#2a78d6"),
+        ("Total IF", "if_total", "{:,.1f}", "#eb6834"),
+        ("Avg IF", "if_avg", "{:,.1f}", "#1baf7a"),
+        ("Citations", "cite_total", "{:,}", "#eda100"),
+        ("Avg citations", "cite_avg", "{:,.1f}", "#e87ba4"),
+    ]
+    series = [s for s in series if any(g.get(s[1]) for g in groups)]
+    W, H, L, R, T, B = 640, 300, 44, 132, 16, 34
+    pw, ph = W - L - R, H - T - B
+    n = len(groups)
+    xs = [L + (pw * i / (n - 1) if n > 1 else pw / 2) for i in range(n)]
+    y = lambda pct: T + ph * (1 - pct / 100)
+    out = [f'<figure class="ychart"><figcaption>Papers, IF and citations per year '
+           f'<small>(each line scaled to its own best year = 100%; hover a dot for the value)</small></figcaption>',
+           '<ul class="ylegend">' + "".join(
+               f'<li><i style="background:{c}"></i>{escape(nm)}</li>' for nm, _, _, c in series) + '</ul>',
+           f'<svg viewBox="0 0 {W} {H}" role="img" aria-label="Papers, IF and citations per year">']
+    for pct in (0, 50, 100):
+        out.append(f'<line x1="{L}" x2="{L + pw}" y1="{y(pct):.1f}" y2="{y(pct):.1f}" class="grid"/>'
+                   f'<text x="{L - 6}" y="{y(pct) + 4:.1f}" class="tick" text-anchor="end">{pct}%</text>')
+    for i, g in enumerate(groups):
+        out.append(f'<text x="{xs[i]:.1f}" y="{H - 10}" class="tick" text-anchor="middle">{g["year"]}</text>')
+    labels = []
+    for nm, key, fmt, c in series:
+        vals = [g.get(key) for g in groups]
+        mx = max(v for v in vals if v) or 1
+        pts = [(xs[i], y(v / mx * 100), v, groups[i]["year"]) for i, v in enumerate(vals) if v is not None]
+        if len(pts) > 1:
+            out.append(f'<polyline points="{" ".join(f"{px:.1f},{py:.1f}" for px, py, _, _ in pts)}" '
+                       f'fill="none" stroke="{c}" stroke-width="2" stroke-linejoin="round"/>')
+        for px, py, v, yr in pts:
+            out.append(f'<g class="dot"><title>{yr} · {escape(nm)}: {fmt.format(v)}</title>'
+                       f'<circle cx="{px:.1f}" cy="{py:.1f}" r="11" class="hit"/>'
+                       f'<circle cx="{px:.1f}" cy="{py:.1f}" r="4.5" fill="{c}" stroke="#fff" stroke-width="2"/></g>')
+        if pts:
+            px, py, v, _ = pts[-1]
+            labels.append([py, f"{nm} {fmt.format(v)}", px])
+    labels.sort()
+    for k in range(1, len(labels)):  # 끝 라벨 겹침 방지
+        labels[k][0] = max(labels[k][0], labels[k - 1][0] + 14)
+    for ly, txt, px in labels:
+        out.append(f'<text x="{px + 10:.1f}" y="{ly + 4:.1f}" class="elab">{escape(txt)}</text>')
+    out.append('</svg></figure>')
+    return "".join(out)
+
+
 def main():
     data = {n: load(n) for n in [
         "site", "research", "advisor", "team", "sci_papers", "seo",
@@ -129,6 +181,7 @@ def main():
             g["if_n"] = len(ifs)
             g["cite_total"] = sum(cs) if cs else None
             g["cite_avg"] = round(sum(cs) / len(cs), 1) if cs else None
+    data["paper_chart"] = paper_chart(list(reversed(papers["after_sogang_by_year"])))
     def short_cite(p):
         j = re.split(r",\s*(?:19|20)\d\d\b", p.get("journal", ""))[0].strip()
         return f"{j} {p.get('year', '')}".strip()

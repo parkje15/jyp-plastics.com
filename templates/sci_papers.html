@@ -21,27 +21,7 @@
     {% for g in sci_papers.after_sogang_by_year %}<a href="#y{{ g.year }}"><strong>{{ g.year }}</strong><span>{{ g.count }} paper{{ 's' if g.count != 1 }}</span>{% if g.if_total is not none %}<em class="ystat">ΣIF {{ g.if_total }} · avg {{ g.if_avg }}</em>{% endif %}{% if g.cite_total is not none %}<em class="ystat">Cited {{ '{:,}'.format(g.cite_total) }} · avg {{ g.cite_avg }}</em>{% endif %}</a>{% endfor %}
     <span class="ytotal">Total {{ sci_papers.after_sogang_by_year|sum(attribute='count') }} (published)</span>
   </div>
-  {% set chron = sci_papers.after_sogang_by_year|reverse|list %}
-  {% macro barchart(title, field, fmt, unit) %}
-  {% set vals = chron|map(attribute=field)|map('default', 0, true)|list %}
-  {% set mx = (vals|max) or 1 %}{% set n = chron|length %}{% set W = 320 %}{% set H = 150 %}{% set bw = (W - 20) / n %}
-  <figure class="ychart"><figcaption>{{ title }}</figcaption>
-  <svg viewBox="0 0 {{ W }} {{ H + 22 }}" role="img" aria-label="{{ title }}">
-    <line x1="0" y1="{{ H }}" x2="{{ W }}" y2="{{ H }}" class="ax"/>
-    {% for g in chron %}{% set v = vals[loop.index0] %}{% set h = (v / mx * (H - 22)) if v else 0 %}{% set x = 10 + loop.index0 * bw %}
-    <g class="bar"><title>{{ g.year }}: {{ fmt.format(v) }}{{ unit }}</title>
-      <rect x="{{ x + 2 }}" y="0" width="{{ bw - 4 }}" height="{{ H }}" class="hit"/>
-      {% if h %}<path d="M{{ x + 4 }},{{ H }} V{{ H - h + 4 }} q0,-4 4,-4 H{{ x + bw - 8 }} q4,0 4,4 V{{ H }} Z" class="fill"/>{% endif %}
-      {% if loop.last or v == mx %}<text x="{{ x + bw/2 }}" y="{{ H - h - 5 }}" class="val">{{ fmt.format(v) }}</text>{% endif %}
-      <text x="{{ x + bw/2 }}" y="{{ H + 15 }}" class="yr">{{ g.year }}</text></g>
-    {% endfor %}
-  </svg></figure>
-  {% endmacro %}
-  <div class="ycharts">
-    {{ barchart('Published papers per year', 'count', '{:,}', ' papers') }}
-    {% if chron|selectattr('if_total')|list %}{{ barchart('Total IF per year', 'if_total', '{:,.1f}', '') }}{% endif %}
-    {% if chron|selectattr('cite_total')|list %}{{ barchart('Citations per year (OpenAlex)', 'cite_total', '{:,}', ' citations') }}{% endif %}
-  </div>
+  {{ paper_chart|safe }}
   {% for g in sci_papers.after_sogang_by_year %}
   <details class="ygroup" id="y{{ g.year }}"{% if loop.index <= 2 %} open{% endif %}>
   <summary><span class="ytitle">{{ g.year }}</span> <span class="ycount">· {{ g.count }} paper{{ 's' if g.count != 1 }}</span></summary>
