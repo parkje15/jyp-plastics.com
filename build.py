@@ -111,6 +111,24 @@ def main():
         for p in papers[key]:
             if p.get("doi") and p["doi"].lower() in cites:
                 p["cited_by"] = cites[p["doi"].lower()]
+    # 연도별 통계: 총합/평균 IF (IF 숫자가 있는 출판 논문 기준), 총합/평균 인용수 (OpenAlex)
+    for key in ("after_sogang", "before_sogang"):
+        for g in papers[key + "_by_year"]:
+            pub = [p for p in g["papers"] if p["published"]]
+            ifs = []
+            for p in pub:
+                m = re.search(r"IF\s*\([^)]*\)\s*:\s*([\d.]+)", p.get("if_info") or "")
+                if m:
+                    try:
+                        ifs.append(float(m.group(1).rstrip(".")))
+                    except ValueError:
+                        pass
+            cs = [p["cited_by"] for p in pub if "cited_by" in p]
+            g["if_total"] = round(sum(ifs), 1) if ifs else None
+            g["if_avg"] = round(sum(ifs) / len(ifs), 1) if ifs else None
+            g["if_n"] = len(ifs)
+            g["cite_total"] = sum(cs) if cs else None
+            g["cite_avg"] = round(sum(cs) / len(cs), 1) if cs else None
     def short_cite(p):
         j = re.split(r",\s*(?:19|20)\d\d\b", p.get("journal", ""))[0].strip()
         return f"{j} {p.get('year', '')}".strip()
