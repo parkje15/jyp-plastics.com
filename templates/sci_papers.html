@@ -21,7 +21,6 @@
     {% for g in sci_papers.after_sogang_by_year %}<a href="#y{{ g.year }}"><strong>{{ g.year }}</strong><span>{{ g.count }} paper{{ 's' if g.count != 1 }}</span>{% if g.if_total is not none %}<em class="ystat">ΣIF {{ g.if_total }} · avg {{ g.if_avg }}</em>{% endif %}{% if g.cite_total is not none %}<em class="ystat">Cited {{ '{:,}'.format(g.cite_total) }} · avg {{ g.cite_avg }}</em>{% endif %}</a>{% endfor %}
     <span class="ytotal">Total {{ sci_papers.after_sogang_by_year|sum(attribute='count') }} (published)</span>
   </div>
-  {{ paper_chart|safe }}
   {% for g in sci_papers.after_sogang_by_year %}
   <details class="ygroup" id="y{{ g.year }}"{% if loop.index <= 2 %} open{% endif %}>
   <summary><span class="ytitle">{{ g.year }}</span> <span class="ycount">· {{ g.count }} paper{{ 's' if g.count != 1 }}</span></summary>

@@ -71,6 +71,9 @@ PAGES = [
 ]
 
 
+STATS_PAGE = "stats-ce2ff121.html"  # 숨김 통계 페이지 주소
+
+
 def paper_chart(groups):
     """연도별 논문 수·IF·인용수를 한 그래프(dot-line)에 그림.
     단위가 서로 달라 각 지표를 '최고 연도 = 100%'로 맞춰 같은 축에 표시하고,
@@ -268,6 +271,12 @@ def main():
             items=lists.get(out), page_desc=data["seo"]["descriptions"].get(out, ""),
             page_url=BASE + ("" if out == "index.html" else out), jsonld=jsonld, **data)
         (DIST / out).write_text(html, encoding="utf-8")
+
+    # 숨김 통계 페이지 (메뉴·사이트맵에 없음, 검색엔진 제외)
+    html = env.get_template("stats.html").render(
+        nav=NAV, current="", group="", page_title="Publication Stats", items=None,
+        page_desc="", page_url=BASE + STATS_PAGE, jsonld="", **data)
+    (DIST / STATS_PAGE).write_text(html, encoding="utf-8")
 
     # 검색엔진용: 페이지 목록(sitemap.xml)과 robots.txt
     base = "https://jyp-plastics.com/"

@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block head %}<meta name="robots" content="noindex, nofollow">{% endblock %}
+{% block intro %}<p class="sub">Private page (not linked from the menu or search engines).</p>{% endblock %}
+{% block content %}
+<section class="block"><div class="wrap narrow">
+  <div class="yearbar">
+    {% for g in sci_papers.after_sogang_by_year %}<a href="sci-papers.html#y{{ g.year }}"><strong>{{ g.year }}</strong><span>{{ g.count }} paper{{ 's' if g.count != 1 }}</span>{% if g.if_total is not none %}<em class="ystat">ΣIF {{ g.if_total }} · avg {{ g.if_avg }}</em>{% endif %}{% if g.cite_total is not none %}<em class="ystat">Cited {{ '{:,}'.format(g.cite_total) }} · avg {{ g.cite_avg }}</em>{% endif %}</a>{% endfor %}
+  </div>
+  {{ paper_chart|safe }}
+</div></section>
+{% endblock %}
