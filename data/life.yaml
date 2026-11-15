@@ -1,77 +1,77 @@
 # Life 메뉴: Friends and Gallery / Networking + Lecture
 gallery:
-  - {caption: "IUPAC-PSK50 Best Poster Award. 박정식(최우수) (2026.10.01)", image: "img/gallery/003.jpg"}
-  - {caption: "IUPAC-PSK50 International Conference (2026.09.28-10.01)", image: "img/gallery/004.jpg"}
-  - {caption: "2026 Fall Dinner", image: "img/gallery/005.jpg"}
-  - {caption: "2026 SG 3MT Competition 본선 수상기념, 정기연(우수), 김해민(장려) (2026.08.21)", image: "img/gallery/006.jpg"}
-  - {caption: "2026 Summer Dinner", image: "img/gallery/007.jpg"}
-  - {caption: "Celebrating teacher's day (2026.05.15)", image: "img/gallery/008.jpg"}
-  - {caption: "2026 Spring Dinner", image: "img/gallery/009.jpg"}
-  - {caption: "2026 Spring Graduation Ceremony (기연)", image: "img/gallery/010.jpg"}
-  - {caption: "2026 Spring Graduation Ceremony (진세빈 박사님)", image: "img/gallery/011.jpg"}
-  - {caption: "2025 Winter Dinner", image: "img/gallery/012.jpg"}
-  - {caption: "2025 Fall Graduation Ceremony (지민,수빈,해민)", image: "img/gallery/013.jpg"}
-  - {caption: "2025 Summer Dinner", image: "img/gallery/014.jpg"}
-  - {caption: "Fall Meeting, The Polymer Society of Korea (2025.4.16-4.18)", image: "img/gallery/015.jpg"}
-  - {caption: "With Prf. Xiaokong Liu (Jilin U.) (2025.4.)", image: "img/gallery/016.jpg"}
-  - {caption: "25-Spring Semester-Firework (2025.4.)", image: "img/gallery/017.jpg"}
-  - {caption: "2024-Year-Ending Firework (2025.1.)", image: "img/gallery/018.jpg"}
-  - {caption: "Fall Meeting, The Polymer Society of Korea (2024.9.30-10.02)", image: "img/gallery/019.jpg"}
-  - {caption: "24-Fall semester-group dinner (2024.8.29)", image: "img/gallery/020.jpg"}
-  - {caption: "2024-Summer SPL Academic Seminar & Campfire (2024.6.24)", image: "img/gallery/021.jpg"}
-  - {caption: "Poster presentations by undergrad-students (해민,태현,혜원,정식) (2024.6.10)", image: "img/gallery/022.jpg"}
-  - {caption: "Spring Meeting, The Polymer Society of Korea (2024.4.3-5)", image: "img/gallery/023.jpg"}
-  - {caption: "24-Spring semester-group dinner (2024.3.8)", image: "img/gallery/024.jpg"}
-  - {caption: "2023-Year-Ending Camp Fire (2023.12.)", image: "img/gallery/025.jpg"}
-  - {caption: "Fall Meeting, The Polymer Society of Korea (2023.10.11-13)", image: "img/gallery/026.jpg"}
-  - {caption: "2023-Fall-Starting Camp Fire (2023.09.14)", image: "img/gallery/027.jpg"}
-  - {caption: "1st group seminar of 2023-Fall (2023.09.08)", image: "img/gallery/028.jpg"}
-  - {caption: "With Prf. Zhiqun LIN @ National University of Singapore (2023.06.02)", image: "img/gallery/029.jpg"}
+  - {caption: "IUPAC-PSK50 Best Poster Award. 박정식(최우수) (2026.10.01)", image: "img/gallery/002.jpg"}
+  - {caption: "IUPAC-PSK50 International Conference (2026.09.28-10.01)", image: "img/gallery/003.jpg"}
+  - {caption: "2026 Fall Dinner", image: "img/gallery/004.jpg"}
+  - {caption: "2026 SG 3MT Competition 본선 수상기념, 정기연(우수), 김해민(장려) (2026.08.21)", image: "img/gallery/005.jpg"}
+  - {caption: "2026 Summer Dinner", image: "img/gallery/006.jpg"}
+  - {caption: "Celebrating teacher's day (2026.05.15)", image: "img/gallery/007.jpg"}
+  - {caption: "2026 Spring Dinner", image: "img/gallery/008.jpg"}
+  - {caption: "2026 Spring Graduation Ceremony (기연)", image: "img/gallery/009.jpg"}
+  - {caption: "2026 Spring Graduation Ceremony (진세빈 박사님)", image: "img/gallery/010.jpg"}
+  - {caption: "2025 Winter Dinner", image: "img/gallery/011.jpg"}
+  - {caption: "2025 Fall Graduation Ceremony (지민,수빈,해민)", image: "img/gallery/012.jpg"}
+  - {caption: "2025 Summer Dinner", image: "img/gallery/013.jpg"}
+  - {caption: "Fall Meeting, The Polymer Society of Korea (2025.4.16-4.18)", image: "img/gallery/014.jpg"}
+  - {caption: "With Prf. Xiaokong Liu (Jilin U.) (2025.4.)", image: "img/gallery/015.jpg"}
+  - {caption: "25-Spring Semester-Firework (2025.4.)", image: "img/gallery/016.jpg"}
+  - {caption: "2024-Year-Ending Firework (2025.1.)", image: "img/gallery/017.jpg"}
+  - {caption: "Fall Meeting, The Polymer Society of Korea (2024.9.30-10.02)", image: "img/gallery/018.jpg"}
+  - {caption: "24-Fall semester-group dinner (2024.8.29)", image: "img/gallery/019.jpg"}
+  - {caption: "2024-Summer SPL Academic Seminar & Campfire (2024.6.24)", image: "img/gallery/020.jpg"}
+  - {caption: "Poster presentations by undergrad-students (해민,태현,혜원,정식) (2024.6.10)", image: "img/gallery/021.jpg"}
+  - {caption: "Spring Meeting, The Polymer Society of Korea (2024.4.3-5)", image: "img/gallery/022.jpg"}
+  - {caption: "24-Spring semester-group dinner (2024.3.8)", image: "img/gallery/023.jpg"}
+  - {caption: "2023-Year-Ending Camp Fire (2023.12.)", image: "img/gallery/024.jpg"}
+  - {caption: "Fall Meeting, The Polymer Society of Korea (2023.10.11-13)", image: "img/gallery/025.jpg"}
+  - {caption: "2023-Fall-Starting Camp Fire (2023.09.14)", image: "img/gallery/026.jpg"}
+  - {caption: "1st group seminar of 2023-Fall (2023.09.08)", image: "img/gallery/027.jpg"}
+  - {caption: "With Prf. Zhiqun LIN @ National University of Singapore (2023.06.02)", image: "img/gallery/028.jpg"}
+  - {caption: "Celebrating teacher's day (2023.05.15)", image: "img/gallery/029.jpg"}
   - {caption: "Celebrating teacher's day (2023.05.15)", image: "img/gallery/030.jpg"}
-  - {caption: "Celebrating teacher's day (2023.05.15)", image: "img/gallery/031.jpg"}
-  - {caption: "Happy birthday 세빈, 지민 (2023.04.24) (smile....good....)", image: "img/gallery/032.jpg"}
-  - {caption: "With Ecobrity 박진희 배우님 (2023.04.05-07)", image: "img/gallery/033.jpg"}
-  - {caption: "Spring Meeting, The Polymer Society of Korea (2023.04.05-07) (smile....plz....)", image: "img/gallery/034.jpg"}
-  - {caption: "Spring Meeting, The Polymer Society of Korea (2023.04.05-07)", image: "img/gallery/035.jpg"}
-  - {caption: "Group photo (2023.04.03)", image: "img/gallery/036.jpg"}
-  - {caption: "KOPLAS 2023 Exhibition (2023.03.15)", image: "img/gallery/037.jpg"}
-  - {caption: "Congrat Drs 성빈,하오,도훈 (2023.02.10.)", image: "img/gallery/038.jpg"}
-  - {caption: "Good friendship with Prf. H. Kim Lab (2023.02.02.)", image: "img/gallery/039.jpg"}
-  - {caption: "With KRICT-Ulsan members (2023.01.31.)", image: "img/gallery/040.jpg"}
+  - {caption: "Happy birthday 세빈, 지민 (2023.04.24) (smile....good....)", image: "img/gallery/031.jpg"}
+  - {caption: "With Ecobrity 박진희 배우님 (2023.04.05-07)", image: "img/gallery/032.jpg"}
+  - {caption: "Spring Meeting, The Polymer Society of Korea (2023.04.05-07) (smile....plz....)", image: "img/gallery/033.jpg"}
+  - {caption: "Spring Meeting, The Polymer Society of Korea (2023.04.05-07)", image: "img/gallery/034.jpg"}
+  - {caption: "Group photo (2023.04.03)", image: "img/gallery/035.jpg"}
+  - {caption: "KOPLAS 2023 Exhibition (2023.03.15)", image: "img/gallery/036.jpg"}
+  - {caption: "Congrat Drs 성빈,하오,도훈 (2023.02.10.)", image: "img/gallery/037.jpg"}
+  - {caption: "Good friendship with Prf. H. Kim Lab (2023.02.02.)", image: "img/gallery/038.jpg"}
+  - {caption: "With KRICT-Ulsan members (2023.01.31.)", image: "img/gallery/039.jpg"}
+  - {caption: "2023-New-Year-Seminar (2023.01.26.)", image: "img/gallery/040.jpg"}
   - {caption: "2023-New-Year-Seminar (2023.01.26.)", image: "img/gallery/041.jpg"}
-  - {caption: "2023-New-Year-Seminar (2023.01.26.)", image: "img/gallery/042.jpg"}
-  - {caption: "Global ESG Forum with KRICT members (2022.08.31.)", image: "img/gallery/043.jpg"}
-  - {caption: "Global ESG Forum at Four Seasons Hotel-Seoul (2022.08.29.)", image: "img/gallery/044.jpg"}
-  - {caption: "Farewell event in KRICT-Ulsan (2022.08.)", image: "img/gallery/045.jpg"}
+  - {caption: "Global ESG Forum with KRICT members (2022.08.31.)", image: "img/gallery/042.jpg"}
+  - {caption: "Global ESG Forum at Four Seasons Hotel-Seoul (2022.08.29.)", image: "img/gallery/043.jpg"}
+  - {caption: "Farewell event in KRICT-Ulsan (2022.08.)", image: "img/gallery/044.jpg"}
 
-  - {caption: "With research soul-mates in KRICT-Ulsan (2022.08.)", image: ""}
+  - {caption: "With research soul-mates in KRICT-Ulsan (2022.08.)", image: "img/gallery/045.jpg"}
 
 networking:
-  - {caption: "Local Korean Lunch with IUPAC-PSK50 Participants (2026.10.01.)", image: "img/networking/003.jpg"}
-  - {caption: "서강대학교-2024년 연구업적 우수교원 시상 (2025.12.09.)", image: "img/networking/004.jpg"}
-  - {caption: "Joint Seminar with National Taiwan University-Students from Prf. Bor-Yih Yu's group (2025.1.07.)", image: "img/networking/005.jpg"}
-  - {caption: "Polymer Science Advancement Award: 고분자학술진보상 — 2024 Fall Meeting of The Polymer Society of Korea (2024.10.01.)", image: "img/networking/006.jpg"}
-  - {caption: "Keynote presentation in Changchun, China — INTERNATIONAL SYMPOSIUM ON DYNAMIC POLYMER NETWORKS (2024.9.25.)", image: "img/networking/007.jpg"}
-  - {caption: "Postgraduate student-oral session (Mira Shin) — 2024 Spring Meeting of The Polymer Society of Korea (2024.4.3.)", image: "img/networking/008.jpg"}
-  - {caption: "The Last finale at Eco-materials session, The Polymer Society of Korea (2024.4.5)", image: "img/networking/009.jpg"}
-  - {caption: "The 1st EYSA·Ecopro Young Scientist Awards-Environment Division (에코프로 젊은 과학자상-환경부문) (2023.12.14.)", image: "img/networking/010.jpg"}
-  - {caption: "TCI-Emerging scholar award (신진학술상) — Korean Chemical Society (Polymer Chemistry Division) (2023.10.26.)", image: "img/networking/011.jpg"}
-  - {caption: "Postgraduate student-oral session (Mira Shin) — 2023 Fall Meeting of The Polymer Society of Korea (2023.10.13.)", image: "img/networking/012.jpg"}
-  - {caption: "Postgraduate student-oral session (Junhyeok Lee) — 2023 Fall Meeting of The Polymer Society of Korea (2023.10.11.)", image: "img/networking/013.jpg"}
-  - {caption: "Postgraduate student-oral session (Sebin Jin) — 2023 Fall Meeting of The Polymer Society of Korea (2023.10.11.)", image: "img/networking/014.jpg"}
-  - {caption: "제1회 한국고분자학회 에코소재 부분위원회 하계 심포지엄 (2023.08.24.)", image: "img/networking/015.jpg"}
-  - {caption: "KCS 고분자화학분과회 하계워크샵 (2023.07.06.)", image: "img/networking/016.jpg"}
-  - {caption: "131th General Meeting of the Korean Chemical Society-감사패 (2023.04.27.)", image: "img/networking/017.jpg"}
-  - {caption: "KIChE Spring Meeting Symposium (2023.04.20.)", image: "img/networking/018.jpg"}
-  - {caption: "Launching Eco-Mater. Division at The Polymer Society of Korea (2023.04.05-07.)", image: "img/networking/019.jpg"}
-  - {caption: "SGU-NTU 4th ChEng Symposium at National Taiwan University (2023.02.22-24.)", image: "img/networking/020.jpg"}
-  - {caption: "대한화학회 고분자화학분과 동계 심포지엄 at Gwangju (2023.02.15.)", image: "img/networking/021.jpg"}
-  - {caption: "POLYCONDENSATION 2022 at Seoul (2022.09.)", image: "img/networking/022.jpg"}
-  - {caption: "Global ESG Forum - Q&A Session (2022.08.31)", image: "img/networking/023.jpg"}
-  - {caption: "KCS-Polymer Division-Summer Symposium at Seoul National University (2022.08.)", image: "img/networking/024.jpg"}
-  - {caption: "Nature Conference with Editors at LG Science Park-Seoul (2021.10.)", image: "img/networking/025.png"}
+  - {caption: "Local Korean Lunch with IUPAC-PSK50 Participants (2026.10.01.)", image: "img/networking/002.jpg"}
+  - {caption: "서강대학교-2024년 연구업적 우수교원 시상 (2025.12.09.)", image: "img/networking/003.jpg"}
+  - {caption: "Joint Seminar with National Taiwan University-Students from Prf. Bor-Yih Yu's group (2025.1.07.)", image: "img/networking/004.jpg"}
+  - {caption: "Polymer Science Advancement Award: 고분자학술진보상 — 2024 Fall Meeting of The Polymer Society of Korea (2024.10.01.)", image: "img/networking/005.jpg"}
+  - {caption: "Keynote presentation in Changchun, China — INTERNATIONAL SYMPOSIUM ON DYNAMIC POLYMER NETWORKS (2024.9.25.)", image: "img/networking/006.jpg"}
+  - {caption: "Postgraduate student-oral session (Mira Shin) — 2024 Spring Meeting of The Polymer Society of Korea (2024.4.3.)", image: "img/networking/007.jpg"}
+  - {caption: "The Last finale at Eco-materials session, The Polymer Society of Korea (2024.4.5)", image: "img/networking/008.jpg"}
+  - {caption: "The 1st EYSA·Ecopro Young Scientist Awards-Environment Division (에코프로 젊은 과학자상-환경부문) (2023.12.14.)", image: "img/networking/009.jpg"}
+  - {caption: "TCI-Emerging scholar award (신진학술상) — Korean Chemical Society (Polymer Chemistry Division) (2023.10.26.)", image: "img/networking/010.jpg"}
+  - {caption: "Postgraduate student-oral session (Mira Shin) — 2023 Fall Meeting of The Polymer Society of Korea (2023.10.13.)", image: "img/networking/011.jpg"}
+  - {caption: "Postgraduate student-oral session (Junhyeok Lee) — 2023 Fall Meeting of The Polymer Society of Korea (2023.10.11.)", image: "img/networking/012.jpg"}
+  - {caption: "Postgraduate student-oral session (Sebin Jin) — 2023 Fall Meeting of The Polymer Society of Korea (2023.10.11.)", image: "img/networking/013.jpg"}
+  - {caption: "제1회 한국고분자학회 에코소재 부분위원회 하계 심포지엄 (2023.08.24.)", image: "img/networking/014.jpg"}
+  - {caption: "KCS 고분자화학분과회 하계워크샵 (2023.07.06.)", image: "img/networking/015.jpg"}
+  - {caption: "131th General Meeting of the Korean Chemical Society-감사패 (2023.04.27.)", image: "img/networking/016.jpg"}
+  - {caption: "KIChE Spring Meeting Symposium (2023.04.20.)", image: "img/networking/017.jpg"}
+  - {caption: "Launching Eco-Mater. Division at The Polymer Society of Korea (2023.04.05-07.)", image: "img/networking/018.jpg"}
+  - {caption: "SGU-NTU 4th ChEng Symposium at National Taiwan University (2023.02.22-24.)", image: "img/networking/019.jpg"}
+  - {caption: "대한화학회 고분자화학분과 동계 심포지엄 at Gwangju (2023.02.15.)", image: "img/networking/020.jpg"}
+  - {caption: "POLYCONDENSATION 2022 at Seoul (2022.09.)", image: "img/networking/021.jpg"}
+  - {caption: "Global ESG Forum - Q&A Session (2022.08.31)", image: "img/networking/022.jpg"}
+  - {caption: "KCS-Polymer Division-Summer Symposium at Seoul National University (2022.08.)", image: "img/networking/023.jpg"}
+  - {caption: "Nature Conference with Editors at LG Science Park-Seoul (2021.10.)", image: "img/networking/024.jpg"}
 
-  - {caption: "Nature Conference with KRICT-members at LG Science Park-Seoul (2021.10.)", image: ""}
+  - {caption: "Nature Conference with KRICT-members at LG Science Park-Seoul (2021.10.)", image: "img/networking/025.png"}
 
 lectures:
   - term: "2026-Fall"
