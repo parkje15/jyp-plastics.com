@@ -4,7 +4,7 @@
 note: "1st authors underlined, corresponding authors with asterisk, ..."
 
 after_sogang:
-  - num: 140
+  - num: 142
     title: "H2"
     date: "2026.01.xx"
     journal: "Engineering, 2026, x, xx"
@@ -13,6 +13,18 @@ after_sogang:
     doi: ""
     link_text: "https://doi.org/"
     link_url: "https://doi.org/10.1016/j.polymertesting.2025.108990"
+  - num: 141
+    title: "TBD"
+    date: "2026."
+    journal: "Frontiers in Microbiology, 2026, x, xx"
+    authors: "Y*"
+    doi: ""
+  - num: 140
+    title: "TBD"
+    date: "2026."
+    journal: "Macromolecular Research, 2026, x, xx"
+    authors: "Y*"
+    doi: ""
   - num: 139
     title: "Sustainable Polypropylene Composites with Rod-Like Calcium Carbonate Particles Derived from Ocean-Mineralization-Based Carbon Capture"
     date: "2026.11."

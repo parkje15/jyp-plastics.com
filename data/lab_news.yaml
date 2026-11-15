@@ -1,5 +1,7 @@
 # Notification and News (첫 화면 + News 페이지)
 # 새 소식은 맨 위에 한 줄 추가: - {date: "2026.11.01.", text: "...", url: "(선택)"}
+- {date: "2026.11.12.", text: "Congrat! 박정식 학생이 2026년도 이공분야 학술연구지원사업 중 ‘석사과정생 연구장려금 지원사업’에 선정되었습니다."}
+- {date: "2026.11.12.", text: "Congrat! 정기연 학생이 2026 BK21 K-3MT 전국대회에서 금상(한국연구재단이사장상)을 수상하였습니다.", url: "https://www.popcornnews.net/news/articleView.html?idxno=139784"}
 - {date: "2026.11.03.", text: "Congrat! 태현, 정식; Paper in ACS Applied Polymer Materials published.", url: "https://doi.org/10.1021/acsapm.6c03737"}
 - {date: "2026.11.01.", text: "Ultra Congrat.! 준혁 박사졸업생 취업: 삼성전기"}
 - {date: "2026.10.01.", text: "Congrat! 박정식 학생이 IUPAC-PSK50 국제학회의 최우수 포스터상을 수상하였습니다."}
