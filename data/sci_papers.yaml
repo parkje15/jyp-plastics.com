@@ -4,7 +4,7 @@
 note: "1st authors underlined, corresponding authors with asterisk, ..."
 
 after_sogang:
-  - num: 142
+  - num: 143
     title: "H2"
     date: "2026.01.xx"
     journal: "Engineering, 2026, x, xx"
@@ -13,18 +13,25 @@ after_sogang:
     doi: ""
     link_text: "https://doi.org/"
     link_url: "https://doi.org/10.1016/j.polymertesting.2025.108990"
+  - num: 142
+    title: "Disulfide-Mediated dynamic covalent compatibilization of immiscible PP/ASA/rPVB blends for mechanical recycling of automotive plastic waste"
+    date: "2026.11."
+    journal: "European Polymer Journal, 2026, 115231"
+    if_info: "IF (JCR2025): 6.8, JCR 90.1% (Field: POLYMER SCIENCE)"
+    authors: "Junyong Seo, Jitae Song, Jaeyoung Park, Jingi Ahn, Jaesik Seo, Yongbeom Lee, Jeyoung Park, Dongyeop X. Oh"
+    doi: "10.1016/j.eurpolymj.2026.115231"
   - num: 141
-    title: "TBD"
-    date: "2026."
-    journal: "Frontiers in Microbiology, 2026, x, xx"
-    authors: "Y*"
-    doi: ""
+    title: "Scale-up of polyhydroxybutyrate production from pipeline natural gas in a pressurized 1-kL bioreactor: Effects of initial ammonium concentration and its practical modulation"
+    date: "2026.11.09"
+    journal: "Frontiers in Microbiology, 2026, 17, 1991529"
+    authors: "Tae Hyung Lee, Tae Uk Khang, Eungsu Kang, Hyunsoo Kang, Young Chan Jeon, Inseo Kim, Jiheon Kim, Jinwon Lee, Jeyoung Park*, Eun Yeol Lee*, Jeong-Geol Na*"
+    doi: "10.3389/fmicb.2026.1991529"
   - num: 140
-    title: "TBD"
-    date: "2026."
-    journal: "Macromolecular Research, 2026, x, xx"
-    authors: "Y*"
-    doi: ""
+    title: "Enhancing mechanical properties and acid resistance of calcium carbonate-filled cement through natural anionic polymers"
+    date: "2026.11.23"
+    journal: "Macromolecular Research, 2026, online"
+    authors: "Jaeyoung Park, Soyeon Kim, Jeyoung Park*, Seunggun Yu*, Dongyeop X. Oh*"
+    doi: "10.1007/s13233-026-00563-2"
   - num: 139
     title: "Sustainable Polypropylene Composites with Rod-Like Calcium Carbonate Particles Derived from Ocean-Mineralization-Based Carbon Capture"
     date: "2026.11."
