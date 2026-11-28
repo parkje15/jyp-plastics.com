@@ -6,8 +6,8 @@ note: "1st authors underlined, corresponding authors with asterisk, ..."
 after_sogang:
   - num: 143
     title: "H2"
-    date: "2026.01.xx"
-    journal: "Engineering, 2026, x, xx"
+    date: "2027.xx.xx"
+    journal: "Engineering, 2027, x, xx"
     if_info: "IF (JCR2025): 12.2, JCR 98.6% (Field: ENGINEERING, MULTIDISCIPLINARY)"
     authors: "Y*"
     doi: ""
